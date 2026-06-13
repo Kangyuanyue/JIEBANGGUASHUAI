@@ -1,0 +1,56 @@
+# miao 方案配置文件
+# 真实比赛提交前，请把模型路径、设备、采样率和推理参数改成实际值。
+
+runtime:
+  seed: 202615
+  device: "cuda"          # cuda / cpu
+  batch_size: 1
+  sample_rate: 16000
+  num_workers: 0
+  use_fp16: true
+  use_onnx: false
+  log_per_sample_time: true
+
+paths:
+  speaker_model: "models/speaker_model.onnx"
+  pvad_model: "models/pvad_model.onnx"
+  tse_model: "models/tse_model.onnx"
+  asr_model: "models/asr_model.onnx"
+  hotword_list: "config/hotwords.txt"
+
+preprocess:
+  target_sample_rate: 16000
+  mono: true
+  normalize_peak: 0.95
+  min_speech_duration_sec: 0.15
+  max_audio_duration_sec: 20.0
+  enable_light_denoise: false
+
+speaker:
+  embedding_dim: 192
+  multi_crop: true
+  crop_duration_sec: 1.5
+  crop_hop_sec: 0.75
+  l2_normalize: true
+
+pvad:
+  frame_shift_ms: 10
+  classes: ["silence", "target", "non_target"]
+  enable: true
+
+tse:
+  enable: true
+  trigger_only_hard_cases: true
+  max_trigger_ratio: 0.45
+
+asr:
+  name: "paraformer_zh_or_sensevoice_small"
+  enable_hotword: true
+  beam_size: 1
+  return_confidence: true
+
+postprocess:
+  enable_command_correction: true
+  enable_pinyin_correction: false
+  normalize_digits: true
+  strip_punctuation: true

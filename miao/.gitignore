@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.env
+
+# Outputs and logs
+outputs/*.json
+outputs/*.csv
+logs/*.log
+logs/*.csv
+logs/*.txt
+
+# Large model weights: store externally or use Git LFS if needed
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.bin
+models/*.safetensors
+models/*.engine
+
+# System files
+.DS_Store

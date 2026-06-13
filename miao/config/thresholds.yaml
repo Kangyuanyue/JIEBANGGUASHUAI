@@ -1,0 +1,22 @@
+# 阈值初始值，仅用于工程骨架。
+# 实际提交前必须在 speaker-disjoint dev set 上重新搜索。
+
+speaker_accept_high: 0.72
+speaker_reject_low: 0.45
+min_target_ratio: 0.18
+max_target_ratio_for_reject: 0.08
+max_non_target_ratio_for_accept: 0.70
+overlap_trigger_threshold: 0.35
+low_snr_threshold_db: -2.0
+target_low_snr_ratio: 0.12
+min_asr_confidence: 0.35
+fusion_accept_threshold: 0.50
+
+fusion_weights:
+  speaker_similarity: 1.20
+  target_frame_ratio: 0.90
+  non_target_frame_ratio: -0.70
+  asr_confidence: 0.40
+  command_prior_score: 0.25
+  enrollment_bad_quality: -0.30
+  query_noise_penalty: -0.20

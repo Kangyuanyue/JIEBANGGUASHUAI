@@ -1,0 +1,11 @@
+numpy>=1.23
+PyYAML>=6.0
+soundfile>=0.12.1
+# 真实模型接入时按需启用：
+# torch>=2.1
+# torchaudio>=2.1
+# onnxruntime-gpu>=1.17
+# funasr
+# modelscope
+# librosa
+# psutil

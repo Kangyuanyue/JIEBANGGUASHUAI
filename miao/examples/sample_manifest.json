@@ -1,0 +1,16 @@
+[
+  {
+    "id": "demo_positive",
+    "wake_audio": "demo_wake.wav",
+    "wake_text": "小美小美",
+    "query_audio": "demo_query.wav",
+    "label": "打开客厅空调"
+  },
+  {
+    "id": "demo_reject",
+    "wake_audio": "demo_wake.wav",
+    "wake_text": "小美小美",
+    "query_audio": "demo_non_target.wav",
+    "label": ""
+  }
+]
