@@ -1,0 +1,64 @@
+{
+  "target_sr": 16000,
+  "force_asr": false,
+  "use_separation": false,
+  "preprocess": {
+    "enable_vad": true,
+    "vad_threshold_ratio": 0.1
+  },
+  "gate": {
+    "threshold": 0.3370734058066252,
+    "speaker_reject_low": 0.23909343270879338,
+    "speaker_accept_high": 0.37844391932749266,
+    "margin": 0.05,
+    "segment_sec": 3.0,
+    "num_segments": 5,
+    "aggregate": "topk_mean",
+    "top_k": 3,
+    "min_duration_sec": 0.5,
+    "embedding_backends": [
+      "eres2netv2"
+    ],
+    "backend_weights": {
+      "ecapa": 1.0,
+      "wavlm": 0.8,
+      "campplus": 1.0,
+      "eres2netv2": 1.0
+    },
+    "wavlm_model_name": "microsoft/wavlm-base-plus-sv",
+    "campplus_model_id": "iic/speech_campplus_sv_zh-cn_16k-common",
+    "eres2netv2_model_id": "iic/speech_eres2netv2_sv_zh-cn_16k-common",
+    "modelscope_local_dir": "pretrained",
+    "dynamic_threshold": true,
+    "low_quality_threshold_boost": 0.05,
+    "low_snr_threshold_boost": -0.035,
+    "min_quality_for_base_threshold": 0.75,
+    "min_snr_for_base_threshold_db": 5.0
+  },
+  "asr": {
+    "backend": "funasr",
+    "model_name": "paraformer-zh",
+    "model_dir": "",
+    "device": "auto",
+    "use_fp16": true,
+    "strip_punctuation": true
+  },
+  "decision": {
+    "speaker_accept_high": 0.37844391932749266,
+    "speaker_reject_low": 0.23909343270879338,
+    "min_target_ratio": 0.18,
+    "max_target_ratio_for_reject": 0.08,
+    "overlap_trigger_threshold": 0.35,
+    "low_snr_threshold_db": -2.0,
+    "target_low_snr_ratio": 0.12,
+    "min_asr_confidence": 0.35,
+    "fusion_accept_threshold": 0.5,
+    "weight_speaker_similarity": 1.2,
+    "weight_target_frame_ratio": 0.9,
+    "weight_non_target_frame_ratio": -0.7,
+    "weight_asr_confidence": 0.4,
+    "weight_command_prior_score": 0.25,
+    "weight_enrollment_bad_quality": -0.3,
+    "weight_query_noise_penalty": -0.2
+  }
+}
