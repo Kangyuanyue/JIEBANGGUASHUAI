@@ -1,0 +1,7 @@
+模型: paraformer-zh
+设备: cuda, 批大小: 16
+VAD: False, PUNC: False
+测试样本数: 500
+CER: 2.80%
+WER: 21.40%
+耗时: 90.14 秒
