@@ -1,0 +1,7 @@
+# FastEnhancer_B metrics on Voicebank-Demand testset (824 utts)
+# Date: 2026-06-19
+# Command: CUDA_VISIBLE_DEVICES=0 python -m scripts.metrics_ns -n fastenhancer_b --wer False
+# Note: WER disabled; DNSMOS/SCOREQ ran on CPU (libcudnn_cnn.so.9 missing for onnxruntime-gpu)
+#
+# Columns: [p808_mos, sig, bak, ovr, scoreq, sisnr, pesq, stoi, estoi]
+fastenhancer_b: 3.475353, 3.386995, 4.035323, 3.110917, 0.280133, 19.047270, 3.136261, 0.944772, 0.860201

@@ -1,0 +1,824 @@
+p257_001|Please call Stella.
+p257_002|Ask her to bring these things with her from the store.
+p257_003|Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.
+p257_004|We also need a small plastic snake and a big toy frog for the kids.
+p257_006|When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.
+p257_007|The rainbow is a division of white light into many beautiful colors.
+p257_008|These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon.
+p257_009|There is , according to legend, a boiling pot of gold at one end.
+p257_010|People look, but no one ever finds it.
+p257_011|When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.
+p257_012|Throughout the centuries people have explained the rainbow in various ways.
+p257_013|Some have accepted it as a miracle without physical explanation.
+p257_014|To the Hebrews it was a token that there would be no more universal floods.
+p257_015|The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain.
+p257_016|The Norsemen considered the rainbow as a bridge over which the gods passed from earth to their home in the sky.
+p257_017|Others have tried to explain the phenomenon physically.
+p257_018|Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain.
+p257_019|Since then physicists have found that it is not reflection, but refraction by the raindrops which causes the rainbows.
+p257_020|Many complicated ideas about the rainbow have been formed.
+p257_022|The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows.
+p257_023|If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow.
+p257_024|This is a very common type of bow, one showing mainly red and yellow, with little or no green or blue.
+p257_025|We have to pull together, or we will hang apart.
+p257_026|Is this accurate?
+p257_027|They should have a major rethink about the event for next year.
+p257_028|Because we do not need it.
+p257_029|Life was like a timetable.
+p257_030|Other members of the family were too upset to comment last night.
+p257_031|It was clear.
+p257_032|Clark was desperate to return to the House of Commons.
+p257_033|I came to complete.
+p257_034|President Bush is at war.
+p257_035|Of course, on Tuesday, United were beaten despite this.
+p257_036|I was scared.
+p257_037|It was ugly.
+p257_038|It is great to have this beautiful new site in wonderful countryside.
+p257_039|It's easy to talk about these things in the abstract.
+p257_040|The Dutchman was in time to see the breakthrough.
+p257_041|A neighbour said.
+p257_042|We need to chat.
+p257_043|The boy is no longer with us.
+p257_044|I hate the word.
+p257_045|That should do it.
+p257_046|It's a blessing.
+p257_047|The whole of southern Africa is in the grip of Aids.
+p257_048|As she explains.
+p257_049|Yesterday, he had a chilling warning for the game in Scotland.
+p257_050|He had no enemies.
+p257_051|I got a great response from the players, as I had expected.
+p257_052|But the law is very clear on this.
+p257_053|For the meantime, though, the signs are good.
+p257_054|We were surprised to see the photograph.
+p257_055|Next league matches Celtic.
+p257_056|It's very odd.
+p257_057|The story was first reported in the Spectator magazine.
+p257_058|It is not great art.
+p257_059|George Robertson described the plan as an outrageous and disgraceful decision.
+p257_060|There was a battle there.
+p257_061|Scotland had great assets.
+p257_062|There will be tough opponents to this report.
+p257_063|Have a look at our accounts.
+p257_064|Sounds like The Sixth Sense?
+p257_065|There is an element of racism in Scotland.
+p257_066|I was just trying to win the golf tournament.
+p257_067|It's all I can do.
+p257_068|There could be a way back.
+p257_069|They do not work for Glasgow City Council.
+p257_070|The price cuts are really exciting.
+p257_071|Chris Smith, the culture secretary, said he was satisfied with the decision.
+p257_072|I had my suspicions.
+p257_073|She died in hospital two hours later.
+p257_074|It was chaotic.
+p257_075|Is there a new way forward?
+p257_076|I've not thought about it.
+p257_077|People must remain vigilant.
+p257_078|Mr Irvine said Mr Rafferty was now in good spirits.
+p257_079|It is not long term, but I need time to recover.
+p257_080|It is linked to the row over proposed changes at Scottish Ballet.
+p257_081|It may well have been.
+p257_082|He liked to give the impression of being a hard man.
+p257_083|He seems to be pleased with the picture.
+p257_084|Obviously, we were pretty close in a couple of games.
+p257_085|I, in the meantime, had been far from chilling.
+p257_086|It's never too late.
+p257_087|Florida is the pivotal state in the nation.
+p257_088|Downing Street will make the second appointment in the Scotland Office today.
+p257_089|Yesterday, he continued to keep a low profile.
+p257_090|Today I couldn't run on it.
+p257_091|We must look forward.
+p257_092|It is an old family habit.
+p257_093|He was possessed
+p257_094|She told The Herald.
+p257_095|Two other men, including the taxi driver, were wounded in the attack.
+p257_096|The peace process will be buried!
+p257_097|The oil companies would be asked to contribute.
+p257_098|They are now divorced.
+p257_099|They were under a lot of pressure from the other clubs.
+p257_100|It was mayhem.
+p257_101|However, the intensive care unit at the Southern General Hospital was full.
+p257_102|Tomorrow he will make a keynote speech on Europe.
+p257_103|We have every respect for Michelle.
+p257_104|That time is not now, however.
+p257_105|I didn't play well last year.
+p257_106|For these people, the ruling is very welcome.
+p257_107|They will want to perform well.
+p257_108|They had to be cut from the wreckage.
+p257_109|I did not think about the Ryder Cup.
+p257_110|It is normal.
+p257_111|I was fighting for my life, I thought.
+p257_112|I don't have many friends.
+p257_113|It's a shame.
+p257_114|It was the eighties.
+p257_115|We do not expect any surplus.
+p257_116|Naturally, it was not difficult to find support for these proposals.
+p257_117|It's not a new concept in jazz.
+p257_118|We are determined to continue on this mission and we will prevail.
+p257_119|I'm delighted about that.
+p257_120|Does this mean.
+p257_121|This is the first big idea of the Scottish Parliament election.
+p257_122|He did his job.
+p257_123|You can spend money on housing.
+p257_124|That's all right then.
+p257_125|I was furious.
+p257_126|It has removed a bit of guilt.
+p257_127|His son has been travelling with the Tartan Army for years.
+p257_128|It's terrible that he has died the same way.
+p257_129|So the European elections are extremely important.
+p257_130|Buckingham Palace said the appointment was a matter for the prince.
+p257_131|Who will attend?
+p257_132|The trial is funded solely by Edinburgh City Council.
+p257_133|The whole thing of doing the movie was a risk.
+p257_135|Customers for the panels include the National Trust for Scotland.
+p257_136|They made such decisions in London.
+p257_137|Our intentions are real.
+p257_138|It is also well received.
+p257_139|What will happen then?
+p257_140|It's not true.
+p257_141|I feel very grateful with everything.
+p257_142|We are currently consulting with a wide range of interested parties.
+p257_143|Nobody in the world can get away from him.
+p257_144|He sees a difference in the style of the two teams.
+p257_145|We will continue to talk to find a solution for Scottish football.
+p257_146|There is a lack of chemistry.
+p257_147|That could mean the difference between life and death in action.
+p257_148|It is like a football team.
+p257_149|That group reported just before Christmas.
+p257_150|He will emerge as a world leader.
+p257_151|It opens the door to the Champions League.
+p257_152|They did very well.
+p257_153|It became a book by itself.
+p257_154|But he stressed that the partnership is not a construction company.
+p257_155|The weather forecast isn't good.
+p257_156|There's a sense of excess in the novel.
+p257_157|For the refugees, the return will not come a moment too soon.
+p257_158|There's a pause.
+p257_159|He can do no wrong.
+p257_160|It was so new, so exciting.
+p257_161|I've learned from my mistakes.
+p257_162|A Labour insider said it was far too close to call.
+p257_163|I've put my own money into this project.
+p257_164|However, the French government has a major dilemma on its hands.
+p257_165|I lost my head.
+p257_166|You are not going in blind.
+p257_167|Yet it is unlikely to be either full, or final.
+p257_168|As far as we were concerned the deal with Kennedy was dead.
+p257_169|And I was happy for the happiness of my brothers.
+p257_170|My life has been destroyed.
+p257_171|There was no hint of scandal.
+p257_172|Treatment is not an issue with these people.
+p257_173|I feel like my game has come a long way.
+p257_174|We wanted it left for a wee while.
+p257_175|However, the figures were disputed by the Scottish Prison Service.
+p257_176|It's quite a routine.
+p257_177|There is no evidence of a Little Scotland emerging.
+p257_178|In spite of recent advances, the language is still under threat.
+p257_179|Everyone can be bought.
+p257_180|It is minute.
+p257_181|They need to look after themselves.
+p257_182|What has caused the demise of singing?
+p257_183|One was a lawyer.
+p257_184|My main concern is that public health is not put at risk.
+p257_185|It was an odd affair, in many respects.
+p257_186|Treasury spokesman Malcolm Bruce is also considered a potential contender.
+p257_187|Saturday is gone.
+p257_188|I think the Commission has been very, very slow to react.
+p257_189|Last night was a key episode.
+p257_190|We must keep our feet on the ground.
+p257_191|The spokeswoman said the flat in London was very small.
+p257_192|Off I went.
+p257_193|There would appear to be no motive for the attack.
+p257_194|He has a lot of experience as captain in his career.
+p257_195|Ferguson should take note.
+p257_196|The album was widely expected to be a commercial disaster.
+p257_197|It's just awful.
+p257_198|We see the rapid reaction force as the way ahead.
+p257_199|IT S all in the hair.
+p257_200|We have an election in eight days.
+p257_201|But I am a worried man.
+p257_202|This gives a financial incentive to switch.
+p257_203|Saddam Hussein is a devil.
+p257_204|He knows a lot.
+p257_205|He is slightly confused.
+p257_206|Her home is perhaps a couple of miles from the town centre.
+p257_207|We have the experience, the courses, and an abundance of confidence.
+p257_208|I am delighted for Simon.
+p257_209|It had all been arranged.
+p257_210|A Grampian Police spokesman said.
+p257_211|We have got to get it right.
+p257_212|However, Dundee deserved to win this game.
+p257_213|I might come back.
+p257_214|His death was a tragic accident.
+p257_215|It's just a place to open it.
+p257_216|He said that healthy eating was high on the council agenda.
+p257_217|Naturally enough, the letter in question was an E.
+p257_218|William Hague delighted his party.
+p257_219|At the top of the structure will remain the post of headteacher.
+p257_220|We played them off the pitch.
+p257_221|She really suffered for her art.
+p257_222|He demanded to speak to the boss.
+p257_223|Jim Wallace, the justice minister, acknowledged that prisoner numbers were a concern.
+p257_224|Her condition was yesterday described as critical, but stable.
+p257_225|I think he's the favourite, no question.
+p257_226|Broke the birdie record.
+p257_227|They had no children.
+p257_228|It is set in Paris.
+p257_229|Well, they were the unlucky ones.
+p257_230|The singer is expected to be in hospital for several days.
+p257_231|On the ground, the West Bank was again the focus of violence.
+p257_232|John Prescott, the deputy prime minister, will fly to the summit tomorrow.
+p257_233|But it's a subtle process.
+p257_234|The Home Office would not release any further details about the group.
+p257_235|My future is in the marathon.
+p257_236|Attendance at the project is a condition of a probation order.
+p257_237|A change in that position would require a decision by the council.
+p257_238|They may yet have the last laugh.
+p257_239|You can feel at home in China.
+p257_240|It is a policy which has the full support of the minister.
+p257_241|I should think so, too.
+p257_242|We decided we would go for a specialist inside centre.
+p257_243|I didn't need to watch it on the video.
+p257_244|He said he was impressed by the set-up at Celtic.
+p257_245|I will not allow the destruction of the Scottish fishing industry.
+p257_246|We need to move away from the culture of long hours.
+p257_247|He said he intended to push for a judicial review.
+p257_248|He was my big brother, my father, my grandfather.
+p257_249|I watched a game.
+p257_250|They are interior designers and architects.
+p257_251|There was no mention of an amnesty in the Belfast Agreement.
+p257_252|they fail to engage.
+p257_253|It is a mark of respect from the inmates.
+p257_254|I would have the hammer in the crowd.
+p257_255|He thought he had a month to cross the street.
+p257_256|He raised the profile of the European Tour to the sky.
+p257_257|Blood samples were taken.
+p257_258|He claimed his insurance company contested the damages, not the restaurant.
+p257_259|It's very nice.
+p257_260|Frankly, we should all have such problems.
+p257_261|Similar measures are expected in England and Wales.
+p257_262|We do not want any terrorist attacks on any Israeli civilians.
+p257_263|And Michael was just great.
+p257_264|We're in shock.
+p257_265|Everything will fall into place, it should be fine.
+p257_266|Our objective is to tackle poverty.
+p257_267|One knows the feeling.
+p257_268|She has fallen in love with Scotland, however.
+p257_269|She looked so young.
+p257_270|It was a privilege to work for him.
+p257_271|For the moment, that is the result of the X-ray.
+p257_272|He looked very sharp.
+p257_273|You've got to have both sides.
+p257_274|Who did the recruiting?
+p257_275|Police were called to the ground and interviewed a number of people.
+p257_276|Well, he can do it.
+p257_277|It shows a contempt by him for the industry.
+p257_278|It is a vote of confidence in the skills in Scotland.
+p257_279|He added that public transport improvements must also be maintained.
+p257_280|The results are sometimes contentious.
+p257_281|He should have won.
+p257_282|A new school will be built.
+p257_283|Right up until a week ago we thought they were very keen.
+p257_284|That might be a punishment but it would also punish the patients.
+p257_285|What has altered?
+p257_286|The home was now under new management.
+p257_287|Graeme was prepared.
+p257_288|I thought it was my only chance.
+p257_289|However, the snow was welcomed by some.
+p257_290|It just came into my head that day.
+p257_291|They are wrong.
+p257_292|Details of the new vessel were given in London yesterday.
+p257_293|It's just not funny!
+p257_294|I am very happy to be here.
+p257_295|The plot is minimal.
+p257_296|It wasn't just the character and energy of the playing.
+p257_297|A thousand years ago the church was a powerful force in Europe.
+p257_298|This is the culture change in medicine.
+p257_299|and that another interested body should have an option to buy.
+p257_300|They were fantastic.
+p257_301|I never thought it would take this long.
+p257_302|In fact, they have the opposite effect.
+p257_303|They wanted the club to make money.
+p257_304|Kids are terrible.
+p257_305|Henman has been warned.
+p257_306|It should be equal.
+p257_307|Ms Anderson yesterday put a brave face on the departure.
+p257_308|The home team had an amazing start.
+p257_309|It is out there.
+p257_310|They had a confession.
+p257_311|Davis is very supportive, as a director.
+p257_312|We are in the end game.
+p257_313|I came into this world with nothing.
+p257_314|But no such amendment has been brought before the Scottish Parliament.
+p257_315|I am so upset.
+p257_316|The boat was fantastic.
+p257_317|I saw some good things.
+p257_318|Finally, he paid for the movie.
+p257_319|You can see it on the training ground and around the hotel.
+p257_320|In addition, certain areas are closed at certain times.
+p257_321|Three years ago he would have been.
+p257_322|You feel the pride.
+p257_323|It is so unfair.
+p257_324|The announcement was made after inquiries from a national newspaper.
+p257_325|Indeed, it was magical.
+p257_326|I've got no secret.
+p257_327|Look at the witnesses.
+p257_328|I'm very lucky.
+p257_329|We must do something.
+p257_330|He says that he is no different from any other man.
+p257_331|Alex Ferguson is the same.
+p257_332|I was pleased to be back on the podium in Brazil.
+p257_333|Like his acting, it was an accident.
+p257_334|It is not like working for a living.
+p257_335|It is long gone.
+p257_336|The man was obviously desperate to get away from the police.
+p257_337|Tell us about it.
+p257_338|The salary changes are long overdue.
+p257_339|He met Mr Davies to establish the scale of the scandal.
+p257_340|It was very formal.
+p257_341|The pressure is on Celtic in the main.
+p257_342|Tyson is overwhelmed.
+p257_343|We are delighted at the response from potential employers.
+p257_344|I wanted to go out on a high.
+p257_345|Instead, he was informed to join the line of creditors.
+p257_346|I felt really good until Friday.
+p257_347|His legal adviser was also not in court yesterday.
+p257_348|He could face a jail sentence.
+p257_349|For one veteran, the memories remain vivid.
+p257_350|I decided to tell a bit of the story about myself.
+p257_351|I am not willing to say anything about any couple.
+p257_352|Then followed a bout of flu.
+p257_353|There is no signature.
+p257_354|It's a long process.
+p257_355|It is a large number.
+p257_356|He knew his job inside out.
+p257_357|I wouldn't want to miss that chance.
+p257_358|Whether his stance is shared by the incoming manager is another matter.
+p257_359|It does not even have a staff shortage.
+p257_360|I haven't had a kick at a Celtic player for a while.
+p257_361|He has the edge.
+p257_362|He denied the charge.
+p257_363|There were no casualties.
+p257_364|Since then, he has played no active part in the company.
+p257_365|YOU thought it was a headache.
+p257_366|Family liaison officers are now working to support the family.
+p257_367|A council spokesman said it had been a constructive meeting.
+p257_368|They really did a great job.
+p257_369|There is a solution, she believes.
+p257_370|However, it's good to turn the page.
+p257_371|This year I understood.
+p257_372|I'm pleased about one thing.
+p257_373|It is unusual.
+p257_374|It is also claimed that he was murdered.
+p257_375|It is likely the rest of the market will follow suit.
+p257_376|I can lead by example.
+p257_377|Well, it did last time, he was reminded.
+p257_378|They are good.
+p257_379|He repeated his call for an inquiry into the police response.
+p257_380|My husband was born in Zimbabwe.
+p257_381|So, in a sense, it was a government subsidy.
+p257_382|It was on fire.
+p257_383|The orchestra was already increasing the scope of its ambitions.
+p257_384|I never won a penny throughout my career.
+p257_385|Emotions were complex.
+p257_386|He's already made history.
+p257_387|So I did.
+p257_388|You ask the question.
+p257_389|Whether the High Court will interfere with the sentence is another matter.
+p257_390|There was no trouble.
+p257_391|This is a huge confidence boost.
+p257_392|Not because they want to sing about something.
+p257_393|It is not a standing army.
+p257_394|We haven't had any adverse reaction to the project.
+p257_395|I believe the gap is nearly there.
+p257_396|You wanted the evidence.
+p257_397|Our numbers are small.
+p257_398|I was very young.
+p257_399|We have just got to keep his feet on the ground.
+p257_400|I am the Son of Sam.
+p257_401|She is superb.
+p257_402|Today, he is in the same position as four years ago.
+p257_403|It doesn't always work that way.
+p257_404|It is simple, but profound.
+p257_405|No preference emerged.
+p257_406|But they are still unlikely to be involved in combat.
+p257_407|I've invented a village in East Lothian.
+p257_408|She has reached the top of her profession.
+p257_409|It goes with the job.
+p257_410|The Edinburgh audience was able to understand the dialogue.
+p257_411|Now, however, it has undergone a dramatic decline.
+p257_412|I recommend a tour.
+p257_413|We are delighted with this outcome.
+p257_414|I have so much respect for him.
+p257_415|We shall be victorious.
+p257_416|Rather than answer, she resigned.
+p257_417|War is not the action.
+p257_418|They said so that I would look good in uniform.
+p257_419|It's not about defining styles.
+p257_420|One must hope not!
+p257_421|It is marvellous.
+p257_422|But it may take some time to confirm the findings.
+p257_423|They should not be blamed for it.
+p257_424|Charlie Gordon, leader of the council, dismissed the suggestion.
+p257_425|It is bizarre.
+p257_426|Mary Archer is almost too clever.
+p257_427|I was just overwhelmed.
+p257_428|It had been in place since last July.
+p257_429|It's a miracle.
+p257_430|The first minister is obviously concerned to hear about this incident.
+p257_431|That was the first time I worked with Richard.
+p257_432|They will form a tribute.
+p257_433|The whole region is in shock.
+p257_434|The bill would be massive.
+p232_001|Please call Stella.
+p232_002|Ask her to bring these things with her from the store.
+p232_003|Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.
+p232_005|She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.
+p232_006|When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.
+p232_007|The rainbow is a division of white light into many beautiful colors.
+p232_009|There is , according to legend, a boiling pot of gold at one end.
+p232_010|People look, but no one ever finds it.
+p232_011|When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.
+p232_012|Throughout the centuries people have explained the rainbow in various ways.
+p232_013|Some have accepted it as a miracle without physical explanation.
+p232_014|To the Hebrews it was a token that there would be no more universal floods.
+p232_015|The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain.
+p232_016|The Norsemen considered the rainbow as a bridge over which the gods passed from earth to their home in the sky.
+p232_017|Others have tried to explain the phenomenon physically.
+p232_019|Since then physicists have found that it is not reflection, but refraction by the raindrops which causes the rainbows.
+p232_020|Many complicated ideas about the rainbow have been formed.
+p232_021|The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases.
+p232_022|The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows.
+p232_023|If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow.
+p232_024|This is a very common type of bow, one showing mainly red and yellow, with little or no green or blue.
+p232_025|Johnson was pretty low.
+p232_027|Several other countries are also reported to be interested in the format.
+p232_028|They should be so lucky.
+p232_029|Their courage, and their honesty, should be respected.
+p232_030|They were described as being in a serious but stable condition yesterday.
+p232_031|It's a matter of balance.
+p232_032|They did not replace it with a conviction for culpable homicide.
+p232_033|I would love it.
+p232_034|It is marvellous.
+p232_035|Other members of the family were too upset to comment last night.
+p232_036|But it may take some time to confirm the findings.
+p232_037|Two other men, including the taxi driver, were wounded in the attack.
+p232_038|It was fit for royalty.
+p232_039|I was scared.
+p232_040|Dancing was her life.
+p232_041|I suspect the latter.
+p232_042|You must always attempt to raise the bar.
+p232_043|But it took a lot of bottle.
+p232_044|We will push.
+p232_045|It is urgent.
+p232_046|The judge said.
+p232_047|It is difficult for Ali.
+p232_048|But it might have done.
+p232_049|The whole of southern Africa is in the grip of Aids.
+p232_050|They had to explain it.
+p232_051|Here's a clue.
+p232_052|We were surprised to see the photograph.
+p232_053|It's the big omission.
+p232_054|Several other pupils and staff were seriously injured in the accident.
+p232_055|It's very odd.
+p232_056|Because we do not need it.
+p232_057|It's not pretty, but it's effective.
+p232_058|This obsession wasn't just contained within the world of the losers.
+p232_059|That's the truth.
+p232_060|That is very hard, alone.
+p232_061|The story was first reported in the Spectator magazine.
+p232_062|The problems are a result of that shortfall.
+p232_063|You do not change overnight.
+p232_064|People love to see this stuff.
+p232_065|He was popular.
+p232_066|I am pleased with the result, as it was a possible upset.
+p232_067|Charles Kennedy had an effective outing.
+p232_068|It is like a river running by my home.
+p232_069|We welcome the decision of Mr Byers.
+p232_070|There is an element of racism in Scotland.
+p232_071|Painful, but only because it's true.
+p232_072|That was the easy election.
+p232_073|There could be a way back.
+p232_074|Then followed a bout of flu.
+p232_075|The price cuts are really exciting.
+p232_076|I had my suspicions.
+p232_077|It was chaotic.
+p232_078|It is a job creation scheme.
+p232_079|He is now resident in England.
+p232_080|I've got the shirt.
+p232_081|Today she has been released.
+p232_082|What has changed?
+p232_083|That is bound to happen.
+p232_084|I will miss him.
+p232_085|It's all going to clear the debt.
+p232_086|She had kept the news from him.
+p232_087|No progress has been made.
+p232_088|Others were in hiding, in fear of their lives.
+p232_089|Now the system is right behind us.
+p232_090|Downing Street will make the second appointment in the Scotland Office today.
+p232_091|It is a lifeline.
+p232_092|Today I couldn't run on it.
+p232_093|However, it did not end that way.
+p232_094|This time, it will have opened up the field a little bit.
+p232_095|I have every confidence in Raymond Robertson as chairman of the party.
+p232_096|Then came the crunch.
+p232_097|The oil companies would be asked to contribute.
+p232_098|I wish I had put on a brighter tie.
+p232_099|They were under a lot of pressure from the other clubs.
+p232_100|It was mayhem.
+p232_101|They were outside the circle.
+p232_102|It was a good performance.
+p232_103|We recognise the important role of golf in attracting visitors.
+p232_104|There will be no repeat of that performance, that I can guarantee.
+p232_105|That is no use.
+p232_106|It was really enjoyable on Saturday.
+p232_107|While they went on holiday, we got the contract.
+p232_108|He pleaded for caution.
+p232_109|He plans to call for an aid package from Mr Macdonald.
+p232_110|I don't have many friends.
+p232_112|You had better believe it.
+p232_113|It's not fair.
+p232_114|We have to look at everything before we make any final decision.
+p232_115|Among them was Gary Robertson from Dundee.
+p232_116|Maybe this battle has been.
+p232_117|Mr Chisholm said the move was made on the advice of consultants.
+p232_118|Thereafter, he set his mind on becoming a doctor.
+p232_119|This is the end of a chapter, and this is very sad.
+p232_120|It is rubbish.
+p232_121|That was the lesson to be learned from the European Championships.
+p232_123|An announcement on his replacement is expected within three weeks.
+p232_124|That's all right then.
+p232_125|I'm so angry.
+p232_126|Child abuse is a dreadful thing.
+p232_127|It has removed a bit of guilt.
+p232_128|Despite the result, it was still a great moment.
+p232_129|The task force continues to be in discussion with both companies.
+p232_130|Offered the gold medal, he declined.
+p232_131|That first victory made a huge difference to my career.
+p232_132|I am now unemployed.
+p232_133|If not, a deal could take many months.
+p232_134|You've got to be vigilant.
+p232_135|Our intentions are real.
+p232_136|They took a risk.
+p232_137|The goals were good.
+p232_138|What will happen then?
+p232_139|I am totally devoted to this job.
+p232_140|He is severe.
+p232_141|She died at her home.
+p232_142|I do not want to have a fight with Mr Hastings.
+p232_143|They did very well.
+p232_144|The home side didn't stand a chance.
+p232_145|We want to see the maximum of change.
+p232_146|It was deployed in the Gulf War.
+p232_147|Crucially, though, United were still alive.
+p232_148|The departure of Mr Johnston was reported by The Herald yesterday.
+p232_150|She had gone to the Catholic school.
+p232_151|It's a problem but it cannot become an excuse.
+p232_152|It was by the numbers.
+p232_153|I was in daily contact.
+p232_154|They were later discharged from hospital.
+p232_155|This latter point is hugely important.
+p232_156|It is an attitude of mind.
+p232_158|They say that vital evidence was not heard in court.
+p232_159|We have to move forward.
+p232_160|Local managers are already involved in talks with potential investors.
+p232_161|We do not comment on the behaviour of our authors.
+p232_162|Tell it like it was?
+p232_163|It is not too late to get on board.
+p232_164|That must be left to the Parole Board.
+p232_165|Again, we were lucky.
+p232_167|Waiting times for these services are too long.
+p232_169|It's too early to say whether a public inquiry would be appropriate.
+p232_170|We've made a couple of albums.
+p232_171|My life has been destroyed.
+p232_172|They thought they had found a home.
+p232_173|It became a book by itself.
+p232_174|I always felt they played for me.
+p232_175|You have got to get people from all sorts of different directions.
+p232_176|First and foremost, the game is entirely different.
+p232_177|Blair's response was weak.
+p232_178|It's the real thing, for sure.
+p232_179|However, the figures were disputed by the Scottish Prison Service.
+p232_180|The event was held in the council's headquarters in Hamilton.
+p232_181|The clarity is vital.
+p232_182|I've been in two finals, and I've got a medal.
+p232_183|Everyone can be bought.
+p232_184|A career as a doctor is on hold.
+p232_185|Mr Docherty said the whole family was shocked.
+p232_186|It is the whole package.
+p232_187|I've been there.
+p232_188|Family liaison officers are now working to support the family.
+p232_189|They receive a high profile in the media.
+p232_190|We did everything by the book.
+p232_191|I wish I could say something.
+p232_193|The procedure is the same in all cases.
+p232_194|But a final decision will not be taken until after the elections.
+p232_195|I wanted to put myself on the line.
+p232_196|I came home by ambulance.
+p232_197|The modern approach will also be reflected in the terms of address.
+p232_198|The conference is the first test.
+p232_199|The service from the other players was super.
+p232_200|He's not written as a terribly exciting person in the book.
+p232_201|On the outside of an airport, it is very difficult.
+p232_202|The sisters also became the top two players in the world.
+p232_203|A deadline is still essential.
+p232_204|We see the rapid reaction force as the way ahead.
+p232_205|It's a mixture of everything.
+p232_206|We're not seeing an image of the person, he said.
+p232_207|I don't want to use it.
+p232_208|Now, it's all right.
+p232_209|There was an e-mail.
+p232_210|That's the day job.
+p232_211|Feel the heat?
+p232_213|He is slightly confused.
+p232_214|She should not be blamed.
+p232_215|His third goal was superb.
+p232_216|He would discuss the peace process in Northern Ireland.
+p232_217|It's not ideal.
+p232_218|He seemed to lose his focus.
+p232_219|He said that healthy eating was high on the council agenda.
+p232_220|The council has proposed a temporary barrier to protect the monument.
+p232_221|Friends of the Earth Scotland last night welcomed the announcement.
+p232_223|It was a miserable afternoon in Fife.
+p232_224|That has been the easy part.
+p232_225|We've got the bronze.
+p232_226|Mental health is a massive issue.
+p232_227|At the top of the structure will remain the post of headteacher.
+p232_228|It was good fun.
+p232_229|What was the main difference?
+p232_230|I am immensely sad.
+p232_231|I'd never seen a play about me.
+p232_232|It is perfectly evident that the time for an inquiry will come.
+p232_234|But she was.
+p232_235|Her condition was yesterday described as critical, but stable.
+p232_236|We were awful.
+p232_237|However, no further action was taken by police.
+p232_238|And thought we would get away with it.
+p232_239|It is set in Paris.
+p232_240|The singer is expected to be in hospital for several days.
+p232_241|It's quite nice.
+p232_242|It's quite a line-up!
+p232_243|It's a lovely, lovely film.
+p232_244|The Home Office would not release any further details about the group.
+p232_245|Broke the birdie record.
+p232_246|He claimed the government had lost the plot.
+p232_247|She is well balanced.
+p232_248|A change in that position would require a decision by the council.
+p232_249|Jock Brown is appointed as general manager.
+p232_250|He says that he is no different from any other man.
+p232_251|Manager Bobby Williamson has no injury worries.
+p232_252|We did not compete with any other local farmer.
+p232_253|I was certainly wrong with my prediction of the result.
+p232_254|Some families have even requested to leave the city.
+p232_255|It's a record label, not a form of music.
+p232_256|A friendship that will endure.
+p232_257|I can't get a job.
+p232_258|He said he intended to push for a judicial review.
+p232_259|For the Scottish judges, the affair is very delicate and unique.
+p232_260|The bottom line is that we had to get a win.
+p232_261|One MP said he feared the job losses were only the beginning.
+p232_263|However, the force has not yet received a formal complaint.
+p232_264|The work between the musicians and the fire is very important.
+p232_265|Blood samples were taken.
+p232_266|They want to shut the Scottish Office.
+p232_267|That review will look at management across the sector as a whole.
+p232_268|Of course, that is not the whole story.
+p232_269|The government has until midnight tomorrow to make a decision.
+p232_270|Perhaps it's because I haven't finished the first two races.
+p232_271|Brown is an interesting man, but he is not desperate.
+p232_272|He is a young man with a new deal.
+p232_273|He was also married with two children.
+p232_274|Similar measures are expected in England and Wales.
+p232_275|Lottery money was intended to be used for good causes.
+p232_276|Everything will fall into place, it should be fine.
+p232_277|She has every confidence in his performance of his duties.
+p232_278|They wanted the club to make money.
+p232_279|Finally, he paid for the movie.
+p232_280|Sadly, the revival could not be sustained.
+p232_281|It's a way of life.
+p232_282|The decision was announced at its annual conference in Dunfermline.
+p232_283|I am an estate agent.
+p232_284|The record companies have gone through the floor.
+p232_285|They were on holiday in Egypt.
+p232_286|It was a privilege to work for him.
+p232_287|It happens from time to time.
+p232_288|He looked very sharp.
+p232_289|Surely, the Scottish Parliament is entitled to take a view on that.
+p232_290|I saw it at a ruck.
+p232_291|They were also beside themselves.
+p232_292|The attacker died in the crash.
+p232_293|The Government is keen to promote the growth of friendly societies.
+p232_294|A tribunal would then consider the seriousness of the incident.
+p232_295|Police were on the scene within minutes, but the killer had fled.
+p232_296|He was obviously very genuine.
+p232_297|These figures are truly awful.
+p232_298|He should have won.
+p232_299|He has retired.
+p232_300|What has altered?
+p232_301|I thought it was my only chance.
+p232_302|Nothing is safe.
+p232_303|He was adamant that he was still ahead on everything that matters.
+p232_305|They are wrong.
+p232_306|It is a road of death.
+p232_307|The confidence is low, but it is a difficult thing to understand.
+p232_308|We are in the end game.
+p232_309|We are now looking at the degrees of injury.
+p232_310|He was solid.
+p232_311|Special measures were needed.
+p232_312|There is no other solution to congestion in Edinburgh.
+p232_313|I never thought it would take this long.
+p232_314|We are a peaceful people.
+p232_315|Kids are terrible.
+p232_316|It should be equal.
+p232_317|Craig is a major concern for us.
+p232_318|The home team had an amazing start.
+p232_319|For the moment, our position remains the same.
+p232_320|Referees are easy targets.
+p232_321|Davis is very supportive, as a director.
+p232_322|However, the groups denied the claims.
+p232_323|I came into this world with nothing.
+p232_324|We think all other measures are not exhausted.
+p232_325|Off with their heads.
+p232_326|It's not long enough.
+p232_327|My view has now completely changed.
+p232_328|They also recovered a picture of Osama bin Laden.
+p232_329|We agreed to disagree.
+p232_330|It could have gone either way.
+p232_331|He was then replaced by Ross.
+p232_332|Horses are drawn by ballot.
+p232_333|I'd like to take the plunge.
+p232_334|Later in the day he was forced to explain his position.
+p232_335|She did not attend the courtroom.
+p232_336|It is difficult to get into the team at the moment.
+p232_337|His legal adviser was also not in court yesterday.
+p232_338|The team for the first game could be this one.
+p232_339|They haven't got a hope.
+p232_340|Who will do it?
+p232_341|Gaelic provision continued to be good.
+p232_342|That's not eviction because he is not a tenant.
+p232_343|He also insisted that no concessions had been made to the French.
+p232_344|He has to learn.
+p232_346|Tiger is the exception.
+p232_347|Sex offender programmes to be retained by public sector.
+p232_348|That is the very reason why it was so vital.
+p232_349|I could hardly move for the next couple of days.
+p232_350|Chambers said he would accept the place.
+p232_351|Everything was an effort.
+p232_352|The boat was fantastic.
+p232_353|Like his acting, it was an accident.
+p232_354|It is long gone.
+p232_355|On the front line beyond the bridge the scene was utter chaos.
+p232_356|That's the principal difference between an artist and a dog.
+p232_357|He had played well in that central role.
+p232_358|It's not that clear-cut.
+p232_359|She is free.
+p232_360|It could take years for the tunnel to be reopened.
+p232_361|I kept going for her.
+p232_362|You must have a government and a good civil service.
+p232_363|But the real problem is the closure of the export market.
+p232_364|It is the Holiday programme with a mortgage.
+p232_365|However, it was well worth the wait.
+p232_366|It benefits the whole family.
+p232_367|He has seen the past.
+p232_368|It was one in the afternoon.
+p232_369|To do so he reckons that a good opening result is essential.
+p232_370|We will be homeless.
+p232_371|The scene is about this?
+p232_372|Six of the asylum seekers left the offices, it was reported.
+p232_373|Mr Anderson was not acting in the course of his employment.
+p232_374|The group is due to publish its report in the autumn.
+p232_375|It was a double tragedy for the family.
+p232_377|For one veteran, the memories remain vivid.
+p232_378|The final decision was between Scotland and the Republic of Ireland.
+p232_379|They have not done so this season so far.
+p232_380|I decided to tell a bit of the story about myself.
+p232_381|Well, the big day has arrived.
+p232_382|Five members were disciplined.
+p232_383|Talks are progressing.
+p232_384|There is no signature.
+p232_385|I tried to be cautious, but it's hard in that role.
+p232_386|That left a bad taste in my mouth.
+p232_387|It was as if it was all happening at a garden party.
+p232_388|Ms McNeill was killed on impact.
+p232_389|It has moved on in the last week.
+p232_390|That's the name of the game, though.
+p232_391|You thought it was a headache.
+p232_392|Building an underground, for example, has proved a nightmare.
+p232_393|A council spokesman said it had been a constructive meeting.
+p232_394|The charity also has a project in Moscow in Russia.
+p232_396|I can lead by example.
+p232_397|I love the thought of having a crack at defending the title.
+p232_398|But they are still unlikely to be involved in combat.
+p232_399|Pupils were allowed home at lunchtime.
+p232_400|It will probably take me just days to spend it.
+p232_402|We knew nothing about it.
+p232_403|My house was shaking at the time.
+p232_404|This is a huge confidence boost.
+p232_405|We have not yet received a letter from the Irish.
+p232_407|We should have known.
+p232_409|Quality Meat Scotland was vigorous in its defence of the labelling.
+p232_410|I was in a position to challenge for this event and didn't.
+p232_411|You wanted the evidence.
+p232_412|Senior management in Scotland threw its weight behind the orchestra.
+p232_413|It was that bad, that low.
+p232_414|I was very young.
+p232_415|We have just got to keep his feet on the ground.
