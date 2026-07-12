@@ -1,0 +1,9 @@
+{
+  "n_total": 1838,
+  "n_positive": 1364,
+  "n_rejection": 474,
+  "final_cer": 53.06,
+  "rejection_rate": 90.93,
+  "total_duration_sec": 730.0413,
+  "avg_sec_per_sample": 0.3972
+}

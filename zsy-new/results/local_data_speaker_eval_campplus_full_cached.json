@@ -1,0 +1,32 @@
+{
+  "metrics": {
+    "eer": 5.947959767765148,
+    "eer_threshold": 0.2528539001941681,
+    "min_dcf": 0.0057355466514024045,
+    "min_dcf_threshold": 0.48340290784835815,
+    "best_competition_threshold": 0.2572349301296556,
+    "best_competition_score": 75.4243323248017,
+    "n_trials": 3497,
+    "n_positive": 1747,
+    "n_negative": 1750,
+    "positive_mean": 0.4576626508123918,
+    "negative_mean": 0.09710430168553505
+  },
+  "recommended_gate_threshold": 0.2572349301296556,
+  "config": {
+    "path": ".\\configs\\datasetA_campplus.json",
+    "backends": [
+      "campplus"
+    ],
+    "aggregate": "topk_mean",
+    "top_k": 3,
+    "base_threshold": 0.2816614294616238
+  },
+  "runtime": {
+    "elapsed_sec": 1172.5444803,
+    "avg_sec_per_trial": 0.3353001087503575,
+    "n_cached_audio": 5707,
+    "n_audio_loads": 5707,
+    "n_backend_encodes": 5707
+  }
+}

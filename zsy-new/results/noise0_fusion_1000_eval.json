@@ -1,0 +1,33 @@
+{
+  "metrics": {
+    "eer": 4.099528247152078,
+    "eer_threshold": 0.24806173011656862,
+    "min_dcf": 0.0018467583497053044,
+    "min_dcf_threshold": 0.4190905686177009,
+    "best_competition_threshold": 0.28364510301704143,
+    "best_competition_score": 76.98494312157139,
+    "n_trials": 1000,
+    "n_positive": 509,
+    "n_negative": 491,
+    "positive_mean": 0.5676468030626621,
+    "negative_mean": 0.1009456446966667
+  },
+  "recommended_gate_threshold": 0.28364510301704143,
+  "config": {
+    "path": ".\\configs\\external_speaker_fusion.json",
+    "backends": [
+      "eres2netv2",
+      "campplus"
+    ],
+    "aggregate": "topk_mean",
+    "top_k": 3,
+    "base_threshold": 0.285
+  },
+  "runtime": {
+    "elapsed_sec": 625.984216,
+    "avg_sec_per_trial": 0.625984216,
+    "n_cached_audio": 1996,
+    "n_audio_loads": 3992,
+    "n_backend_encodes": 3992
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "metrics": {
+    "eer": 5.147272875950609,
+    "eer_threshold": 0.2932470440864563,
+    "min_dcf": 0.0036901005805871287,
+    "min_dcf_threshold": 0.4427782893180847,
+    "best_competition_threshold": 0.2858160308489818,
+    "best_competition_score": 75.9740027802764,
+    "n_trials": 3497,
+    "n_positive": 1747,
+    "n_negative": 1750,
+    "positive_mean": 0.5281123080719136,
+    "negative_mean": 0.10523860620638231
+  },
+  "recommended_gate_threshold": 0.2858160308489818,
+  "config": {
+    "path": ".\\configs\\default.json",
+    "backends": [
+      "eres2netv2"
+    ],
+    "aggregate": "topk_mean",
+    "top_k": 3,
+    "base_threshold": 0.3370734058066252
+  },
+  "runtime": {
+    "elapsed_sec": 801.3112984,
+    "avg_sec_per_trial": 0.22914249310837861,
+    "n_cached_audio": 5707,
+    "n_audio_loads": 5707,
+    "n_backend_encodes": 5707
+  }
+}
