@@ -1,0 +1,7 @@
+{
+  "sv_low": 0.09,
+  "sv_high": 0.37,
+  "prob_low": 0.3,
+  "prob_high": 0.65,
+  "model_path": "intent_classifier.pkl"
+}
