@@ -1,0 +1,52 @@
+{
+  "calibration_source": "CN-Celeb2 300-speaker speaker-disjoint trials; DatasetA labels not used",
+  "target_sr": 16000,
+  "force_asr": false,
+  "use_separation": false,
+  "preprocess": {"enable_vad": false, "vad_threshold_ratio": 0.1},
+  "gate": {
+    "threshold": 0.2642105449799689,
+    "speaker_reject_low": 0.15,
+    "speaker_accept_high": 0.38,
+    "segment_sec": 1.5,
+    "num_segments": 3,
+    "aggregate": "topk_mean",
+    "top_k": 2,
+    "min_duration_sec": 0.5,
+    "embedding_backends": ["eres2netv2", "campplus"],
+    "backend_weights": {"eres2netv2": 0.54, "campplus": 0.46},
+    "campplus_model_id": "iic/speech_campplus_sv_zh-cn_16k-common",
+    "eres2netv2_model_id": "iic/speech_eres2netv2_sv_zh-cn_16k-common",
+    "modelscope_local_dir": "pretrained",
+    "dynamic_threshold": false
+  },
+  "asr": {
+    "backend": "funasr",
+    "model_name": "paraformer-zh",
+    "model_dir": "pretrained/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+    "device": "auto",
+    "strip_punctuation": true
+  },
+  "asr_ensemble": {
+    "enabled": true,
+    "vad_threshold_ratio": 0.1,
+    "secondary_model_name": "sensevoice-small",
+    "secondary_model_dir": "pretrained/SenseVoiceSmall",
+    "secondary_device": "auto",
+    "weird_weight": 0.35,
+    "command_weight": 0.1
+  },
+  "decision": {
+    "speaker_accept_high": 0.6,
+    "speaker_reject_low": 0.15,
+    "min_target_ratio": 0.0,
+    "max_target_ratio_for_reject": 0.0,
+    "overlap_trigger_threshold": 1.1,
+    "low_snr_threshold_db": -100.0,
+    "target_low_snr_ratio": 1.1,
+    "min_asr_confidence": 0.0,
+    "min_command_prior_for_accept": 0.0,
+    "command_prior_strict_below_similarity": 0.0,
+    "fusion_accept_threshold": -10.0
+  }
+}

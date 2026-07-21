@@ -1,0 +1,32 @@
+{
+  "metrics": {
+    "eer": 5.527777777777778,
+    "eer_threshold": 0.2939809262752533,
+    "min_dcf": 0.0022390572390572393,
+    "min_dcf_threshold": 0.47195108234882355,
+    "best_competition_threshold": 0.316535085439682,
+    "best_competition_score": 76.30976430976432,
+    "n_trials": 1194,
+    "n_positive": 594,
+    "n_negative": 600,
+    "positive_mean": 0.5871529348376122,
+    "negative_mean": 0.1350219990670219
+  },
+  "recommended_gate_threshold": 0.316535085439682,
+  "config": {
+    "path": "configs\\speaker_frontend_no_vad_15s.json",
+    "backends": [
+      "eres2netv2"
+    ],
+    "aggregate": "topk_mean",
+    "top_k": 2,
+    "base_threshold": 0.274
+  },
+  "runtime": {
+    "elapsed_sec": 124.4183615,
+    "avg_sec_per_trial": 0.10420298283082077,
+    "n_cached_audio": 2320,
+    "n_audio_loads": 2320,
+    "n_backend_encodes": 2320
+  }
+}

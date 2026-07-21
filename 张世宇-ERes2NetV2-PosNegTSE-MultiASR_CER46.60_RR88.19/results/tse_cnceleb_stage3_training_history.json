@@ -1,0 +1,130 @@
+{
+  "base_checkpoint": "G:\\Midea_Task\\pretrained\\tse_posneg_cnceleb_stage2.pt",
+  "output_checkpoint": "G:\\Midea_Task\\pretrained\\tse_posneg_cnceleb_stage3.pt",
+  "dataset": "G:\\Midea_Task\\CN-Celeb2_flac\\data",
+  "datasetA_used_for_training": false,
+  "train_speaker_range": [
+    "id10000",
+    "id11509"
+  ],
+  "validation_speaker_range": [
+    "id11510",
+    "id11609"
+  ],
+  "train_speakers": 1500,
+  "validation_speakers": 100,
+  "trainable_parameters": 986358,
+  "best_step": 300,
+  "best_validation_si_snri_db": 4.5853552430868145,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": null,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.27522452622652055,
+      "si_snri_db": 4.234570583701133,
+      "median_si_snri_db": 5.726829409599304,
+      "improved_ratio": 0.825
+    },
+    {
+      "step": 150,
+      "train_loss": -1.8897413590053718,
+      "elapsed_sec": 62.424690999999996,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.4734723582863808,
+      "si_snri_db": 4.432818415760994,
+      "median_si_snri_db": 6.204042911529541,
+      "improved_ratio": 0.775
+    },
+    {
+      "step": 300,
+      "train_loss": -1.2744049251824618,
+      "elapsed_sec": 124.3984689,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.6260091856122016,
+      "si_snri_db": 4.5853552430868145,
+      "median_si_snri_db": 6.070478081703186,
+      "improved_ratio": 0.775
+    },
+    {
+      "step": 450,
+      "train_loss": -2.217250884970029,
+      "elapsed_sec": 187.57119010000002,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.5655715450644493,
+      "si_snri_db": 4.5249176025390625,
+      "median_si_snri_db": 6.135201692581177,
+      "improved_ratio": 0.775
+    },
+    {
+      "step": 600,
+      "train_loss": -2.5727371743321417,
+      "elapsed_sec": 250.2328672,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.3896683774888515,
+      "si_snri_db": 4.349014434963465,
+      "median_si_snri_db": 6.25353479385376,
+      "improved_ratio": 0.775
+    },
+    {
+      "step": 750,
+      "train_loss": -1.7431008111157764,
+      "elapsed_sec": 312.619788,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.5058056294918061,
+      "si_snri_db": 4.465151686966419,
+      "median_si_snri_db": 5.890491366386414,
+      "improved_ratio": 0.8
+    },
+    {
+      "step": 900,
+      "train_loss": -1.794314434081316,
+      "elapsed_sec": 374.4132526,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.5829374566674232,
+      "si_snri_db": 4.542283514142037,
+      "median_si_snri_db": 5.720765233039856,
+      "improved_ratio": 0.825
+    },
+    {
+      "step": 1050,
+      "train_loss": -1.7191349847614765,
+      "elapsed_sec": 436.09957860000003,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.38945749700069426,
+      "si_snri_db": 4.348803554475308,
+      "median_si_snri_db": 5.956907749176025,
+      "improved_ratio": 0.8
+    },
+    {
+      "step": 1200,
+      "train_loss": -1.4712462237974009,
+      "elapsed_sec": 497.38024470000005,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.5356228849879698,
+      "si_snri_db": 4.494968942462583,
+      "median_si_snri_db": 5.707784056663513,
+      "improved_ratio": 0.8
+    },
+    {
+      "step": 1350,
+      "train_loss": -1.2685249416530133,
+      "elapsed_sec": 559.1856759,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.47687816750258205,
+      "si_snri_db": 4.436224224977195,
+      "median_si_snri_db": 6.201333045959473,
+      "improved_ratio": 0.825
+    },
+    {
+      "step": 1500,
+      "train_loss": -1.5144746074080466,
+      "elapsed_sec": 622.3793998,
+      "input_si_snr_db": -3.959346057474613,
+      "output_si_snr_db": 0.4882970180362463,
+      "si_snri_db": 4.447643075510859,
+      "median_si_snri_db": 6.128210783004761,
+      "improved_ratio": 0.825
+    }
+  ]
+}

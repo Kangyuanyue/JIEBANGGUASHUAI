@@ -1,0 +1,130 @@
+{
+  "base_checkpoint": "G:\\Midea_Task\\external_TSE_PosNeg\\TSE-through-Positive-Negative-Enroll-main\\improved-monaural.pt",
+  "output_checkpoint": "G:\\Midea_Task\\pretrained\\tse_posneg_cnceleb_stage2.pt",
+  "dataset": "G:\\Midea_Task\\CN-Celeb2_flac\\data",
+  "datasetA_used_for_training": false,
+  "train_speaker_range": [
+    "id10000",
+    "id10803"
+  ],
+  "validation_speaker_range": [
+    "id10804",
+    "id10904"
+  ],
+  "train_speakers": 800,
+  "validation_speakers": 100,
+  "trainable_parameters": 986358,
+  "best_step": 800,
+  "best_validation_si_snri_db": 5.212861714884639,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": null,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": -2.0110964123159647,
+      "si_snri_db": 1.422434895299375,
+      "median_si_snri_db": 1.8617200255393982,
+      "improved_ratio": 0.6875
+    },
+    {
+      "step": 100,
+      "train_loss": 0.3366628263145685,
+      "elapsed_sec": 60.118909800000004,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 0.11086027137935162,
+      "si_snri_db": 3.5443915789946914,
+      "median_si_snri_db": 2.903601288795471,
+      "improved_ratio": 0.8125
+    },
+    {
+      "step": 200,
+      "train_loss": -0.24070676326751708,
+      "elapsed_sec": 102.31084380000001,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 0.577151894569397,
+      "si_snri_db": 4.010683202184737,
+      "median_si_snri_db": 2.5215055346488953,
+      "improved_ratio": 0.84375
+    },
+    {
+      "step": 300,
+      "train_loss": -1.3055812092870474,
+      "elapsed_sec": 145.53434180000002,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 0.7829042011871934,
+      "si_snri_db": 4.216435508802533,
+      "median_si_snri_db": 4.6216442584991455,
+      "improved_ratio": 0.84375
+    },
+    {
+      "step": 400,
+      "train_loss": -2.1422186054289343,
+      "elapsed_sec": 188.3659691,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 0.9770828653126955,
+      "si_snri_db": 4.410614172928035,
+      "median_si_snri_db": 3.7366541624069214,
+      "improved_ratio": 0.84375
+    },
+    {
+      "step": 500,
+      "train_loss": -0.7151284311059862,
+      "elapsed_sec": 230.58126990000002,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 1.4015546441078186,
+      "si_snri_db": 4.835085951723158,
+      "median_si_snri_db": 5.154045760631561,
+      "improved_ratio": 0.84375
+    },
+    {
+      "step": 600,
+      "train_loss": -2.266156104281545,
+      "elapsed_sec": 273.81260799999995,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 1.2553671281784773,
+      "si_snri_db": 4.688898435793817,
+      "median_si_snri_db": 5.297585844993591,
+      "improved_ratio": 0.8125
+    },
+    {
+      "step": 700,
+      "train_loss": 0.13841793537139893,
+      "elapsed_sec": 316.4185983,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 1.4476063521578908,
+      "si_snri_db": 4.8811376597732306,
+      "median_si_snri_db": 4.67822527885437,
+      "improved_ratio": 0.96875
+    },
+    {
+      "step": 800,
+      "train_loss": -1.1814159001456574,
+      "elapsed_sec": 358.8813573,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 1.779330407269299,
+      "si_snri_db": 5.212861714884639,
+      "median_si_snri_db": 5.2965028285980225,
+      "improved_ratio": 0.9375
+    },
+    {
+      "step": 900,
+      "train_loss": -1.3419320544600486,
+      "elapsed_sec": 401.498023,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 1.6173893213272095,
+      "si_snri_db": 5.050920628942549,
+      "median_si_snri_db": 5.102975904941559,
+      "improved_ratio": 0.90625
+    },
+    {
+      "step": 1000,
+      "train_loss": -1.71734740533866,
+      "elapsed_sec": 444.44668229999996,
+      "input_si_snr_db": -3.4335313076153398,
+      "output_si_snr_db": 1.593111944384873,
+      "si_snri_db": 5.026643252000213,
+      "median_si_snri_db": 5.51314651966095,
+      "improved_ratio": 0.9375
+    }
+  ]
+}

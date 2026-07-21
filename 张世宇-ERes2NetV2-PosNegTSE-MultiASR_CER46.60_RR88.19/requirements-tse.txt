@@ -1,0 +1,6 @@
+# Additional dependencies for Pos/Neg target-speaker extraction.
+# Install after the base requirements in a dedicated virtual environment.
+espnet==202412
+torchmetrics==0.11.4
+attrdict==2.0.1
+scipy>=1.10

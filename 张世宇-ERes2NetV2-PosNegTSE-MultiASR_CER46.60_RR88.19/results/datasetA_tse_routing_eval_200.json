@@ -1,0 +1,4817 @@
+{
+  "meta": "output/datasetA_all.jsonl",
+  "checkpoint": "G:\\Midea_Task\\pretrained\\tse_posneg_cnceleb_stage2.pt",
+  "datasetA_used_for_training": false,
+  "selection": "evenly_spaced_positive_development_samples",
+  "n_samples": 200,
+  "elapsed_sec": 83.6634929,
+  "raw_vad_cer": 36.98534542916958,
+  "raw_full_cer": 36.84577808792743,
+  "tse_cer": 48.15073272854152,
+  "tse_better_than_raw_vad": 44,
+  "tse_worse_than_raw_vad": 67,
+  "routing_config": "configs/speaker_frontend_no_vad_15s.json",
+  "routing_elapsed_sec": 71.16751520000001,
+  "samples": [
+    {
+      "id": "cmd_0.wav",
+      "label": "空调开到制热调到二十五度风量调到百分之三十",
+      "raw_vad_text": "空调开到自热调到二十五度风量调到百分之三",
+      "raw_full_text": "空调开到制热调到二十五度风量调到百分之三十",
+      "tse_text": "空调开到制热调到二十五度风量调到百分之三十",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 5.822329100000001,
+      "input_rms": 0.03979031853377859,
+      "output_rms": 0.09104925954990595,
+      "raw_similarity": 0.4132909445309607,
+      "tse_similarity": 0.44101497530937195,
+      "similarity_gain": 0.027724030778411235,
+      "raw_segment_similarities": [
+        0.4321019947528839,
+        0.39447989430903757,
+        0.39221975207328796
+      ],
+      "tse_segment_similarities": [
+        0.45821329951286316,
+        0.3410712480545044,
+        0.42381665110588074
+      ]
+    },
+    {
+      "id": "cmd_6.wav",
+      "label": "播放权志龙的歌",
+      "raw_vad_text": "播放权志龙的歌",
+      "raw_full_text": "播放权志龙的歌",
+      "tse_text": "播放权志龙的歌",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18768150000000006,
+      "input_rms": 0.024425761301409478,
+      "output_rms": 0.020621542849109373,
+      "raw_similarity": 0.4989131236183786,
+      "tse_similarity": 0.4462278038263321,
+      "similarity_gain": -0.05268531979204649,
+      "raw_segment_similarities": [
+        0.5174657702445984,
+        0.4803604769921587,
+        0.4734528362751007
+      ],
+      "tse_segment_similarities": [
+        0.4662836492061615,
+        0.4261719584465027,
+        0.3335464596748352
+      ]
+    },
+    {
+      "id": "cmd_13.wav",
+      "label": "打开洗衣服",
+      "raw_vad_text": "哎但是",
+      "raw_full_text": "我要洗衣服",
+      "tse_text": "哎我要洗衣服",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14537929999999832,
+      "input_rms": 0.03029714607465202,
+      "output_rms": 0.046723211928921204,
+      "raw_similarity": 0.41798277053745003,
+      "tse_similarity": 0.40458251535892487,
+      "similarity_gain": -0.013400255178525167,
+      "raw_segment_similarities": [
+        0.4511704713803811,
+        0.38479506969451904,
+        0.33454471826553345
+      ],
+      "tse_segment_similarities": [
+        0.43281635642051697,
+        0.37634867429733276,
+        0.328409343957901
+      ]
+    },
+    {
+      "id": "cmd_20.wav",
+      "label": "客厅灯的色温调到最暖关闭窗关闭客厅窗帘关闭客厅空调",
+      "raw_vad_text": "客厅灯的色温调到最暖关闭窗关闭客厅窗帘关闭客厅空调",
+      "raw_full_text": "客厅灯的色温调到最暖关闭窗关闭客厅窗帘关闭客厅空调",
+      "tse_text": "客厅灯的色温调到最暖关闭窗关闭客厅窗帘关闭客厅空调",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.44975180000000137,
+      "input_rms": 0.113233893464581,
+      "output_rms": 0.17423918694285925,
+      "raw_similarity": 0.5412325263023376,
+      "tse_similarity": 0.5311122101204484,
+      "similarity_gain": -0.010120316181889244,
+      "raw_segment_similarities": [
+        0.5224450826644897,
+        0.5600199699401855,
+        0.3315731883049011
+      ],
+      "tse_segment_similarities": [
+        0.5233681201934814,
+        0.5388563000474155,
+        0.46030837297439575
+      ]
+    },
+    {
+      "id": "cmd_27.wav",
+      "label": "打开闹钟",
+      "raw_vad_text": "打开闹钟",
+      "raw_full_text": "打开闹钟",
+      "tse_text": "打开闹钟",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13186170000000175,
+      "input_rms": 0.08480909360837927,
+      "output_rms": 0.01489481756144181,
+      "raw_similarity": 0.5332143902778625,
+      "tse_similarity": 0.3251475691795349,
+      "similarity_gain": -0.20806682109832764,
+      "raw_segment_similarities": [
+        0.5054394006729126,
+        0.482320100069046,
+        0.5609893798828125
+      ],
+      "tse_segment_similarities": [
+        0.3314920663833618,
+        0.3073590283011811,
+        0.318803071975708
+      ]
+    },
+    {
+      "id": "cmd_34.wav",
+      "label": "日光模式",
+      "raw_vad_text": "日光模",
+      "raw_full_text": "日光模式",
+      "tse_text": "日光模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13203419999999966,
+      "input_rms": 0.1271448961146874,
+      "output_rms": 0.11722748392608677,
+      "raw_similarity": 0.49466781318187714,
+      "tse_similarity": 0.40154693750306764,
+      "similarity_gain": -0.0931208756788095,
+      "raw_segment_similarities": [
+        0.501864492893219,
+        0.4874711334705353,
+        0.4822110821134497
+      ],
+      "tse_segment_similarities": [
+        0.40925493295520143,
+        0.39383894205093384,
+        0.38490650057792664
+      ]
+    },
+    {
+      "id": "cmd_41.wav",
+      "label": "室内有点暗调亮一点",
+      "raw_vad_text": "室内有点暗调亮一点",
+      "raw_full_text": "室内有点暗调亮一点",
+      "tse_text": "室内有点暗调亮一点",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1709877999999989,
+      "input_rms": 0.25321904131135436,
+      "output_rms": 0.6175858383139436,
+      "raw_similarity": 0.5077178488966139,
+      "tse_similarity": 0.47341705732629513,
+      "similarity_gain": -0.034300791570318734,
+      "raw_segment_similarities": [
+        0.5359877071373288,
+        0.4642840623855591,
+        0.47944799065589905
+      ],
+      "tse_segment_similarities": [
+        0.4891388416290283,
+        0.457695273023562,
+        0.4498960077762604
+      ]
+    },
+    {
+      "id": "cmd_47.wav",
+      "label": "把空调温度调到二十八度",
+      "raw_vad_text": "把空调温度调到二十八",
+      "raw_full_text": "把空调温度调到二十八度",
+      "tse_text": "把空调温度调到二十八度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18204180000000036,
+      "input_rms": 0.10492133316297145,
+      "output_rms": 0.02153619228263108,
+      "raw_similarity": 0.5292294180853299,
+      "tse_similarity": 0.2832808961439667,
+      "similarity_gain": -0.24594852194136319,
+      "raw_segment_similarities": [
+        0.43900570273399353,
+        0.5215437723126276,
+        0.5369150638580322
+      ],
+      "tse_segment_similarities": [
+        0.1775968074798584,
+        0.21056957307872612,
+        0.35599221920920726
+      ]
+    },
+    {
+      "id": "cmd_54.wav",
+      "label": "我要吃饭",
+      "raw_vad_text": "我要吃饭",
+      "raw_full_text": "我要吃饭",
+      "tse_text": "我要吃饭",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.12548130000000413,
+      "input_rms": 0.14155488396188406,
+      "output_rms": 0.22511566983935818,
+      "raw_similarity": 0.481952219891447,
+      "tse_similarity": 0.5008087754249573,
+      "similarity_gain": 0.01885655553351029,
+      "raw_segment_similarities": [
+        0.4743078351020813,
+        0.47282135486602783,
+        0.4895966046808126
+      ],
+      "tse_segment_similarities": [
+        0.4830355644226074,
+        0.5060275793075562,
+        0.4955899715423584
+      ]
+    },
+    {
+      "id": "cmd_61.wav",
+      "label": "打开客厅空调温度调整到二十三最低风速打开窗帘",
+      "raw_vad_text": "打开客厅空调温度调整到二十三最低风速打开窗帘",
+      "raw_full_text": "打开客厅空调温度调整到二十三最低风速打开窗帘",
+      "tse_text": "打开客厅空调温度调整到二十三最低风速打开窗帘",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.3415588000000014,
+      "input_rms": 0.07663605244895921,
+      "output_rms": 0.19262597648526225,
+      "raw_similarity": 0.6008255839839927,
+      "tse_similarity": 0.6008555591106415,
+      "similarity_gain": 2.9975126648817962e-05,
+      "raw_segment_similarities": [
+        0.6187165152261564,
+        0.4767241464092819,
+        0.5829346527418288
+      ],
+      "tse_segment_similarities": [
+        0.6139998435974121,
+        0.5110923647880554,
+        0.5877112746238708
+      ]
+    },
+    {
+      "id": "cmd_68.wav",
+      "label": "嵌入式饮水机",
+      "raw_vad_text": "嵌入式饮水",
+      "raw_full_text": "嵌入式饮水机",
+      "tse_text": "嵌入式饮水机",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15793620000000175,
+      "input_rms": 0.05606261839464864,
+      "output_rms": 0.03840097778016724,
+      "raw_similarity": 0.5715380012989044,
+      "tse_similarity": 0.4758792221546173,
+      "similarity_gain": -0.09565877914428711,
+      "raw_segment_similarities": [
+        0.5668997764587402,
+        0.5445701804500925,
+        0.5761762261390686
+      ],
+      "tse_segment_similarities": [
+        0.48736318945884705,
+        0.4643952548503876,
+        0.4568206344139954
+      ]
+    },
+    {
+      "id": "cmd_75.wav",
+      "label": "哎怎么没通电哈",
+      "raw_vad_text": "怎么没通电哈",
+      "raw_full_text": "你怎么没通电哈",
+      "tse_text": "你怎么没通电哈",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1416296000000017,
+      "input_rms": 0.03302044790379645,
+      "output_rms": 0.055725204209239335,
+      "raw_similarity": 0.26025398777529274,
+      "tse_similarity": 0.30171547977088603,
+      "similarity_gain": 0.04146149199559329,
+      "raw_segment_similarities": [
+        0.2849730849266052,
+        0.2355348906239802,
+        0.1806644159951458
+      ],
+      "tse_segment_similarities": [
+        0.32877117395401,
+        0.27465978558776205,
+        0.2483573853969574
+      ]
+    },
+    {
+      "id": "cmd_82.wav",
+      "label": "恢复日常模式",
+      "raw_vad_text": "恢复日常模式",
+      "raw_full_text": "恢复日常模式",
+      "tse_text": "恢复日常模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1447665000000029,
+      "input_rms": 0.021644183538810785,
+      "output_rms": 0.02633700366950256,
+      "raw_similarity": 0.32872129570697495,
+      "tse_similarity": 0.30587496705719946,
+      "similarity_gain": -0.022846328649775482,
+      "raw_segment_similarities": [
+        0.36375158213088404,
+        0.24457934498786926,
+        0.2936910092830658
+      ],
+      "tse_segment_similarities": [
+        0.32912689447402954,
+        0.25209571433637823,
+        0.2826230396403694
+      ]
+    },
+    {
+      "id": "cmd_89.wav",
+      "label": "窗帘的叶片调整到一百八十度",
+      "raw_vad_text": "窗帘的叶片调整到一百八",
+      "raw_full_text": "窗帘的叶片调整到一百八十度",
+      "tse_text": "窗帘的叶片调整到一百八十度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22237280000000226,
+      "input_rms": 0.10685392573998145,
+      "output_rms": 0.0787161042164351,
+      "raw_similarity": 0.5268396735191345,
+      "tse_similarity": 0.4394129942467949,
+      "similarity_gain": -0.0874266792723396,
+      "raw_segment_similarities": [
+        0.5507397651672363,
+        0.5029395818710327,
+        0.4070803225040436
+      ],
+      "tse_segment_similarities": [
+        0.4434555172920227,
+        0.4321455020991267,
+        0.43537047120156713
+      ]
+    },
+    {
+      "id": "cmd_95.wav",
+      "label": "开启一键净呼吸",
+      "raw_vad_text": "开启一键进步系统",
+      "raw_full_text": "开启一键静呼吸",
+      "tse_text": "开启一键进五吸",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13250910000000005,
+      "input_rms": 0.20174168931537065,
+      "output_rms": 0.07031939725076902,
+      "raw_similarity": 0.42868506714197785,
+      "tse_similarity": 0.19369004244720198,
+      "similarity_gain": -0.23499502469477587,
+      "raw_segment_similarities": [
+        0.3884858787059784,
+        0.43483092992490113,
+        0.42253920435905457
+      ],
+      "tse_segment_similarities": [
+        0.16638841726710898,
+        0.22099166762729497,
+        0.1093837097287178
+      ]
+    },
+    {
+      "id": "cmd_102.wav",
+      "label": "关闭图灵厨房的灯",
+      "raw_vad_text": "关闭图林厨房的灯",
+      "raw_full_text": "关闭图灵厨房的灯",
+      "tse_text": "关闭图灵厨房的灯",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15149559999999695,
+      "input_rms": 0.02790641884232308,
+      "output_rms": 0.025186504555727667,
+      "raw_similarity": 0.3993045389652252,
+      "tse_similarity": 0.3983417749404907,
+      "similarity_gain": -0.0009627640247344971,
+      "raw_segment_similarities": [
+        0.2502502948194918,
+        0.3556978106498718,
+        0.4429112672805786
+      ],
+      "tse_segment_similarities": [
+        0.25761526823043823,
+        0.3884541392326355,
+        0.40822941064834595
+      ]
+    },
+    {
+      "id": "cmd_109.wav",
+      "label": "干衣机开门",
+      "raw_vad_text": "干衣快门",
+      "raw_full_text": "干一快点",
+      "tse_text": "干净的人",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1369480999999979,
+      "input_rms": 0.030490048405463075,
+      "output_rms": 0.03994717027155639,
+      "raw_similarity": 0.37870457768440247,
+      "tse_similarity": 0.40580446753848315,
+      "similarity_gain": 0.027099889854080683,
+      "raw_segment_similarities": [
+        0.3570061922073364,
+        0.3416956067085266,
+        0.4004029631614685
+      ],
+      "tse_segment_similarities": [
+        0.38053351640701294,
+        0.41131624050833226,
+        0.40029269456863403
+      ]
+    },
+    {
+      "id": "cmd_116.wav",
+      "label": "播放周笔畅的贪",
+      "raw_vad_text": "播放周笔畅的汤",
+      "raw_full_text": "播放周笔畅的time",
+      "tse_text": "播放周笔畅的time",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20532730000000043,
+      "input_rms": 0.05392247722056603,
+      "output_rms": 0.11367657347385084,
+      "raw_similarity": 0.5229370433715337,
+      "tse_similarity": 0.5237457454204559,
+      "similarity_gain": 0.0008087020489222496,
+      "raw_segment_similarities": [
+        0.4620911754424081,
+        0.5837829113006592,
+        0.39665790776359483
+      ],
+      "tse_segment_similarities": [
+        0.4697815179824829,
+        0.577709972858429,
+        0.3796842098236084
+      ]
+    },
+    {
+      "id": "cmd_123.wav",
+      "label": "打开顶灯",
+      "raw_vad_text": "打开顶灯",
+      "raw_full_text": "打开顶灯",
+      "tse_text": "打开顶灯",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13731319999999414,
+      "input_rms": 0.11144403647894047,
+      "output_rms": 0.2540617539999893,
+      "raw_similarity": 0.5797751545906067,
+      "tse_similarity": 0.5847025388947984,
+      "similarity_gain": 0.0049273843041917065,
+      "raw_segment_similarities": [
+        0.575944185256958,
+        0.5836061239242554,
+        0.5519444942474365
+      ],
+      "tse_segment_similarities": [
+        0.5878322124481201,
+        0.5815728653414766,
+        0.5412775278091431
+      ]
+    },
+    {
+      "id": "cmd_130.wav",
+      "label": "洗衣模式",
+      "raw_vad_text": "洗衣模式",
+      "raw_full_text": "洗衣模式",
+      "tse_text": "洗衣模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13099749999999943,
+      "input_rms": 0.023835819568817057,
+      "output_rms": 0.02013735656680313,
+      "raw_similarity": 0.4833490391581678,
+      "tse_similarity": 0.4905176449439085,
+      "similarity_gain": 0.007168605785740689,
+      "raw_segment_similarities": [
+        0.4265813485730498,
+        0.47949254390552903,
+        0.48720553441080655
+      ],
+      "tse_segment_similarities": [
+        0.4577065433438725,
+        0.4882232532767342,
+        0.4928120366110828
+      ]
+    },
+    {
+      "id": "cmd_136.wav",
+      "label": "开启烹饪模式",
+      "raw_vad_text": "开启烹饪模式",
+      "raw_full_text": "开启烹饪模式",
+      "tse_text": "开启烹饪模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15363110000000546,
+      "input_rms": 0.1659233229388832,
+      "output_rms": 0.03973463530734756,
+      "raw_similarity": 0.4684535264968872,
+      "tse_similarity": 0.4015050454900324,
+      "similarity_gain": -0.0669484810068548,
+      "raw_segment_similarities": [
+        0.3213765621185303,
+        0.44325172901153564,
+        0.49365532398223877
+      ],
+      "tse_segment_similarities": [
+        0.2732298537033709,
+        0.37327609935714,
+        0.4297339916229248
+      ]
+    },
+    {
+      "id": "cmd_143.wav",
+      "label": "关闭洗衣模式关闭新风模式",
+      "raw_vad_text": "关闭洗衣模式",
+      "raw_full_text": "关闭洗衣模式关闭新风模式",
+      "tse_text": "关闭洗衣模式关闭星空模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.26776310000000336,
+      "input_rms": 0.06295621781163135,
+      "output_rms": 0.03945086658115634,
+      "raw_similarity": 0.4464893199090812,
+      "tse_similarity": 0.33347076177597046,
+      "similarity_gain": -0.11301855813311074,
+      "raw_segment_similarities": [
+        0.5236155106792159,
+        0.3645305037498474,
+        0.36936312913894653
+      ],
+      "tse_segment_similarities": [
+        0.3793289065361023,
+        0.2876126170158386,
+        0.250988796412277
+      ]
+    },
+    {
+      "id": "cmd_150.wav",
+      "label": "打开灯",
+      "raw_vad_text": "开张",
+      "raw_full_text": "打开灯",
+      "tse_text": "打开灯",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.11703810000000203,
+      "input_rms": 0.13437179018595566,
+      "output_rms": 0.3131318975416803,
+      "raw_similarity": 0.5340139269828796,
+      "tse_similarity": 0.5252545335437189,
+      "similarity_gain": -0.008759393439160768,
+      "raw_segment_similarities": [
+        0.5325968265533447,
+        0.5354310274124146,
+        0.5069004003346205
+      ],
+      "tse_segment_similarities": [
+        0.5220246315002441,
+        0.5284844355871937,
+        0.503455400466919
+      ]
+    },
+    {
+      "id": "cmd_157.wav",
+      "label": "打开油烟机打开洗衣机桶打开新风",
+      "raw_vad_text": "打开油烟机打开洗衣机桶打开清风",
+      "raw_full_text": "打开油烟机打开洗衣机桶打开清风",
+      "tse_text": "打开油烟机打开洗衣机桶打开新风",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.24771810000000016,
+      "input_rms": 0.06008896990768617,
+      "output_rms": 0.05477179477456768,
+      "raw_similarity": 0.5327329933643341,
+      "tse_similarity": 0.5284162624696132,
+      "similarity_gain": -0.004316730894720955,
+      "raw_segment_similarities": [
+        0.5139049597921943,
+        0.5206984877586365,
+        0.5447674989700317
+      ],
+      "tse_segment_similarities": [
+        0.5101017355918884,
+        0.4566613111890144,
+        0.546730789347338
+      ]
+    },
+    {
+      "id": "cmd_164.wav",
+      "label": "策划三天深圳旅游的行程",
+      "raw_vad_text": "策划三天深圳旅游",
+      "raw_full_text": "策划三天深圳旅游的行程",
+      "tse_text": "策划三天深圳旅游的行程",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19242900000000418,
+      "input_rms": 0.09612716427773,
+      "output_rms": 0.23918409963881299,
+      "raw_similarity": 0.469174547278599,
+      "tse_similarity": 0.46711041033267975,
+      "similarity_gain": -0.002064136945919226,
+      "raw_segment_similarities": [
+        0.38451820611953735,
+        0.4427905346626362,
+        0.49555855989456177
+      ],
+      "tse_segment_similarities": [
+        0.3683536648750305,
+        0.44161033630371094,
+        0.49261048436164856
+      ]
+    },
+    {
+      "id": "cmd_171.wav",
+      "label": "ladygaga最新的专辑叫什么",
+      "raw_vad_text": "的地方",
+      "raw_full_text": "人民法法最新的专辑叫什么",
+      "tse_text": "人民法院对起诉状起求什么呀",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1542756000000054,
+      "input_rms": 0.018869187875740785,
+      "output_rms": 0.014123539951780022,
+      "raw_similarity": 0.47661563754081726,
+      "tse_similarity": 0.43984612463987616,
+      "similarity_gain": -0.036769512900941104,
+      "raw_segment_similarities": [
+        0.42998188734054565,
+        0.4292962849140167,
+        0.5232493877410889
+      ],
+      "tse_segment_similarities": [
+        0.34364738128467687,
+        0.37569548938843544,
+        0.5039967598913169
+      ]
+    },
+    {
+      "id": "cmd_178.wav",
+      "label": "预约明天九点之前",
+      "raw_vad_text": "预约明天九点之前",
+      "raw_full_text": "预约明天九点之前",
+      "tse_text": "预约明天九点之前",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17958320000000327,
+      "input_rms": 0.05153866248550326,
+      "output_rms": 0.04299410024610096,
+      "raw_similarity": 0.5258038640022278,
+      "tse_similarity": 0.4821819801439035,
+      "similarity_gain": -0.04362188385832427,
+      "raw_segment_similarities": [
+        0.5169912576675415,
+        0.5346164703369141,
+        0.47806623447336166
+      ],
+      "tse_segment_similarities": [
+        0.4993185996603131,
+        0.4650453606274939,
+        0.41951104518837007
+      ]
+    },
+    {
+      "id": "cmd_184.wav",
+      "label": "关空调关灯",
+      "raw_vad_text": "关空调关灯",
+      "raw_full_text": "关空调关灯",
+      "tse_text": "关空调关灯",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14276619999999696,
+      "input_rms": 0.06067415288817795,
+      "output_rms": 0.02555701979562021,
+      "raw_similarity": 0.5313654243946075,
+      "tse_similarity": 0.3966057300567627,
+      "similarity_gain": -0.13475969433784485,
+      "raw_segment_similarities": [
+        0.5320161581039429,
+        0.5307146906852722,
+        0.5037808418273926
+      ],
+      "tse_segment_similarities": [
+        0.3890063166618347,
+        0.4042051434516907,
+        0.36186379194259644
+      ]
+    },
+    {
+      "id": "cmd_191.wav",
+      "label": "室内太暗了",
+      "raw_vad_text": "室内太暗了",
+      "raw_full_text": "室内太暗了",
+      "tse_text": "室内太暗了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1553570000000022,
+      "input_rms": 0.08257804297829373,
+      "output_rms": 0.12602417068849373,
+      "raw_similarity": 0.2555637298775992,
+      "tse_similarity": 0.25848384252094286,
+      "similarity_gain": 0.0029201126433436864,
+      "raw_segment_similarities": [
+        0.23842772979405763,
+        0.2726997299611407,
+        0.18647176027297974
+      ],
+      "tse_segment_similarities": [
+        0.2582926308091063,
+        0.2586750542327794,
+        0.20300234574093495
+      ]
+    },
+    {
+      "id": "cmd_198.wav",
+      "label": "你智慧屏怎么关机",
+      "raw_vad_text": "你智慧屏怎么关机",
+      "raw_full_text": "你智慧屏怎么关机",
+      "tse_text": "你智慧屏怎么关机",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16555940000000646,
+      "input_rms": 0.09857361027610168,
+      "output_rms": 0.2363517686371545,
+      "raw_similarity": 0.5420917755684002,
+      "tse_similarity": 0.5356582583898108,
+      "similarity_gain": -0.00643351717858931,
+      "raw_segment_similarities": [
+        0.46127178803345853,
+        0.5368856235606203,
+        0.54729792757618
+      ],
+      "tse_segment_similarities": [
+        0.44306990164935,
+        0.5362536630781688,
+        0.5350628537014529
+      ]
+    },
+    {
+      "id": "cmd_205.wav",
+      "label": "关窗帘",
+      "raw_vad_text": "关窗帘",
+      "raw_full_text": "关窗帘",
+      "tse_text": "关窗帘",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.12116660000000223,
+      "input_rms": 0.050834547565258535,
+      "output_rms": 0.03675569277703037,
+      "raw_similarity": 0.6558386087417603,
+      "tse_similarity": 0.5292505025863647,
+      "similarity_gain": -0.1265881061553955,
+      "raw_segment_similarities": [
+        0.64373779296875,
+        0.6375772953033447,
+        0.6679394245147705
+      ],
+      "tse_segment_similarities": [
+        0.5231500864028931,
+        0.500478208065033,
+        0.5353509187698364
+      ]
+    },
+    {
+      "id": "cmd_212.wav",
+      "label": "关闭微蒸烤箱",
+      "raw_vad_text": "关闭微增考",
+      "raw_full_text": "关闭微蒸烤箱",
+      "tse_text": "关闭微蒸烤箱",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1377901000000037,
+      "input_rms": 0.18002735009904558,
+      "output_rms": 0.4283980007325427,
+      "raw_similarity": 0.5066216588020325,
+      "tse_similarity": 0.4841300088845583,
+      "similarity_gain": -0.022491649917474155,
+      "raw_segment_similarities": [
+        0.5239213705062866,
+        0.4893219470977783,
+        0.4860524833202362
+      ],
+      "tse_segment_similarities": [
+        0.5059837102890015,
+        0.46227630748011517,
+        0.4501937925815582
+      ]
+    },
+    {
+      "id": "cmd_219.wav",
+      "label": "烟机升起",
+      "raw_vad_text": "延机申",
+      "raw_full_text": "延机申",
+      "tse_text": "提经申",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13892049999999756,
+      "input_rms": 0.05071848879996456,
+      "output_rms": 0.03262448466321669,
+      "raw_similarity": 0.42294740676879883,
+      "tse_similarity": 0.25893386494543646,
+      "similarity_gain": -0.16401354182336236,
+      "raw_segment_similarities": [
+        0.40875884890556335,
+        0.37952643632888794,
+        0.4371359646320343
+      ],
+      "tse_segment_similarities": [
+        0.2638088323956032,
+        0.2540588974952698,
+        0.2389836609363556
+      ]
+    },
+    {
+      "id": "cmd_226.wav",
+      "label": "然后窗帘邦邦邦邦邦的给关了对然后灯光暗了就是",
+      "raw_vad_text": "是的然后在上面帮帮帮忙慢慢给关了对然后灯光暗了",
+      "raw_full_text": "是的然后在窗帘帮帮帮忙慢慢给关了对然后灯光暗了就是",
+      "tse_text": "是的然后在上面帮帮帮帮慢慢给关了对然后灯光暗了就是",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.3405897999999965,
+      "input_rms": 0.03894541599162533,
+      "output_rms": 0.057191455874537646,
+      "raw_similarity": 0.42829614741568445,
+      "tse_similarity": 0.45415733754634857,
+      "similarity_gain": 0.025861190130664125,
+      "raw_segment_similarities": [
+        0.30450951403266024,
+        0.4543215605212188,
+        0.40227073431015015
+      ],
+      "tse_segment_similarities": [
+        0.3220215141773224,
+        0.4741480350494385,
+        0.43416664004325867
+      ]
+    },
+    {
+      "id": "cmd_232.wav",
+      "label": "我吃完饭了",
+      "raw_vad_text": "我吃完饭了",
+      "raw_full_text": "我吃完饭了",
+      "tse_text": "我吃完饭了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13891310000000345,
+      "input_rms": 0.039349942328974145,
+      "output_rms": 0.09185174560683626,
+      "raw_similarity": 0.5236879587173462,
+      "tse_similarity": 0.5176159590482712,
+      "similarity_gain": -0.006071999669075012,
+      "raw_segment_similarities": [
+        0.5307226181030273,
+        0.516653299331665,
+        0.46801635432340827
+      ],
+      "tse_segment_similarities": [
+        0.5422059893608093,
+        0.48591488767684843,
+        0.49302592873573303
+      ]
+    },
+    {
+      "id": "cmd_239.wav",
+      "label": "净呼吸模式",
+      "raw_vad_text": "进呼吸模式",
+      "raw_full_text": "进呼吸模式",
+      "tse_text": "进呼吸模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1514489999999995,
+      "input_rms": 0.023428901715904143,
+      "output_rms": 0.01686088254259142,
+      "raw_similarity": 0.4516908824443817,
+      "tse_similarity": 0.3463356148918881,
+      "similarity_gain": -0.10535526755249364,
+      "raw_segment_similarities": [
+        0.4457241892814636,
+        0.4047226905822754,
+        0.4576575756072998
+      ],
+      "tse_segment_similarities": [
+        0.3390680455606011,
+        0.2974454164505005,
+        0.35360318422317505
+      ]
+    },
+    {
+      "id": "cmd_246.wav",
+      "label": "现在关闭油烟机",
+      "raw_vad_text": "现在关闭油烟机",
+      "raw_full_text": "现在关闭油烟机",
+      "tse_text": "现在关闭油烟机",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1462980000000016,
+      "input_rms": 0.054209772586621935,
+      "output_rms": 0.06790937401500781,
+      "raw_similarity": 0.4186578094959259,
+      "tse_similarity": 0.36833200968015034,
+      "similarity_gain": -0.05032579981577556,
+      "raw_segment_similarities": [
+        0.38908714056015015,
+        0.44822847843170166,
+        0.3171800971031189
+      ],
+      "tse_segment_similarities": [
+        0.3644280731678009,
+        0.3722359461924998,
+        0.34899914264678955
+      ]
+    },
+    {
+      "id": "cmd_253.wav",
+      "label": "空调调到二十六度",
+      "raw_vad_text": "空调调到二十六度",
+      "raw_full_text": "空调调到二十六度",
+      "tse_text": "空调调到二十六度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14919679999999858,
+      "input_rms": 0.08007831399635797,
+      "output_rms": 0.11361607037571328,
+      "raw_similarity": 0.44805049896240234,
+      "tse_similarity": 0.4279689167466677,
+      "similarity_gain": -0.02008158221573464,
+      "raw_segment_similarities": [
+        0.4519350826740265,
+        0.3979121744632721,
+        0.4441659152507782
+      ],
+      "tse_segment_similarities": [
+        0.44084811210632324,
+        0.4150897213870121,
+        0.41093194484710693
+      ]
+    },
+    {
+      "id": "cmd_260.wav",
+      "label": "把展台的灯光亮度调到百分之十",
+      "raw_vad_text": "把展台的灯光亮度调到白色",
+      "raw_full_text": "把展台的灯光亮度调到百分之十",
+      "tse_text": "把展台的灯光亮度调到百分之十",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.276235199999995,
+      "input_rms": 0.07329788316293862,
+      "output_rms": 0.16574515020077185,
+      "raw_similarity": 0.4547803532693323,
+      "tse_similarity": 0.4497218558469268,
+      "similarity_gain": -0.005058497422405495,
+      "raw_segment_similarities": [
+        0.39817504308521234,
+        0.438711788577544,
+        0.4708489179611206
+      ],
+      "tse_segment_similarities": [
+        0.35627299547195435,
+        0.46851420402526855,
+        0.43092950766858507
+      ]
+    },
+    {
+      "id": "cmd_267.wav",
+      "label": "关闭空调客厅灯的色温调到最冷打开厨房的灯",
+      "raw_vad_text": "关闭空调客厅灯的设温调到最冷打开厨房的灯",
+      "raw_full_text": "关闭空调客厅灯的色温调到最冷打开厨房的灯",
+      "tse_text": "关闭空调客厅灯的室温调到最冷打开厨房的灯",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.4017136000000008,
+      "input_rms": 0.06704006584112698,
+      "output_rms": 0.028040754761108885,
+      "raw_similarity": 0.5329359941121307,
+      "tse_similarity": 0.5122110098600388,
+      "similarity_gain": -0.020724984252091905,
+      "raw_segment_similarities": [
+        0.5747878894083434,
+        0.49108409881591797,
+        0.45778316259384155
+      ],
+      "tse_segment_similarities": [
+        0.5519960522651672,
+        0.4724259674549103,
+        0.4349333643913269
+      ]
+    },
+    {
+      "id": "cmd_273.wav",
+      "label": "预约明天九点之前衬衫的ai轻干洗",
+      "raw_vad_text": "预约明天九点之前衬衫的ai清干",
+      "raw_full_text": "预约明天九点之前衬衫的ai七干洗",
+      "tse_text": "预约明天九点之前衬衫的ai器干洗",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2534272000000044,
+      "input_rms": 0.04374259579616802,
+      "output_rms": 0.04239650492037577,
+      "raw_similarity": 0.4025438246951978,
+      "tse_similarity": 0.38749940357929336,
+      "similarity_gain": -0.015044421115904427,
+      "raw_segment_similarities": [
+        0.3180122375488281,
+        0.39275493578642223,
+        0.4123327136039734
+      ],
+      "tse_segment_similarities": [
+        0.2911865711212158,
+        0.3874419562484,
+        0.38755685091018677
+      ]
+    },
+    {
+      "id": "cmd_280.wav",
+      "label": "拉开窗帘",
+      "raw_vad_text": "拉开窗帘",
+      "raw_full_text": "拉开窗帘",
+      "tse_text": "拉开双腿",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.10873860000000235,
+      "input_rms": 0.05468939455253506,
+      "output_rms": 0.10284376739065314,
+      "raw_similarity": 0.4734766483306885,
+      "tse_similarity": 0.4646885395050049,
+      "similarity_gain": -0.008788108825683594,
+      "raw_segment_similarities": [
+        0.4734766483306885,
+        0.4734766483306885,
+        0.4734766483306885
+      ],
+      "tse_segment_similarities": [
+        0.4646885395050049,
+        0.4646885395050049,
+        0.4646885395050049
+      ]
+    },
+    {
+      "id": "cmd_287.wav",
+      "label": "关闭全屋空调",
+      "raw_vad_text": "关闭全屋空调",
+      "raw_full_text": "关闭全屋空调",
+      "tse_text": "关闭全屋空调",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13593190000000277,
+      "input_rms": 0.10803221363595031,
+      "output_rms": 0.2539836032139675,
+      "raw_similarity": 0.7028045268188055,
+      "tse_similarity": 0.717751532793045,
+      "similarity_gain": 0.014947005974239591,
+      "raw_segment_similarities": [
+        0.7011752724647522,
+        0.7044337811728586,
+        0.6385804795372771
+      ],
+      "tse_segment_similarities": [
+        0.7145890593528748,
+        0.7209140062332153,
+        0.6740236282348633
+      ]
+    },
+    {
+      "id": "cmd_294.wav",
+      "label": "好的歌",
+      "raw_vad_text": "好的哥",
+      "raw_full_text": "好的哥",
+      "tse_text": "老的就是",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.12128230000000428,
+      "input_rms": 0.012048356456174743,
+      "output_rms": 0.005906989206773475,
+      "raw_similarity": 0.20573933158751317,
+      "tse_similarity": 0.21123558282852173,
+      "similarity_gain": 0.005496251241008554,
+      "raw_segment_similarities": [
+        0.20573933158751317,
+        0.20573933158751317,
+        0.20573933158751317
+      ],
+      "tse_segment_similarities": [
+        0.21123558282852173,
+        0.21123558282852173,
+        0.21123558282852173
+      ]
+    },
+    {
+      "id": "cmd_301.wav",
+      "label": "预约明天九点之前对我的衬衫进行轻干洗",
+      "raw_vad_text": "那我预约明天九点之前对我的衬衫进行清干洗",
+      "raw_full_text": "那我预约明天九点之前对我的衬衫进行清干洗",
+      "tse_text": "那我预约明天九点之前对我的衬衫进行清干洗",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.29555620000000005,
+      "input_rms": 0.021921181010770976,
+      "output_rms": 0.02251589056814351,
+      "raw_similarity": 0.5113050497356086,
+      "tse_similarity": 0.5410607041197679,
+      "similarity_gain": 0.02975565438415928,
+      "raw_segment_similarities": [
+        0.424335654040316,
+        0.545407923782344,
+        0.4772021756888733
+      ],
+      "tse_segment_similarities": [
+        0.37429615105963654,
+        0.6042588713323397,
+        0.47786253690719604
+      ]
+    },
+    {
+      "id": "cmd_308.wav",
+      "label": "关闭音箱",
+      "raw_vad_text": "关闭冰箱",
+      "raw_full_text": "关闭经销",
+      "tse_text": "关键经济",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.137420199999994,
+      "input_rms": 0.03452537487819905,
+      "output_rms": 0.02344264408272165,
+      "raw_similarity": 0.3623375034242674,
+      "tse_similarity": 0.2785611990276481,
+      "similarity_gain": -0.08377630439661932,
+      "raw_segment_similarities": [
+        0.3683252193540073,
+        0.35634978749452756,
+        0.3308621846601743
+      ],
+      "tse_segment_similarities": [
+        0.31061168376276993,
+        0.20842412114143372,
+        0.24651071429252625
+      ]
+    },
+    {
+      "id": "cmd_315.wav",
+      "label": "灯的色温调亮",
+      "raw_vad_text": "真的色温调亮",
+      "raw_full_text": "灯的色温调亮",
+      "tse_text": "灯的色温调亮",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14680869999999402,
+      "input_rms": 0.04009450151797805,
+      "output_rms": 0.09649003337122444,
+      "raw_similarity": 0.6098026037216187,
+      "tse_similarity": 0.6277852134576567,
+      "similarity_gain": 0.017982609736038047,
+      "raw_segment_similarities": [
+        0.5752198696136475,
+        0.5929388999938965,
+        0.6266663074493408
+      ],
+      "tse_segment_similarities": [
+        0.5758196115493774,
+        0.5981059430900778,
+        0.6574644838252356
+      ]
+    },
+    {
+      "id": "cmd_321.wav",
+      "label": "指令刚才错了",
+      "raw_vad_text": "指令刚才错了",
+      "raw_full_text": "指令刚才错了",
+      "tse_text": "这应该是错了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.12089830000000035,
+      "input_rms": 0.04142897659301988,
+      "output_rms": 0.0132489736022731,
+      "raw_similarity": 0.477541983127594,
+      "tse_similarity": 0.25152868032455444,
+      "similarity_gain": -0.22601330280303955,
+      "raw_segment_similarities": [
+        0.476759135723114,
+        0.45486021041870117,
+        0.478324830532074
+      ],
+      "tse_segment_similarities": [
+        0.2562904953956604,
+        0.2467668652534485,
+        0.24156266400591517
+      ]
+    },
+    {
+      "id": "cmd_328.wav",
+      "label": "从医院穿回来的衣服怎么洗才够干净",
+      "raw_vad_text": "从医院穿回来的衣服怎么洗才够干净",
+      "raw_full_text": "从医院穿回来的衣服怎么洗才够干净",
+      "tse_text": "从医院穿回来的衣服怎么洗才够干净",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.23888960000000026,
+      "input_rms": 0.029630000906976102,
+      "output_rms": 0.05392099185029545,
+      "raw_similarity": 0.38667022646393756,
+      "tse_similarity": 0.36634889245033264,
+      "similarity_gain": -0.02032133401360492,
+      "raw_segment_similarities": [
+        0.3203087938015934,
+        0.3105121850967407,
+        0.45303165912628174
+      ],
+      "tse_segment_similarities": [
+        0.32725727558135986,
+        0.3053539991378784,
+        0.4054405093193054
+      ]
+    },
+    {
+      "id": "cmd_335.wav",
+      "label": "暂停卷帘",
+      "raw_vad_text": "暂停卷帘",
+      "raw_full_text": "暂停卷帘",
+      "tse_text": "暂停卷帘",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13665159999999332,
+      "input_rms": 0.09780514810335514,
+      "output_rms": 0.23897879544027448,
+      "raw_similarity": 0.5555606053454581,
+      "tse_similarity": 0.5714211463928223,
+      "similarity_gain": 0.01586054104736412,
+      "raw_segment_similarities": [
+        0.5571781992912292,
+        0.553943011399687,
+        0.5375574231147766
+      ],
+      "tse_segment_similarities": [
+        0.5730681419372559,
+        0.5697741508483887,
+        0.5567101307761825
+      ]
+    },
+    {
+      "id": "cmd_342.wav",
+      "label": "打开抽油烟机",
+      "raw_vad_text": "打开抽油烟",
+      "raw_full_text": "打开抽油烟机",
+      "tse_text": "打开抽油烟机",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1912793999999991,
+      "input_rms": 0.03435168249056563,
+      "output_rms": 0.07811703343944282,
+      "raw_similarity": 0.629825085401535,
+      "tse_similarity": 0.6377325356006622,
+      "similarity_gain": 0.007907450199127197,
+      "raw_segment_similarities": [
+        0.6156201362609863,
+        0.6440300345420837,
+        0.4216937720775604
+      ],
+      "tse_segment_similarities": [
+        0.6428818106651306,
+        0.6325832605361938,
+        0.41640164949903785
+      ]
+    },
+    {
+      "id": "cmd_349.wav",
+      "label": "吃饭了",
+      "raw_vad_text": "吃饭了",
+      "raw_full_text": "吃饭了",
+      "tse_text": "要吃饭了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.09822690000000023,
+      "input_rms": 0.0116942990477162,
+      "output_rms": 0.011385909040623024,
+      "raw_similarity": 0.3500494867592744,
+      "tse_similarity": 0.43216654253998654,
+      "similarity_gain": 0.08211705578071216,
+      "raw_segment_similarities": [
+        0.3500494867592744,
+        0.3500494867592744,
+        0.3500494867592744
+      ],
+      "tse_segment_similarities": [
+        0.43216654253998654,
+        0.43216654253998654,
+        0.43216654253998654
+      ]
+    },
+    {
+      "id": "cmd_356.wav",
+      "label": "窗帘停下",
+      "raw_vad_text": "上面提交",
+      "raw_full_text": "窗帘提现",
+      "tse_text": "上来等一下",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.12785019999999747,
+      "input_rms": 0.04887803627240926,
+      "output_rms": 0.06493016913772147,
+      "raw_similarity": 0.41100891894155256,
+      "tse_similarity": 0.3380221180929016,
+      "similarity_gain": -0.07298680084865095,
+      "raw_segment_similarities": [
+        0.29822280428137726,
+        0.39597400402867816,
+        0.42604383385442696
+      ],
+      "tse_segment_similarities": [
+        0.2419896125793457,
+        0.3346999487102001,
+        0.3413442874756031
+      ]
+    },
+    {
+      "id": "cmd_363.wav",
+      "label": "灯光有点亮",
+      "raw_vad_text": "灯光有点亮",
+      "raw_full_text": "灯光有点亮",
+      "tse_text": "灯光有点亮",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.12605920000000026,
+      "input_rms": 0.04604014123139783,
+      "output_rms": 0.068952980378813,
+      "raw_similarity": 0.5785497473805992,
+      "tse_similarity": 0.6338192624368219,
+      "similarity_gain": 0.055269515056222684,
+      "raw_segment_similarities": [
+        0.5792502510100753,
+        0.5778492437511231,
+        0.5559678409080411
+      ],
+      "tse_segment_similarities": [
+        0.5982750654220581,
+        0.6256678477327733,
+        0.6419706771408704
+      ]
+    },
+    {
+      "id": "cmd_2005.wav",
+      "label": "空调二十度",
+      "raw_vad_text": "一会空调二十度",
+      "raw_full_text": "一会空调二十度",
+      "tse_text": "一会儿打野卖萌",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15103990000000067,
+      "input_rms": 0.055797930424282834,
+      "output_rms": 0.07472907159515368,
+      "raw_similarity": 0.478853940431204,
+      "tse_similarity": 0.40749771893024445,
+      "similarity_gain": -0.07135622150095955,
+      "raw_segment_similarities": [
+        0.4755769968032837,
+        0.48213088405912424,
+        0.4453164339065552
+      ],
+      "tse_segment_similarities": [
+        0.3607282042503357,
+        0.4167700409889221,
+        0.3982253968715668
+      ]
+    },
+    {
+      "id": "cmd_2012.wav",
+      "label": "锋言疯语我想听",
+      "raw_vad_text": "亮晶晶播放播放器",
+      "raw_full_text": "我的流量攻击播放播放",
+      "tse_text": "我的流量攻击",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.30084480000000013,
+      "input_rms": 0.12654891589150866,
+      "output_rms": 0.14803295472998915,
+      "raw_similarity": 0.4625001030859264,
+      "tse_similarity": 0.668625136789886,
+      "similarity_gain": 0.20612503370395963,
+      "raw_segment_similarities": [
+        0.6660104990005493,
+        0.2589897071713035,
+        0.20093382894992828
+      ],
+      "tse_segment_similarities": [
+        0.6859069279376822,
+        0.6513433456420898,
+        0.3039783239364624
+      ]
+    },
+    {
+      "id": "cmd_2019.wav",
+      "label": "关闭节能模式",
+      "raw_vad_text": "关闭节能模式",
+      "raw_full_text": "关闭节能模式",
+      "tse_text": "重量的四分之一还",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16609370000000467,
+      "input_rms": 0.0038741341598007295,
+      "output_rms": 0.005329394991047226,
+      "raw_similarity": 0.27583447098731995,
+      "tse_similarity": 0.2992919774257402,
+      "similarity_gain": 0.02345750643842026,
+      "raw_segment_similarities": [
+        0.24265410006046295,
+        0.2872861921787262,
+        0.2643827497959137
+      ],
+      "tse_segment_similarities": [
+        0.2497474104166031,
+        0.3046775343821963,
+        0.29390642046928406
+      ]
+    },
+    {
+      "id": "cmd_2026.wav",
+      "label": "风量小一点",
+      "raw_vad_text": "放量小一点",
+      "raw_full_text": "风量小一点",
+      "tse_text": "风量小一点",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1475933999999981,
+      "input_rms": 0.01704263555985919,
+      "output_rms": 0.012537444683748084,
+      "raw_similarity": 0.5357134661503712,
+      "tse_similarity": 0.5248149350175223,
+      "similarity_gain": -0.010898531132848888,
+      "raw_segment_similarities": [
+        0.5287963467118947,
+        0.5426305855888477,
+        0.5022506716550179
+      ],
+      "tse_segment_similarities": [
+        0.525053413215483,
+        0.5245764568195616,
+        0.5237698867183856
+      ]
+    },
+    {
+      "id": "cmd_2033.wav",
+      "label": "哺乳期适宜吃什么",
+      "raw_vad_text": "哺乳期适宜吃什么",
+      "raw_full_text": "哺乳期适宜吃什么",
+      "tse_text": "哺乳期适宜吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2379650999999967,
+      "input_rms": 0.030425191289302368,
+      "output_rms": 0.0161567574993437,
+      "raw_similarity": 0.4858133782648952,
+      "tse_similarity": 0.32366173838464507,
+      "similarity_gain": -0.1621516398802501,
+      "raw_segment_similarities": [
+        0.5059470534324646,
+        0.45658087730407715,
+        0.46567970309732576
+      ],
+      "tse_segment_similarities": [
+        0.29162936160739433,
+        0.25997111201286316,
+        0.35569411516189575
+      ]
+    },
+    {
+      "id": "cmd_2040.wav",
+      "label": "打开屏幕",
+      "raw_vad_text": "连同年的博尔特",
+      "raw_full_text": "当年同年的博尔特",
+      "tse_text": "当年同年的博尔特",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14875110000000547,
+      "input_rms": 0.06833829214783961,
+      "output_rms": 0.15159623444431183,
+      "raw_similarity": 0.45118847198417616,
+      "tse_similarity": 0.43624153353223405,
+      "similarity_gain": -0.014946938451942116,
+      "raw_segment_similarities": [
+        0.4119730539305838,
+        0.419519211025191,
+        0.4828577329431613
+      ],
+      "tse_segment_similarities": [
+        0.4142698296469349,
+        0.40456801084089344,
+        0.4582132374175332
+      ]
+    },
+    {
+      "id": "cmd_2046.wav",
+      "label": "更年期要少吃什么",
+      "raw_vad_text": "八芒汽车",
+      "raw_full_text": "八方汽车盒环境",
+      "tse_text": "的八行审核环制",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17517260000000334,
+      "input_rms": 0.031009206457132902,
+      "output_rms": 0.06425860703821891,
+      "raw_similarity": 0.40139451035228435,
+      "tse_similarity": 0.5386744331449731,
+      "similarity_gain": 0.13727992279268875,
+      "raw_segment_similarities": [
+        0.443666305760521,
+        0.3591227149440476,
+        0.21096929675157647
+      ],
+      "tse_segment_similarities": [
+        0.5597527098360888,
+        0.5175961564538573,
+        0.4323040206613553
+      ]
+    },
+    {
+      "id": "cmd_2053.wav",
+      "label": "关闭节能模式",
+      "raw_vad_text": "六b节能模式",
+      "raw_full_text": "关闭节能模式i",
+      "tse_text": "七六零三模式i",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.27848900000000043,
+      "input_rms": 0.02766002977018226,
+      "output_rms": 0.026296714604540482,
+      "raw_similarity": 0.4190826117992401,
+      "tse_similarity": 0.5099534392356873,
+      "similarity_gain": 0.09087082743644714,
+      "raw_segment_similarities": [
+        0.5154576897621155,
+        0.32270753383636475,
+        0.31506985425949097
+      ],
+      "tse_segment_similarities": [
+        0.5280558466911316,
+        0.4231574237346649,
+        0.4918510317802429
+      ]
+    },
+    {
+      "id": "cmd_2060.wav",
+      "label": "开启无风模式",
+      "raw_vad_text": "涉些操纵市场那傻瓜",
+      "raw_full_text": "涉些操纵市场那傻瓜",
+      "tse_text": "涉嫌操纵市场傻瓜",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2400278,
+      "input_rms": 0.11579151760983156,
+      "output_rms": 0.23700877762898953,
+      "raw_similarity": 0.5966612597267773,
+      "tse_similarity": 0.7149407267570496,
+      "similarity_gain": 0.11827946703027226,
+      "raw_segment_similarities": [
+        0.666536490114718,
+        0.5267860293388367,
+        0.14427445828914642
+      ],
+      "tse_segment_similarities": [
+        0.7336335778236389,
+        0.6962478756904602,
+        0.14081193506717682
+      ]
+    },
+    {
+      "id": "cmd_2067.wav",
+      "label": "开启智清洁",
+      "raw_vad_text": "太极至清洁",
+      "raw_full_text": "开启至清洁",
+      "tse_text": "开启至清洁",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17076910000000112,
+      "input_rms": 0.022413792600435682,
+      "output_rms": 0.05649636247822057,
+      "raw_similarity": 0.7200440466403961,
+      "tse_similarity": 0.7117641568183899,
+      "similarity_gain": -0.008279889822006226,
+      "raw_segment_similarities": [
+        0.7167938351631165,
+        0.7232942581176758,
+        0.7118159956822393
+      ],
+      "tse_segment_similarities": [
+        0.7112407684326172,
+        0.7122875452041626,
+        0.6936089992523193
+      ]
+    },
+    {
+      "id": "cmd_2074.wav",
+      "label": "高血压适宜吃什么",
+      "raw_vad_text": "高血压是你吃什么",
+      "raw_full_text": "高血压适宜吃什么",
+      "tse_text": "高血压是你吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.157456499999995,
+      "input_rms": 0.013852786775213682,
+      "output_rms": 0.02954050234788092,
+      "raw_similarity": 0.378118559718132,
+      "tse_similarity": 0.3045254349708557,
+      "similarity_gain": -0.0735931247472763,
+      "raw_segment_similarities": [
+        0.44206708669662476,
+        0.2559908330440521,
+        0.3141700327396393
+      ],
+      "tse_segment_similarities": [
+        0.3842024505138397,
+        0.19021198153495789,
+        0.2248484194278717
+      ]
+    },
+    {
+      "id": "cmd_2081.wav",
+      "label": "风速调高",
+      "raw_vad_text": "或销售手机的计划",
+      "raw_full_text": "然后销售手机的计",
+      "tse_text": "然后销售手机的计",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1446110000000047,
+      "input_rms": 0.01785722582255155,
+      "output_rms": 0.03657961245840471,
+      "raw_similarity": 0.7462526261806488,
+      "tse_similarity": 0.7219222784042358,
+      "similarity_gain": -0.024330347776412964,
+      "raw_segment_similarities": [
+        0.7555469274520874,
+        0.7369583249092102,
+        0.7008588731800838
+      ],
+      "tse_segment_similarities": [
+        0.7364314794540405,
+        0.7074130773544312,
+        0.7019214452458289
+      ]
+    },
+    {
+      "id": "cmd_2088.wav",
+      "label": "播放小球听民乐数字歌",
+      "raw_vad_text": "播放小球星播放音乐谢谢你的爱",
+      "raw_full_text": "五十六米七的桥播放音乐谢谢你的爱",
+      "tse_text": "五十六米七的播放音乐谢谢你的爱",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.28059960000000217,
+      "input_rms": 0.012857553039127658,
+      "output_rms": 0.019391987217502075,
+      "raw_similarity": 0.3729637560801202,
+      "tse_similarity": 0.3761322967765526,
+      "similarity_gain": 0.0031685406964323537,
+      "raw_segment_similarities": [
+        0.4262292297159692,
+        0.3196982824442712,
+        0.19313580948923884
+      ],
+      "tse_segment_similarities": [
+        0.4293365138373681,
+        0.3229280797157371,
+        0.19386741184398007
+      ]
+    },
+    {
+      "id": "cmd_2094.wav",
+      "label": "打开屏幕",
+      "raw_vad_text": "打开屏幕",
+      "raw_full_text": "打开屏幕",
+      "tse_text": "打开屏幕",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19806980000000607,
+      "input_rms": 0.033252694855114555,
+      "output_rms": 0.07176577222460466,
+      "raw_similarity": 0.4516114132430741,
+      "tse_similarity": 0.38255845800390587,
+      "similarity_gain": -0.06905295523916821,
+      "raw_segment_similarities": [
+        0.4454346299171448,
+        0.45608862972787795,
+        0.44713419675827026
+      ],
+      "tse_segment_similarities": [
+        0.4020882786564993,
+        0.36302863735131247,
+        0.35905786508666665
+      ]
+    },
+    {
+      "id": "cmd_2101.wav",
+      "label": "感冒不能吃什么食物",
+      "raw_vad_text": "感冒不能吃什么食物",
+      "raw_full_text": "感冒不能吃什么食物",
+      "tse_text": "感冒不能吃什么食物",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1769458000000057,
+      "input_rms": 0.10791555883542851,
+      "output_rms": 0.12265514659185489,
+      "raw_similarity": 0.29431072141592035,
+      "tse_similarity": 0.30870798230171204,
+      "similarity_gain": 0.014397260885791685,
+      "raw_segment_similarities": [
+        0.3094600027477743,
+        0.26858246326446533,
+        0.2791614400840664
+      ],
+      "tse_segment_similarities": [
+        0.34326809644699097,
+        0.2741478681564331,
+        0.1707621318556149
+      ]
+    },
+    {
+      "id": "cmd_2108.wav",
+      "label": "科技有意思我想听",
+      "raw_vad_text": "科技有意识我想听",
+      "raw_full_text": "科技有一时我想听",
+      "tse_text": "合技有意时我想听",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18684139999999871,
+      "input_rms": 0.037580506340441064,
+      "output_rms": 0.05104657469038889,
+      "raw_similarity": 0.43554532527923584,
+      "tse_similarity": 0.42621083784205255,
+      "similarity_gain": -0.009334487437183292,
+      "raw_segment_similarities": [
+        0.4617636799812317,
+        0.40932697057724,
+        0.3298495608478523
+      ],
+      "tse_segment_similarities": [
+        0.4619829103967058,
+        0.3904387652873993,
+        0.2412082701921463
+      ]
+    },
+    {
+      "id": "cmd_2115.wav",
+      "label": "播放鬼畜洗脑神曲",
+      "raw_vad_text": "天会变放鬼畜嬉闹神情",
+      "raw_full_text": "一天会鬼鬼鬼闹二零一五",
+      "tse_text": "播放鬼畜嬉闹神曲",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1828523000000004,
+      "input_rms": 0.029338689624088907,
+      "output_rms": 0.04584126768385075,
+      "raw_similarity": 0.5330518782138824,
+      "tse_similarity": 0.6042487323284149,
+      "similarity_gain": 0.07119685411453247,
+      "raw_segment_similarities": [
+        0.4716607332229614,
+        0.5661187171936035,
+        0.4999850392341614
+      ],
+      "tse_segment_similarities": [
+        0.6050103306770325,
+        0.5861812829971313,
+        0.6034871339797974
+      ]
+    },
+    {
+      "id": "cmd_2122.wav",
+      "label": "风向调到下边",
+      "raw_vad_text": "谢谢你们向我们汇报",
+      "raw_full_text": "谢谢你们向我汇报此",
+      "tse_text": "力力谢谢你们向我们汇报此",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2565012000000024,
+      "input_rms": 0.06776446605382562,
+      "output_rms": 0.09170026972087048,
+      "raw_similarity": 0.3394794368433617,
+      "tse_similarity": 0.2571603511071414,
+      "similarity_gain": -0.08231908573622027,
+      "raw_segment_similarities": [
+        0.4187465559689138,
+        0.26021231771780956,
+        0.11698929965496063
+      ],
+      "tse_segment_similarities": [
+        0.3472513763458357,
+        0.16706932586844717,
+        0.0627306998051047
+      ]
+    },
+    {
+      "id": "cmd_2129.wav",
+      "label": "开启自动模式",
+      "raw_vad_text": "开启自动模式",
+      "raw_full_text": "开启自动模式",
+      "tse_text": "开启自动模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17126109999999528,
+      "input_rms": 0.020346869332632446,
+      "output_rms": 0.03369729365274495,
+      "raw_similarity": 0.5762944519519806,
+      "tse_similarity": 0.573294460773468,
+      "similarity_gain": -0.0029999911785125732,
+      "raw_segment_similarities": [
+        0.5076741576194763,
+        0.58729088306427,
+        0.5652980208396912
+      ],
+      "tse_segment_similarities": [
+        0.5248699188232422,
+        0.5902755856513977,
+        0.5563133358955383
+      ]
+    },
+    {
+      "id": "cmd_2135.wav",
+      "label": "播放女神的贴身高手",
+      "raw_vad_text": "播放女神的贴身高手",
+      "raw_full_text": "播放女神的贴身高手",
+      "tse_text": "播放女神的贴身房红包",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.23794089999999812,
+      "input_rms": 0.05909197897807946,
+      "output_rms": 0.06427107735710637,
+      "raw_similarity": 0.5811052024364471,
+      "tse_similarity": 0.5382659887505907,
+      "similarity_gain": -0.042839213685856414,
+      "raw_segment_similarities": [
+        0.5724723935127258,
+        0.5345112085342407,
+        0.5897380113601685
+      ],
+      "tse_segment_similarities": [
+        0.4142097234725952,
+        0.5590875148773193,
+        0.5174444626238622
+      ]
+    },
+    {
+      "id": "cmd_2142.wav",
+      "label": "空调左右摆风",
+      "raw_vad_text": "空调左右摆风",
+      "raw_full_text": "空调左右摆风",
+      "tse_text": "空调左右摆风",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21618529999999936,
+      "input_rms": 0.014142145770210389,
+      "output_rms": 0.020733240774959055,
+      "raw_similarity": 0.008262528106570244,
+      "tse_similarity": 0.011150442063808441,
+      "similarity_gain": 0.0028879139572381973,
+      "raw_segment_similarities": [
+        0.0041662901639938354,
+        0.012358766049146652,
+        -0.0288268158630619
+      ],
+      "tse_segment_similarities": [
+        0.005658615380525589,
+        0.016642268747091293,
+        -0.04799094423651695
+      ]
+    },
+    {
+      "id": "cmd_2149.wav",
+      "label": "降低一度",
+      "raw_vad_text": "降低一度",
+      "raw_full_text": "降低一度",
+      "tse_text": "降低一度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16773680000000013,
+      "input_rms": 0.007247410373219513,
+      "output_rms": 0.002106433767368787,
+      "raw_similarity": 0.38963872671003685,
+      "tse_similarity": 0.36846481969742895,
+      "similarity_gain": -0.021173907012607907,
+      "raw_segment_similarities": [
+        0.35818787563966964,
+        0.3985963701365215,
+        0.38068108328355216
+      ],
+      "tse_segment_similarities": [
+        0.30751850053778296,
+        0.3957230088545685,
+        0.3412066305402893
+      ]
+    },
+    {
+      "id": "cmd_2156.wav",
+      "label": "关掉节能模式",
+      "raw_vad_text": "关掉女色套拍不雅视频敲诈",
+      "raw_full_text": "关掉镜子社套拍不雅视频敲诈吧",
+      "tse_text": "关掉监控就使拍不雅视频敲诈了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.23138000000000147,
+      "input_rms": 0.07068383325830911,
+      "output_rms": 0.14173373926772637,
+      "raw_similarity": 0.22349083423614502,
+      "tse_similarity": 0.3290492641359129,
+      "similarity_gain": 0.10555842989976788,
+      "raw_segment_similarities": [
+        0.32201138138771057,
+        0.12497028708457947,
+        -0.022748202085494995
+      ],
+      "tse_segment_similarities": [
+        0.41219776345478076,
+        0.245900764817045,
+        0.024276217445731163
+      ]
+    },
+    {
+      "id": "cmd_2163.wav",
+      "label": "风摆向下边",
+      "raw_vad_text": "好像上过下边",
+      "raw_full_text": "好像上过下边",
+      "tse_text": "个股行情过渡",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2159013999999999,
+      "input_rms": 0.01919024476934212,
+      "output_rms": 0.03478056462189899,
+      "raw_similarity": 0.3420533219113374,
+      "tse_similarity": 0.5924916918570812,
+      "similarity_gain": 0.25043836994574376,
+      "raw_segment_similarities": [
+        0.3768293036920274,
+        0.255453184572052,
+        0.30727734013064745
+      ],
+      "tse_segment_similarities": [
+        0.6002139210828495,
+        0.5692434989504197,
+        0.5847694626313128
+      ]
+    },
+    {
+      "id": "cmd_2170.wav",
+      "label": "风摆向右边",
+      "raw_vad_text": "风摆向右边",
+      "raw_full_text": "风摆向右边",
+      "tse_text": "和运队",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.133892000000003,
+      "input_rms": 0.0024871883947196415,
+      "output_rms": 0.003488508986072281,
+      "raw_similarity": 0.29715013135016505,
+      "tse_similarity": 0.33738066776875664,
+      "similarity_gain": 0.04023053641859159,
+      "raw_segment_similarities": [
+        0.2735989554881427,
+        0.28187993548869217,
+        0.3124203272116379
+      ],
+      "tse_segment_similarities": [
+        0.34416290188806664,
+        0.3305984336494466,
+        0.26835818698156994
+      ]
+    },
+    {
+      "id": "cmd_2177.wav",
+      "label": "播放大红妈妈精心讲绘本",
+      "raw_vad_text": "播放大红妈妈精心讲绘本",
+      "raw_full_text": "播放大红妈妈精星讲绘本",
+      "tse_text": "播放大红妈妈精心讲绘本",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2542443999999975,
+      "input_rms": 0.057616211600636076,
+      "output_rms": 0.06792919499503458,
+      "raw_similarity": 0.23136107623577118,
+      "tse_similarity": 0.25973272951978593,
+      "similarity_gain": 0.028371653284014753,
+      "raw_segment_similarities": [
+        0.16717204451560974,
+        0.1782098114490509,
+        0.28451234102249146
+      ],
+      "tse_segment_similarities": [
+        0.21084604923999603,
+        0.18432387709617615,
+        0.3086194097995758
+      ]
+    },
+    {
+      "id": "cmd_2183.wav",
+      "label": "播放伟人",
+      "raw_vad_text": "医我为生",
+      "raw_full_text": "因为我们在",
+      "tse_text": "因为我们在",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18124270000000564,
+      "input_rms": 0.0027169255869052477,
+      "output_rms": 0.0028993454521635182,
+      "raw_similarity": 0.5105131418696027,
+      "tse_similarity": 0.43292027711868286,
+      "similarity_gain": -0.07759286475091987,
+      "raw_segment_similarities": [
+        0.5170563459396362,
+        0.478560237798705,
+        0.5039699377995692
+      ],
+      "tse_segment_similarities": [
+        0.43363863229751587,
+        0.4096482640295186,
+        0.43220192193984985
+      ]
+    },
+    {
+      "id": "cmd_2190.wav",
+      "label": "关掉智清洁",
+      "raw_vad_text": "国恩对长沙马拉松也有着特殊的",
+      "raw_full_text": "同意对长沙马拉松也有着特殊的感觉",
+      "tse_text": "关掉至新集",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19752910000000412,
+      "input_rms": 0.03396813112774921,
+      "output_rms": 0.03900754461613023,
+      "raw_similarity": 0.14707164466381073,
+      "tse_similarity": 0.3521795868873596,
+      "similarity_gain": 0.2051079422235489,
+      "raw_segment_similarities": [
+        0.1625801920890808,
+        0.13156309723854065,
+        0.040397629141807556
+      ],
+      "tse_segment_similarities": [
+        0.30271488428115845,
+        0.3655679523944855,
+        0.33879122138023376
+      ]
+    },
+    {
+      "id": "cmd_2197.wav",
+      "label": "锋言疯语我想听",
+      "raw_vad_text": "伴侣我想听",
+      "raw_full_text": "今年大米我想听",
+      "tse_text": "风言不语我想听",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17606560000000115,
+      "input_rms": 0.001859805664094431,
+      "output_rms": 0.002007280574856712,
+      "raw_similarity": 0.23441527673343548,
+      "tse_similarity": 0.18612760180721016,
+      "similarity_gain": -0.04828767492622532,
+      "raw_segment_similarities": [
+        0.2559173107147217,
+        0.21291324275214926,
+        0.09185598593091882
+      ],
+      "tse_segment_similarities": [
+        0.16409209370613098,
+        0.20816310990828932,
+        0.11336640199222577
+      ]
+    },
+    {
+      "id": "cmd_2204.wav",
+      "label": "播放激情手风琴曲选集",
+      "raw_vad_text": "播放激情手工词选集",
+      "raw_full_text": "播放激情手工词选集",
+      "tse_text": "北京发多少现场企业沃岗是s五有零",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.28084379999999953,
+      "input_rms": 0.1098786491711295,
+      "output_rms": 0.16642995629971863,
+      "raw_similarity": 0.2863421389392574,
+      "tse_similarity": 0.2683826684951782,
+      "similarity_gain": -0.017959470444079195,
+      "raw_segment_similarities": [
+        0.3297718661887566,
+        0.2429124116897583,
+        0.18595640361309052
+      ],
+      "tse_segment_similarities": [
+        0.34711503982543945,
+        0.189650297164917,
+        0.05346708744764328
+      ]
+    },
+    {
+      "id": "cmd_2211.wav",
+      "label": "风速调高一点",
+      "raw_vad_text": "风险调高一点",
+      "raw_full_text": "工资调高一点",
+      "tse_text": "风险调高一点",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1470643000000038,
+      "input_rms": 0.0019646216588051243,
+      "output_rms": 0.0024589593203140302,
+      "raw_similarity": 0.40218947244819836,
+      "tse_similarity": 0.427938677572777,
+      "similarity_gain": 0.025749205124578622,
+      "raw_segment_similarities": [
+        0.4009817779649364,
+        0.40076988344013,
+        0.4033971669314603
+      ],
+      "tse_segment_similarities": [
+        0.45496901601368284,
+        0.3672538241450564,
+        0.4009083391318711
+      ]
+    },
+    {
+      "id": "cmd_2218.wav",
+      "label": "把空调关闭",
+      "raw_vad_text": "把空调关闭",
+      "raw_full_text": "把空调关闭",
+      "tse_text": "把空调关闭",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17113179999999772,
+      "input_rms": 0.016386515126018658,
+      "output_rms": 0.006242697959079653,
+      "raw_similarity": 0.2381627396539131,
+      "tse_similarity": 0.21435336343686068,
+      "similarity_gain": -0.023809376217052425,
+      "raw_segment_similarities": [
+        0.20106828827886825,
+        0.2268189760230743,
+        0.24950650328475188
+      ],
+      "tse_segment_similarities": [
+        0.2192940675370766,
+        0.20750590905582364,
+        0.20941265933664477
+      ]
+    },
+    {
+      "id": "cmd_2225.wav",
+      "label": "加大风量",
+      "raw_vad_text": "管一下大葱丁",
+      "raw_full_text": "管一下大葱丁",
+      "tse_text": "饭馆休息厅",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14277769999999634,
+      "input_rms": 0.05487162809574232,
+      "output_rms": 0.06184212706272733,
+      "raw_similarity": 0.4837092900322224,
+      "tse_similarity": 0.4848574995994568,
+      "similarity_gain": 0.0011482095672343817,
+      "raw_segment_similarities": [
+        0.4742870032787323,
+        0.4801544833275368,
+        0.48726409673690796
+      ],
+      "tse_segment_similarities": [
+        0.4735810458660126,
+        0.46021735668182373,
+        0.496133953332901
+      ]
+    },
+    {
+      "id": "cmd_2231.wav",
+      "label": "便秘不适合吃什么",
+      "raw_vad_text": "便秘不适合吃什么",
+      "raw_full_text": "便秘不适合吃什么",
+      "tse_text": "便秘不适合吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2036270999999985,
+      "input_rms": 0.0024644239917731453,
+      "output_rms": 0.0049728976739930805,
+      "raw_similarity": 0.48870253428250787,
+      "tse_similarity": 0.5423915709490521,
+      "similarity_gain": 0.05368903666654423,
+      "raw_segment_similarities": [
+        0.4655682403526576,
+        0.5118368282123581,
+        0.38837434510878727
+      ],
+      "tse_segment_similarities": [
+        0.4817272711829705,
+        0.5595161056230131,
+        0.525267036275091
+      ]
+    },
+    {
+      "id": "cmd_2238.wav",
+      "label": "播放神笔马良",
+      "raw_vad_text": "自己的方式是一样的",
+      "raw_full_text": "自己的方式是一样的",
+      "tse_text": "自己的方式身体一样",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17281380000000013,
+      "input_rms": 0.06773882953193663,
+      "output_rms": 0.07707873951054983,
+      "raw_similarity": 0.42915743589401245,
+      "tse_similarity": 0.49146224489614543,
+      "similarity_gain": 0.06230480900213298,
+      "raw_segment_similarities": [
+        0.3434467911720276,
+        0.40948981046676636,
+        0.44882506132125854
+      ],
+      "tse_segment_similarities": [
+        0.4769350574573909,
+        0.5059894323348999,
+        0.47666317224502563
+      ]
+    },
+    {
+      "id": "cmd_2245.wav",
+      "label": "防脱发推荐吃哪些食物",
+      "raw_vad_text": "防脱发推荐吃哪些食物",
+      "raw_full_text": "防脱发推荐吃哪些食物",
+      "tse_text": "防脱发推荐吃哪些食物",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2177070000000043,
+      "input_rms": 0.059817689699646695,
+      "output_rms": 0.06537977493413628,
+      "raw_similarity": 0.26010478309252827,
+      "tse_similarity": 0.24278520047664642,
+      "similarity_gain": -0.017319582615881846,
+      "raw_segment_similarities": [
+        0.20981261134147644,
+        0.2571529899330729,
+        0.26305657625198364
+      ],
+      "tse_segment_similarities": [
+        0.22297403216362,
+        0.21214563918981785,
+        0.26259636878967285
+      ]
+    },
+    {
+      "id": "cmd_2252.wav",
+      "label": "备孕适合吃什么",
+      "raw_vad_text": "备孕适合吃什么",
+      "raw_full_text": "备孕适合吃什么",
+      "tse_text": "其他老板指定没有的",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21065670000000125,
+      "input_rms": 0.010509831977697602,
+      "output_rms": 0.007759060309831485,
+      "raw_similarity": 0.3935985118150711,
+      "tse_similarity": 0.16541744023561478,
+      "similarity_gain": -0.22818107157945633,
+      "raw_segment_similarities": [
+        0.35403674840927124,
+        0.36787962913513184,
+        0.4193173944950104
+      ],
+      "tse_segment_similarities": [
+        0.2260197103023529,
+        0.09581517254204587,
+        0.10481517016887665
+      ]
+    },
+    {
+      "id": "cmd_2259.wav",
+      "label": "加热故障",
+      "raw_vad_text": "加热故障",
+      "raw_full_text": "加热故障",
+      "tse_text": "十八点四九",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1417522000000062,
+      "input_rms": 0.0027292632080105532,
+      "output_rms": 0.003008960972356863,
+      "raw_similarity": 0.3169134448119071,
+      "tse_similarity": 0.1882295422690834,
+      "similarity_gain": -0.1286839025428237,
+      "raw_segment_similarities": [
+        0.3169134448119071,
+        0.3169134448119071,
+        0.3169134448119071
+      ],
+      "tse_segment_similarities": [
+        0.1882295422690834,
+        0.1882295422690834,
+        0.1882295422690834
+      ]
+    },
+    {
+      "id": "cmd_2266.wav",
+      "label": "更年期建议吃什么",
+      "raw_vad_text": "一年级下有车吗",
+      "raw_full_text": "安全反应的保障",
+      "tse_text": "安全无法得到到保障",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19459840000000383,
+      "input_rms": 0.10830571960989249,
+      "output_rms": 0.15908940803688226,
+      "raw_similarity": 0.350418563299393,
+      "tse_similarity": 0.2681614090607396,
+      "similarity_gain": -0.08225715423865343,
+      "raw_segment_similarities": [
+        0.3537671776871191,
+        0.34706994891166687,
+        0.31226611137390137
+      ],
+      "tse_segment_similarities": [
+        0.27097004652023315,
+        0.2653527716012461,
+        0.23630169034004211
+      ]
+    },
+    {
+      "id": "cmd_2272.wav",
+      "label": "关闭eco模式",
+      "raw_vad_text": "关闭eco模式",
+      "raw_full_text": "关闭eco模式",
+      "tse_text": "关闭eco模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15815179999999884,
+      "input_rms": 0.0019510150781689682,
+      "output_rms": 0.003411106942176163,
+      "raw_similarity": 0.4913696050643921,
+      "tse_similarity": 0.4920807480812073,
+      "similarity_gain": 0.0007111430168151855,
+      "raw_segment_similarities": [
+        0.44547247886657715,
+        0.4813975691795349,
+        0.5013416409492493
+      ],
+      "tse_segment_similarities": [
+        0.45905768871307373,
+        0.4827665090560913,
+        0.5013949871063232
+      ]
+    },
+    {
+      "id": "cmd_2279.wav",
+      "label": "打开左右风",
+      "raw_vad_text": "打开左右风机",
+      "raw_full_text": "打开左右风屏",
+      "tse_text": "轮到了开左右风",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21337390000000056,
+      "input_rms": 0.036283975880575525,
+      "output_rms": 0.06818734731175333,
+      "raw_similarity": 0.4335620229251188,
+      "tse_similarity": 0.3976241648197174,
+      "similarity_gain": -0.0359378581054014,
+      "raw_segment_similarities": [
+        0.4511007070541382,
+        0.4160233387960994,
+        0.14616695917647834
+      ],
+      "tse_segment_similarities": [
+        0.4135339856147766,
+        0.36909057909790155,
+        0.3817143440246582
+      ]
+    },
+    {
+      "id": "cmd_2286.wav",
+      "label": "把温度调到二十五度",
+      "raw_vad_text": "把温度调到二十五度",
+      "raw_full_text": "把温度调到二十五度重点是",
+      "tse_text": "把温度高到二十五度重点是",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1566272999999967,
+      "input_rms": 0.021321329624911237,
+      "output_rms": 0.02359463254026681,
+      "raw_similarity": 0.4342423677444458,
+      "tse_similarity": 0.44091482248048564,
+      "similarity_gain": 0.0066724547360398345,
+      "raw_segment_similarities": [
+        0.4129803776741028,
+        0.38460615277290344,
+        0.4555043578147888
+      ],
+      "tse_segment_similarities": [
+        0.45311611890792847,
+        0.42203869951002,
+        0.42871352605304275
+      ]
+    },
+    {
+      "id": "cmd_2293.wav",
+      "label": "把风速调大一点",
+      "raw_vad_text": "大连远洋运输公司",
+      "raw_full_text": "大连远洋运输公司",
+      "tse_text": "把声速调大一点",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2898090999999994,
+      "input_rms": 0.037902406651095455,
+      "output_rms": 0.05416234584501125,
+      "raw_similarity": 0.11653997376561165,
+      "tse_similarity": 0.27456142008304596,
+      "similarity_gain": 0.1580214463174343,
+      "raw_segment_similarities": [
+        0.12029025703668594,
+        0.11278969049453735,
+        0.09515152126550674
+      ],
+      "tse_segment_similarities": [
+        0.27955231070518494,
+        0.20185306668281555,
+        0.269570529460907
+      ]
+    },
+    {
+      "id": "cmd_2300.wav",
+      "label": "关闭省电模式",
+      "raw_vad_text": "关闭省电模式",
+      "raw_full_text": "关闭省电模式",
+      "tse_text": "关闭省电模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17310799999999915,
+      "input_rms": 0.06902987128693629,
+      "output_rms": 0.1461863729068925,
+      "raw_similarity": 0.3547999061308774,
+      "tse_similarity": 0.3918367177248001,
+      "similarity_gain": 0.03703681159392269,
+      "raw_segment_similarities": [
+        0.32387491010873976,
+        0.32309970259666443,
+        0.38572490215301514
+      ],
+      "tse_segment_similarities": [
+        0.37874433398246765,
+        0.34635528922080994,
+        0.40492910146713257
+      ]
+    },
+    {
+      "id": "cmd_2307.wav",
+      "label": "科技不怕问我想听",
+      "raw_vad_text": "科技不怕问我想听",
+      "raw_full_text": "科技不怕问我想听",
+      "tse_text": "科技不怕问我想听",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21910970000000418,
+      "input_rms": 0.012084451619358559,
+      "output_rms": 0.0025813675634786585,
+      "raw_similarity": 0.5317202210426331,
+      "tse_similarity": 0.5142878592014313,
+      "similarity_gain": -0.017432361841201782,
+      "raw_segment_similarities": [
+        0.5012177228927612,
+        0.5606467723846436,
+        0.5027936697006226
+      ],
+      "tse_segment_similarities": [
+        0.4351666569709778,
+        0.502983033657074,
+        0.5255926847457886
+      ]
+    },
+    {
+      "id": "cmd_2314.wav",
+      "label": "儿童要少吃什么",
+      "raw_vad_text": "儿童要少吃什么",
+      "raw_full_text": "儿童要少吃什么",
+      "tse_text": "儿童要少吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1784934000000007,
+      "input_rms": 0.03162089612959355,
+      "output_rms": 0.07484597643476433,
+      "raw_similarity": 0.4288589060306549,
+      "tse_similarity": 0.4839683473110199,
+      "similarity_gain": 0.05510944128036499,
+      "raw_segment_similarities": [
+        0.41065514087677,
+        0.4470626711845398,
+        0.38400256633758545
+      ],
+      "tse_segment_similarities": [
+        0.43089618867016966,
+        0.5011568069458008,
+        0.466779887676239
+      ]
+    },
+    {
+      "id": "cmd_2320.wav",
+      "label": "补血推荐吃哪些食物",
+      "raw_vad_text": "补邪推荐吃哪些食物",
+      "raw_full_text": "补血推荐吃哪些食物",
+      "tse_text": "补鞋推步车男",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.3293048999999968,
+      "input_rms": 0.10846465039309733,
+      "output_rms": 0.08920477579539358,
+      "raw_similarity": 0.40995139836975325,
+      "tse_similarity": 0.40209040952267705,
+      "similarity_gain": -0.0078609888470762,
+      "raw_segment_similarities": [
+        0.4729681892972105,
+        0.346934607442296,
+        0.2702898705351189
+      ],
+      "tse_segment_similarities": [
+        0.4425972665904323,
+        0.36158355245492174,
+        0.18217141117708752
+      ]
+    },
+    {
+      "id": "cmd_2327.wav",
+      "label": "降低温度",
+      "raw_vad_text": "结个微信吗",
+      "raw_full_text": "结婚证是吗",
+      "tse_text": "简持工作了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20585969999999776,
+      "input_rms": 0.01550535595519495,
+      "output_rms": 0.018358915368214608,
+      "raw_similarity": 0.48890358218382435,
+      "tse_similarity": 0.42120441794395447,
+      "similarity_gain": -0.06769916423986988,
+      "raw_segment_similarities": [
+        0.5029435457553593,
+        0.4748302102088928,
+        0.47486361861228943
+      ],
+      "tse_segment_similarities": [
+        0.4030214548110962,
+        0.4181649684906006,
+        0.42424386739730835
+      ]
+    },
+    {
+      "id": "cmd_2334.wav",
+      "label": "风往右吹",
+      "raw_vad_text": "净资产的主要",
+      "raw_full_text": "凤凰县资产",
+      "tse_text": "说放是千笔图",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18121010000000126,
+      "input_rms": 0.06129809962010172,
+      "output_rms": 0.05731366108296332,
+      "raw_similarity": 0.14936966171716498,
+      "tse_similarity": 0.2477681719012606,
+      "similarity_gain": 0.09839851018409562,
+      "raw_segment_similarities": [
+        0.14178770780563354,
+        0.15695161562869642,
+        0.056647553691122156
+      ],
+      "tse_segment_similarities": [
+        0.27582515930087326,
+        0.21971118450164795,
+        0.2091079776947485
+      ]
+    },
+    {
+      "id": "cmd_2341.wav",
+      "label": "往上吹",
+      "raw_vad_text": "我上车饭饭",
+      "raw_full_text": "晚上吃一饭把",
+      "tse_text": "晚上三午饭八午半",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1379632000000015,
+      "input_rms": 0.005934077724666301,
+      "output_rms": 0.0054496312646476995,
+      "raw_similarity": 0.22726424783468246,
+      "tse_similarity": 0.3361464343158266,
+      "similarity_gain": 0.10888218648114412,
+      "raw_segment_similarities": [
+        0.22679418325424194,
+        0.22773431241512299,
+        0.22235543861123552
+      ],
+      "tse_segment_similarities": [
+        0.3273988859295181,
+        0.344893982702135,
+        0.31580549478530884
+      ]
+    },
+    {
+      "id": "cmd_2348.wav",
+      "label": "腹泻不建议吃哪些食物",
+      "raw_vad_text": "腹泻不建议吃哪些食物",
+      "raw_full_text": "腹泻不建议吃哪些食物",
+      "tse_text": "腹泻不建议吃哪些食物",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2216620999999961,
+      "input_rms": 0.007687843138234846,
+      "output_rms": 0.008231409207506082,
+      "raw_similarity": 0.02922563347965479,
+      "tse_similarity": 0.07337816804647446,
+      "similarity_gain": 0.04415253456681967,
+      "raw_segment_similarities": [
+        0.0023549795150756836,
+        0.015888148918747902,
+        0.042563118040561676
+      ],
+      "tse_segment_similarities": [
+        0.02229955606162548,
+        0.03759931027889252,
+        0.1091570258140564
+      ]
+    },
+    {
+      "id": "cmd_2355.wav",
+      "label": "播放恐龙大陆",
+      "raw_vad_text": "股权基金的正视法律法规大陆",
+      "raw_full_text": "股权基金的正视法律法规大陆",
+      "tse_text": "播放恐龙大陆",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.23762789999999967,
+      "input_rms": 0.07973898330791183,
+      "output_rms": 0.10835977672972115,
+      "raw_similarity": 0.41175947755858533,
+      "tse_similarity": 0.35173486556856265,
+      "similarity_gain": -0.06002461199002268,
+      "raw_segment_similarities": [
+        0.31486445665359497,
+        0.43342387676239014,
+        0.3900950783547806
+      ],
+      "tse_segment_similarities": [
+        0.3582400848579306,
+        0.3452296462791947,
+        0.2877478003501892
+      ]
+    },
+    {
+      "id": "cmd_2362.wav",
+      "label": "风速降低",
+      "raw_vad_text": "连人员部速降低人误感",
+      "raw_full_text": "连人员部速降低人误感",
+      "tse_text": "连人员已全部找齐",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17255139999999614,
+      "input_rms": 0.08185232608973755,
+      "output_rms": 0.14789452502146244,
+      "raw_similarity": 0.6273993215686824,
+      "tse_similarity": 0.36210488022276255,
+      "similarity_gain": -0.26529444134591984,
+      "raw_segment_similarities": [
+        0.6371747635111071,
+        0.6176238796262575,
+        0.5862585408995775
+      ],
+      "tse_segment_similarities": [
+        0.3560930914989806,
+        0.3681166689465445,
+        0.31317047037726176
+      ]
+    },
+    {
+      "id": "cmd_2368.wav",
+      "label": "播放睡前故事",
+      "raw_vad_text": "播放事情山东",
+      "raw_full_text": "播放事情山东医语",
+      "tse_text": "呼浩自己山东一沂",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18571650000000517,
+      "input_rms": 0.09266400659904638,
+      "output_rms": 0.10792739868961716,
+      "raw_similarity": 0.23876580595970154,
+      "tse_similarity": 0.28201231360435486,
+      "similarity_gain": 0.04324650764465332,
+      "raw_segment_similarities": [
+        0.2707734704017639,
+        0.20675814151763916,
+        0.20141544938087463
+      ],
+      "tse_segment_similarities": [
+        0.3136864900588989,
+        0.2167556881904602,
+        0.2503381371498108
+      ]
+    },
+    {
+      "id": "cmd_2375.wav",
+      "label": "吃什么有利于防辐射",
+      "raw_vad_text": "直睡我今天的心情不好",
+      "raw_full_text": "直睡我今天的心情不好",
+      "tse_text": "直睡我今天心情不不好好",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2355492999999953,
+      "input_rms": 0.008551417648022976,
+      "output_rms": 0.013534363155528735,
+      "raw_similarity": 0.23155736178159714,
+      "tse_similarity": 0.3319224047146627,
+      "similarity_gain": 0.10036504293306558,
+      "raw_segment_similarities": [
+        0.32958680391311646,
+        0.13352791965007782,
+        0.00011168792843818665
+      ],
+      "tse_segment_similarities": [
+        0.4055701792240143,
+        0.2582746302053112,
+        0.11799696087837219
+      ]
+    },
+    {
+      "id": "cmd_2382.wav",
+      "label": "关掉节能模式",
+      "raw_vad_text": "关掉节能模式",
+      "raw_full_text": "关掉节能模式",
+      "tse_text": "报一下背后的秘有多少",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19600889999999538,
+      "input_rms": 0.03643885409955893,
+      "output_rms": 0.04128045349036865,
+      "raw_similarity": 0.48116077268996527,
+      "tse_similarity": 0.17678868025541306,
+      "similarity_gain": -0.3043720924345522,
+      "raw_segment_similarities": [
+        0.5340286493301392,
+        0.4282928960497913,
+        0.4108162767181561
+      ],
+      "tse_segment_similarities": [
+        0.1511913239955902,
+        0.15121014416217804,
+        0.20236721634864807
+      ]
+    },
+    {
+      "id": "cmd_2389.wav",
+      "label": "播放卡尔经典绘本音频",
+      "raw_vad_text": "播放卡尔经典绘本音频",
+      "raw_full_text": "播放卡尔经典绘本音频",
+      "tse_text": "显督平卑之我相信自己",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.23199860000000427,
+      "input_rms": 0.08963906254229595,
+      "output_rms": 0.0995320599811291,
+      "raw_similarity": 0.31254207470421813,
+      "tse_similarity": 0.2562719784263029,
+      "similarity_gain": -0.05627009627791524,
+      "raw_segment_similarities": [
+        0.29280160622606316,
+        0.33228254318237305,
+        0.17747944593429565
+      ],
+      "tse_segment_similarities": [
+        0.3389331102371216,
+        0.17361084661548415,
+        0.1654558777809143
+      ]
+    },
+    {
+      "id": "cmd_2396.wav",
+      "label": "高血糖要吃什么好",
+      "raw_vad_text": "零一高血糖要吃什么当导演店",
+      "raw_full_text": "零一高血糖要吃什么当导演店",
+      "tse_text": "零一高血糖要吃什么好导演",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.3050260999999992,
+      "input_rms": 0.0805018802436851,
+      "output_rms": 0.10462449067622388,
+      "raw_similarity": 0.30916228529744033,
+      "tse_similarity": 0.3717992434042213,
+      "similarity_gain": 0.062636958106781,
+      "raw_segment_similarities": [
+        0.3576715801758516,
+        0.26065299041902906,
+        0.12814366817474365
+      ],
+      "tse_segment_similarities": [
+        0.43045839252819973,
+        0.3131400942802429,
+        0.23759245872497559
+      ]
+    },
+    {
+      "id": "cmd_2403.wav",
+      "label": "防直吹模式",
+      "raw_vad_text": "玩微信模式一",
+      "raw_full_text": "支维码mvip",
+      "tse_text": "戒指因为我也是第",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1967605999999975,
+      "input_rms": 0.02084515973755423,
+      "output_rms": 0.03861079113274566,
+      "raw_similarity": 0.4636281728744507,
+      "tse_similarity": 0.37527527920825027,
+      "similarity_gain": -0.08835289366620042,
+      "raw_segment_similarities": [
+        0.43890464305877686,
+        0.4883517026901245,
+        0.37076273560523987
+      ],
+      "tse_segment_similarities": [
+        0.4130763113498688,
+        0.33747424706663176,
+        0.24071364049396757
+      ]
+    },
+    {
+      "id": "cmd_2409.wav",
+      "label": "打开eco模式",
+      "raw_vad_text": "电软搜无科技",
+      "raw_full_text": "打开一些我们的科技",
+      "tse_text": "变软搜狐科技",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15829459999999784,
+      "input_rms": 0.15792328020087126,
+      "output_rms": 0.28200333422953605,
+      "raw_similarity": 0.3538210469717109,
+      "tse_similarity": 0.39563070237636566,
+      "similarity_gain": 0.041809655404654755,
+      "raw_segment_similarities": [
+        0.38039054040796044,
+        0.18898436427116394,
+        0.3272515535354614
+      ],
+      "tse_segment_similarities": [
+        0.3926832675933838,
+        0.3041525664420465,
+        0.39857813715934753
+      ]
+    },
+    {
+      "id": "cmd_2416.wav",
+      "label": "开启自动模式",
+      "raw_vad_text": "开启自动模式",
+      "raw_full_text": "开启自动模式",
+      "tse_text": "开启自动模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21121510000000399,
+      "input_rms": 0.012482435039039015,
+      "output_rms": 0.011963172873212977,
+      "raw_similarity": 0.3620265606696069,
+      "tse_similarity": 0.3221847799044574,
+      "similarity_gain": -0.03984178076514955,
+      "raw_segment_similarities": [
+        0.32959680733661695,
+        0.3359240195705902,
+        0.38812910176862364
+      ],
+      "tse_segment_similarities": [
+        0.32475958165640495,
+        0.31960997815250974,
+        0.3153324315150041
+      ]
+    },
+    {
+      "id": "cmd_2423.wav",
+      "label": "开到二十度",
+      "raw_vad_text": "开到二十度",
+      "raw_full_text": "开到二十度",
+      "tse_text": "开到二十度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1532384999999934,
+      "input_rms": 0.011215931401254452,
+      "output_rms": 0.003584123158803823,
+      "raw_similarity": 0.1650865599513054,
+      "tse_similarity": 0.1848120872221411,
+      "similarity_gain": 0.019725527270835708,
+      "raw_segment_similarities": [
+        0.1557959020137787,
+        0.165708988904953,
+        0.16446413099765778
+      ],
+      "tse_segment_similarities": [
+        0.1763608753681183,
+        0.175234854221344,
+        0.19326329907616388
+      ]
+    },
+    {
+      "id": "cmd_2430.wav",
+      "label": "风摆向右",
+      "raw_vad_text": "大家想有",
+      "raw_full_text": "冻干香油",
+      "tse_text": "亲自下小乡走访",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1679048000000023,
+      "input_rms": 0.019331033277963254,
+      "output_rms": 0.023729695909453313,
+      "raw_similarity": 0.26392179098181334,
+      "tse_similarity": 0.26978019890029015,
+      "similarity_gain": 0.0058584079184768045,
+      "raw_segment_similarities": [
+        0.20512341918032326,
+        0.26097390186475444,
+        0.2668696800988722
+      ],
+      "tse_segment_similarities": [
+        0.2111293478166272,
+        0.24017451644983986,
+        0.29938588135074046
+      ]
+    },
+    {
+      "id": "cmd_2437.wav",
+      "label": "更年期不适合吃什么",
+      "raw_vad_text": "一年期不适合吃身",
+      "raw_full_text": "一年期不适合吃什么",
+      "tse_text": "中年期不适合吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1937416999999968,
+      "input_rms": 0.014583700434921628,
+      "output_rms": 0.012261240557608443,
+      "raw_similarity": 0.27977412939071655,
+      "tse_similarity": 0.2298279175495472,
+      "similarity_gain": -0.04994621184116935,
+      "raw_segment_similarities": [
+        0.19768744707107544,
+        0.26640552282333374,
+        0.29314273595809937
+      ],
+      "tse_segment_similarities": [
+        0.23111788815962603,
+        0.22853794693946838,
+        0.17229391634464264
+      ]
+    },
+    {
+      "id": "cmd_2444.wav",
+      "label": "科技有意思我想听",
+      "raw_vad_text": "科技有意思我想听",
+      "raw_full_text": "得到一个技技意思思我作为为",
+      "tse_text": "科技有意思我想",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22565499999998906,
+      "input_rms": 0.007145455019402617,
+      "output_rms": 0.012595667717175317,
+      "raw_similarity": 0.37690022587776184,
+      "tse_similarity": 0.4015483985679048,
+      "similarity_gain": 0.024648172690142967,
+      "raw_segment_similarities": [
+        0.26228851079940796,
+        0.41923069953918457,
+        0.3345697522163391
+      ],
+      "tse_segment_similarities": [
+        0.3686411380767822,
+        0.4344556590590274,
+        0.34787482023239136
+      ]
+    },
+    {
+      "id": "cmd_2451.wav",
+      "label": "开启抽湿模式",
+      "raw_vad_text": "九零后的你眼神是",
+      "raw_full_text": "九零后的你眼神",
+      "tse_text": "开启舒适模式眼神",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16385449999999935,
+      "input_rms": 0.06779756611947499,
+      "output_rms": 0.05473918687051937,
+      "raw_similarity": 0.04256577950363037,
+      "tse_similarity": 0.3529073170361289,
+      "similarity_gain": 0.3103415375324985,
+      "raw_segment_similarities": [
+        0.05882873736791237,
+        0.026302821639348366,
+        -0.020836389313505732
+      ],
+      "tse_segment_similarities": [
+        0.3659766156645542,
+        0.33983801840770356,
+        0.30462588695442
+      ]
+    },
+    {
+      "id": "cmd_2457.wav",
+      "label": "播放苦命人",
+      "raw_vad_text": "播放苦命人",
+      "raw_full_text": "播放苦命人",
+      "tse_text": "播放苦命人",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2269620999999944,
+      "input_rms": 0.04187728165561465,
+      "output_rms": 0.10132753262218805,
+      "raw_similarity": 0.28919512500704725,
+      "tse_similarity": 0.2932509358674846,
+      "similarity_gain": 0.0040558108604373255,
+      "raw_segment_similarities": [
+        0.20033590199565304,
+        0.30567828484514664,
+        0.2727119651689478
+      ],
+      "tse_segment_similarities": [
+        0.238051622393824,
+        0.32235642208793297,
+        0.2641454496470362
+      ]
+    },
+    {
+      "id": "cmd_2464.wav",
+      "label": "黑发哪些食物需要忌口",
+      "raw_vad_text": "海猫服务需要忌可",
+      "raw_full_text": "提出来猫服务器有即可",
+      "tse_text": "推出来的吃食物具有忌口",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.27203279999999097,
+      "input_rms": 0.007370874763814405,
+      "output_rms": 0.014386571806653285,
+      "raw_similarity": 0.3424092735296055,
+      "tse_similarity": 0.34530389455470606,
+      "similarity_gain": 0.0028946210251005744,
+      "raw_segment_similarities": [
+        0.3099664038399699,
+        0.27380670748989033,
+        0.3748521432192411
+      ],
+      "tse_segment_similarities": [
+        0.3320445020225347,
+        0.2552713460053609,
+        0.3585632870868774
+      ]
+    },
+    {
+      "id": "cmd_2471.wav",
+      "label": "开防直吹",
+      "raw_vad_text": "有名的倾交易易是",
+      "raw_full_text": "我们的倾向交易是什么",
+      "tse_text": "有名的倾向交易是什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15743779999999674,
+      "input_rms": 0.11286217767122964,
+      "output_rms": 0.10459742639284007,
+      "raw_similarity": 0.1779019632447075,
+      "tse_similarity": 0.12951400929856366,
+      "similarity_gain": -0.04838795394614384,
+      "raw_segment_similarities": [
+        0.09908097082859103,
+        0.133246802285123,
+        0.222557124204292
+      ],
+      "tse_segment_similarities": [
+        0.05454112541920694,
+        0.07672859152896276,
+        0.18229942706816454
+      ]
+    },
+    {
+      "id": "cmd_2478.wav",
+      "label": "无风感",
+      "raw_vad_text": "那之后如风百度百度",
+      "raw_full_text": "那之后如风百度百度",
+      "tse_text": "那之后无风干物板",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20071520000000476,
+      "input_rms": 0.04454529002481686,
+      "output_rms": 0.04022200879395431,
+      "raw_similarity": 0.21629383214079334,
+      "tse_similarity": 0.2741937523531862,
+      "similarity_gain": 0.057899920212392875,
+      "raw_segment_similarities": [
+        0.22940866526416928,
+        0.20317899901741737,
+        0.08787837403287732
+      ],
+      "tse_segment_similarities": [
+        0.15744211718095047,
+        0.3197723412242331,
+        0.2286151634821393
+      ]
+    },
+    {
+      "id": "cmd_2485.wav",
+      "label": "风速调低",
+      "raw_vad_text": "长袖飘几",
+      "raw_full_text": "高速调机",
+      "tse_text": "全冷化妆清油机洁盒",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19597989999999754,
+      "input_rms": 0.03150578957741057,
+      "output_rms": 0.02110982881610182,
+      "raw_similarity": 0.32152456045150757,
+      "tse_similarity": 0.10540290060177086,
+      "similarity_gain": -0.2161216598497367,
+      "raw_segment_similarities": [
+        0.39402464032173157,
+        0.24902448058128357,
+        0.24244074523448944
+      ],
+      "tse_segment_similarities": [
+        0.06839932909007843,
+        0.12496092170476913,
+        0.08584487949877259
+      ]
+    },
+    {
+      "id": "cmd_2492.wav",
+      "label": "开屏幕",
+      "raw_vad_text": "高等专业学校第三附属一",
+      "raw_full_text": "高等专业学校第三附属一",
+      "tse_text": "高等专业学校第三附属一",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17105890000000556,
+      "input_rms": 0.0804118089287958,
+      "output_rms": 0.13532306266875932,
+      "raw_similarity": 0.6026329222479945,
+      "tse_similarity": 0.6350890362572423,
+      "similarity_gain": 0.03245611400924786,
+      "raw_segment_similarities": [
+        0.6328994790195775,
+        0.5721199257445291,
+        0.5723663654764114
+      ],
+      "tse_segment_similarities": [
+        0.6593169366906247,
+        0.6108611358238599,
+        0.6051183468244468
+      ]
+    },
+    {
+      "id": "cmd_2499.wav",
+      "label": "把温度调到二十二度",
+      "raw_vad_text": "把温度调到二十二度",
+      "raw_full_text": "把温度调到二十二度",
+      "tse_text": "把温度调到二十二度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18575779999999043,
+      "input_rms": 0.0021139403126054237,
+      "output_rms": 0.0033837512602565177,
+      "raw_similarity": 0.3758044955843134,
+      "tse_similarity": 0.3946753740310669,
+      "similarity_gain": 0.018870878446753503,
+      "raw_segment_similarities": [
+        0.3923781450020161,
+        0.3592308461666107,
+        0.2731914222240448
+      ],
+      "tse_segment_similarities": [
+        0.4218243360519409,
+        0.36752641201019287,
+        0.30885499715805054
+      ]
+    },
+    {
+      "id": "cmd_2505.wav",
+      "label": "把温度调到二十二度",
+      "raw_vad_text": "把温度调到二十二度",
+      "raw_full_text": "把温度调到二十二度",
+      "tse_text": "把温度调到二十二度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2700142999999997,
+      "input_rms": 0.05204191598556944,
+      "output_rms": 0.10779456166063868,
+      "raw_similarity": 0.5494182407855988,
+      "tse_similarity": 0.5559365324534841,
+      "similarity_gain": 0.006518291667885312,
+      "raw_segment_similarities": [
+        0.5808639526367188,
+        0.5179725289344788,
+        0.37224360538980994
+      ],
+      "tse_segment_similarities": [
+        0.574526225002183,
+        0.5373468399047852,
+        0.45674225430144394
+      ]
+    },
+    {
+      "id": "cmd_2512.wav",
+      "label": "黑发适合吃什么食物",
+      "raw_vad_text": "违法适合职守的是",
+      "raw_full_text": "黑发适合吃什么食物",
+      "tse_text": "哪饭时刻是什么时候",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19676040000000228,
+      "input_rms": 0.002720649404108024,
+      "output_rms": 0.0017657432816924842,
+      "raw_similarity": 0.5079515879125349,
+      "tse_similarity": 0.37165943513270827,
+      "similarity_gain": -0.13629215277982665,
+      "raw_segment_similarities": [
+        0.5439207282019095,
+        0.47198244762316033,
+        0.30877984270809095
+      ],
+      "tse_segment_similarities": [
+        0.3859699002486408,
+        0.35734897001677574,
+        0.24252454891947203
+      ]
+    },
+    {
+      "id": "cmd_2519.wav",
+      "label": "风速调到最大风",
+      "raw_vad_text": "风速调到最大声",
+      "raw_full_text": "风速活动最道中",
+      "tse_text": "风速调到最大风",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19787309999999536,
+      "input_rms": 0.0032918102381078013,
+      "output_rms": 0.00687400304333226,
+      "raw_similarity": 0.2605563557479593,
+      "tse_similarity": 0.4813929634056756,
+      "similarity_gain": 0.2208366076577163,
+      "raw_segment_similarities": [
+        0.22091595655178764,
+        0.17018326641221443,
+        0.30019675494413106
+      ],
+      "tse_segment_similarities": [
+        0.49308833397487634,
+        0.46969759283647494,
+        0.4081823473085372
+      ]
+    },
+    {
+      "id": "cmd_2526.wav",
+      "label": "风速调到百分之九十",
+      "raw_vad_text": "分速调到百分之九十",
+      "raw_full_text": "分速达到百分之九十",
+      "tse_text": "空调温度二十九十",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16226819999999975,
+      "input_rms": 0.007476061004048212,
+      "output_rms": 0.007463739194976786,
+      "raw_similarity": 0.3111820952646923,
+      "tse_similarity": 0.3086186928297683,
+      "similarity_gain": -0.0025634024349240336,
+      "raw_segment_similarities": [
+        0.332812468148763,
+        0.2520609946287271,
+        0.2895517223806216
+      ],
+      "tse_segment_similarities": [
+        0.29198940348562025,
+        0.27605821347583615,
+        0.3252479821739164
+      ]
+    },
+    {
+      "id": "cmd_2533.wav",
+      "label": "开启防直吹模式",
+      "raw_vad_text": "数自启防时充电器",
+      "raw_full_text": "书籍有同时出理他在收集服",
+      "tse_text": "开启防时车模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17406510000000708,
+      "input_rms": 0.007014567118153163,
+      "output_rms": 0.005973041319436153,
+      "raw_similarity": 0.340369775891304,
+      "tse_similarity": 0.200641930103302,
+      "similarity_gain": -0.13972784578800201,
+      "raw_segment_similarities": [
+        0.3793503940105438,
+        0.3013891577720642,
+        0.10752087831497192
+      ],
+      "tse_segment_similarities": [
+        0.23393666744232178,
+        0.11662894487380981,
+        0.16734719276428223
+      ]
+    },
+    {
+      "id": "cmd_2540.wav",
+      "label": "感冒不可以吃什么",
+      "raw_vad_text": "感冒不可以吃什么",
+      "raw_full_text": "感冒不可以吃什么",
+      "tse_text": "感冒后可以吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.25541300000000433,
+      "input_rms": 0.0033929144318787527,
+      "output_rms": 0.004668854320752602,
+      "raw_similarity": 0.47656509072674585,
+      "tse_similarity": 0.4448147211863936,
+      "similarity_gain": -0.03175036954035226,
+      "raw_segment_similarities": [
+        0.4758959100184387,
+        0.47723427143505304,
+        0.41938372965954124
+      ],
+      "tse_segment_similarities": [
+        0.33986333967069987,
+        0.462509208174203,
+        0.4271202341985842
+      ]
+    },
+    {
+      "id": "cmd_2546.wav",
+      "label": "降低风量",
+      "raw_vad_text": "郑州房东吗",
+      "raw_full_text": "郑州房飞吗",
+      "tse_text": "郑州防飞吗",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2056039999999939,
+      "input_rms": 0.05108848121977928,
+      "output_rms": 0.07766645690331264,
+      "raw_similarity": 0.4225112275977997,
+      "tse_similarity": 0.40232869400553073,
+      "similarity_gain": -0.02018253359226896,
+      "raw_segment_similarities": [
+        0.43437799420225587,
+        0.41064446099334345,
+        0.3826797236609294
+      ],
+      "tse_segment_similarities": [
+        0.44346737524672597,
+        0.3578815673519115,
+        0.36119001276433543
+      ]
+    },
+    {
+      "id": "cmd_2553.wav",
+      "label": "腹泻适宜吃什么",
+      "raw_vad_text": "那些适宜吃什么",
+      "raw_full_text": "那些事宜吃什么",
+      "tse_text": "那些事宜指什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18370409999999993,
+      "input_rms": 0.007015806279808092,
+      "output_rms": 0.011380882585282446,
+      "raw_similarity": 0.3054700526875289,
+      "tse_similarity": 0.3475480342622823,
+      "similarity_gain": 0.0420779815747534,
+      "raw_segment_similarities": [
+        0.2779874801635742,
+        0.2812438178803812,
+        0.32969628749467655
+      ],
+      "tse_segment_similarities": [
+        0.30439281463623047,
+        0.31270864605903625,
+        0.38238742246552837
+      ]
+    },
+    {
+      "id": "cmd_2560.wav",
+      "label": "播放我爱幼儿园全",
+      "raw_vad_text": "二七五四三七",
+      "raw_full_text": "二七五四三七",
+      "tse_text": "二七五四三七",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22773209999999722,
+      "input_rms": 0.07717736523393906,
+      "output_rms": 0.16111786513234416,
+      "raw_similarity": 0.48931387066841125,
+      "tse_similarity": 0.5172037194492649,
+      "similarity_gain": 0.027889848780853654,
+      "raw_segment_similarities": [
+        0.4171428978443146,
+        0.4854704737663269,
+        0.4931572675704956
+      ],
+      "tse_segment_similarities": [
+        0.28232337727089984,
+        0.5077635352470597,
+        0.5266439036514702
+      ]
+    },
+    {
+      "id": "cmd_2567.wav",
+      "label": "升高一度",
+      "raw_vad_text": "身高一度",
+      "raw_full_text": "长沙身高一度",
+      "tse_text": "是什么东西",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13551009999999053,
+      "input_rms": 0.005559184866398591,
+      "output_rms": 0.0032704241550996966,
+      "raw_similarity": 0.4400860060107092,
+      "tse_similarity": 0.2798836912759009,
+      "similarity_gain": -0.16020231473480828,
+      "raw_segment_similarities": [
+        0.41733407974243164,
+        0.4133108854293823,
+        0.46283793227898673
+      ],
+      "tse_segment_similarities": [
+        0.2868262104288465,
+        0.2729411721229553,
+        0.24005922675132751
+      ]
+    },
+    {
+      "id": "cmd_2574.wav",
+      "label": "出现异常声响",
+      "raw_vad_text": "书记人自常声像",
+      "raw_full_text": "接受康熙撤封",
+      "tse_text": "接受康熙册封",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16516860000000122,
+      "input_rms": 0.05053187542292816,
+      "output_rms": 0.09449211091169026,
+      "raw_similarity": 0.5830648123852751,
+      "tse_similarity": 0.48798245191574097,
+      "similarity_gain": -0.09508236046953411,
+      "raw_segment_similarities": [
+        0.4680655002593994,
+        0.5987744688257258,
+        0.5673551559448242
+      ],
+      "tse_segment_similarities": [
+        0.5124220252037048,
+        0.4635428786277771,
+        0.3865252137184143
+      ]
+    },
+    {
+      "id": "cmd_2581.wav",
+      "label": "温度二十五度",
+      "raw_vad_text": "九幺六二十五度一三",
+      "raw_full_text": "九幺六二十五度一三",
+      "tse_text": "九阳温度二十五度一三",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22588160000000812,
+      "input_rms": 0.03089042544887992,
+      "output_rms": 0.03336385435367819,
+      "raw_similarity": 0.1186567615662075,
+      "tse_similarity": 0.2352252367091844,
+      "similarity_gain": 0.11656847514297691,
+      "raw_segment_similarities": [
+        0.13163591215824558,
+        0.08650347131532057,
+        0.10567761097416943
+      ],
+      "tse_segment_similarities": [
+        0.2393917726745326,
+        0.23105870074383622,
+        0.21241502015769648
+      ]
+    },
+    {
+      "id": "cmd_2588.wav",
+      "label": "产妇推荐吃哪些食物",
+      "raw_vad_text": "反妇推荐吃哪些食物",
+      "raw_full_text": "反复推荐吃哪些食物",
+      "tse_text": "使用这几台一线城市的土地",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22861549999998942,
+      "input_rms": 0.006104814055995616,
+      "output_rms": 0.008921713351978148,
+      "raw_similarity": 0.35000917315483093,
+      "tse_similarity": 0.3031309159941417,
+      "similarity_gain": -0.04687825716068922,
+      "raw_segment_similarities": [
+        0.383283406496048,
+        0.29704506975681005,
+        0.3167349398136139
+      ],
+      "tse_segment_similarities": [
+        0.3984386920928955,
+        0.17532826960086823,
+        0.2078231398953879
+      ]
+    },
+    {
+      "id": "cmd_2594.wav",
+      "label": "播放小飞鱼二",
+      "raw_vad_text": "播放小飞鱼儿",
+      "raw_full_text": "播放小飞鱼儿",
+      "tse_text": "播放小飞鱼儿",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2680677999999972,
+      "input_rms": 0.009006322569526081,
+      "output_rms": 0.01808973851164405,
+      "raw_similarity": 0.22930087945064817,
+      "tse_similarity": 0.33027951002545275,
+      "similarity_gain": 0.10097863057480458,
+      "raw_segment_similarities": [
+        0.2670669714848382,
+        0.19153478741645813,
+        0.10699929296970367
+      ],
+      "tse_segment_similarities": [
+        0.3601423716629965,
+        0.30041664838790894,
+        0.2229982614517212
+      ]
+    },
+    {
+      "id": "cmd_2601.wav",
+      "label": "播放盖世音雄原创音乐",
+      "raw_vad_text": "播放盖世英雄原创音乐",
+      "raw_full_text": "播放盖世英雄原创音乐",
+      "tse_text": "播放盖世英雄原创音乐",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22712860000000035,
+      "input_rms": 0.014643847754146155,
+      "output_rms": 0.031054688303331777,
+      "raw_similarity": 0.39870837038719725,
+      "tse_similarity": 0.38066236674785614,
+      "similarity_gain": -0.018046003639341113,
+      "raw_segment_similarities": [
+        0.01317402720451355,
+        0.40198802363801145,
+        0.39542871713638306
+      ],
+      "tse_segment_similarities": [
+        -0.07055763900279999,
+        0.3569333255290985,
+        0.40439140796661377
+      ]
+    },
+    {
+      "id": "cmd_2608.wav",
+      "label": "温度二十六度",
+      "raw_vad_text": "温度二十六度",
+      "raw_full_text": "温度二十六度",
+      "tse_text": "温度二十六度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15688649999999882,
+      "input_rms": 0.06303745760975676,
+      "output_rms": 0.11046616756053156,
+      "raw_similarity": 0.17446894162107723,
+      "tse_similarity": 0.19905893504619598,
+      "similarity_gain": 0.02458999342511875,
+      "raw_segment_similarities": [
+        0.021987400190544105,
+        0.21780608594417572,
+        0.13113179729797872
+      ],
+      "tse_segment_similarities": [
+        0.0891344451388386,
+        0.2315017580986023,
+        0.16661611199378967
+      ]
+    },
+    {
+      "id": "cmd_2615.wav",
+      "label": "空调十八度",
+      "raw_vad_text": "空调十八",
+      "raw_full_text": "空调十八度",
+      "tse_text": "一共是十八度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.25902480000000594,
+      "input_rms": 0.022624805814761593,
+      "output_rms": 0.0496226682562726,
+      "raw_similarity": 0.34061055893858566,
+      "tse_similarity": 0.3278414853976145,
+      "similarity_gain": -0.012769073540971176,
+      "raw_segment_similarities": [
+        0.34283435344696045,
+        0.30205637216567993,
+        0.3383867644302109
+      ],
+      "tse_segment_similarities": [
+        0.3285532491536885,
+        0.3080841600894928,
+        0.3271297216415405
+      ]
+    },
+    {
+      "id": "cmd_2622.wav",
+      "label": "播放专注",
+      "raw_vad_text": "oiobit",
+      "raw_full_text": "我出来做毕业季",
+      "tse_text": "出来做毕业季",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15097860000000196,
+      "input_rms": 0.02895616664535063,
+      "output_rms": 0.049272342873723236,
+      "raw_similarity": 0.5932834502031475,
+      "tse_similarity": 0.5269219295335965,
+      "similarity_gain": -0.06636152066955103,
+      "raw_segment_similarities": [
+        0.5841136326857587,
+        0.6024532677205364,
+        0.508482426910545
+      ],
+      "tse_segment_similarities": [
+        0.5115319795329558,
+        0.5423118795342373,
+        0.46090709930104606
+      ]
+    },
+    {
+      "id": "cmd_2629.wav",
+      "label": "便秘适宜吃什么",
+      "raw_vad_text": "便秘适宜吃什么",
+      "raw_full_text": "便秘适宜吃什么",
+      "tse_text": "便秘适宜吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20876060000000507,
+      "input_rms": 0.019510202715845484,
+      "output_rms": 0.038549357878210656,
+      "raw_similarity": 0.2614236697505947,
+      "tse_similarity": 0.2331940380633588,
+      "similarity_gain": -0.028229631687235912,
+      "raw_segment_similarities": [
+        0.24983678757171557,
+        0.2730105519294739,
+        0.19090856259516253
+      ],
+      "tse_segment_similarities": [
+        0.24300238448395636,
+        0.22338569164276123,
+        0.19878272406951927
+      ]
+    },
+    {
+      "id": "cmd_2635.wav",
+      "label": "把温度调到二十一度",
+      "raw_vad_text": "把温度调到二十一度",
+      "raw_full_text": "把温度调到二十一度",
+      "tse_text": "把温度调到二十一度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22042410000000245,
+      "input_rms": 0.004518766252910673,
+      "output_rms": 0.0019383787312599436,
+      "raw_similarity": 0.324195072054863,
+      "tse_similarity": 0.297070244723019,
+      "similarity_gain": -0.02712482733184396,
+      "raw_segment_similarities": [
+        0.29752078652381897,
+        0.350869357585907,
+        0.19074657206216883
+      ],
+      "tse_segment_similarities": [
+        0.26835858821868896,
+        0.3257819012273491,
+        0.22765153646469116
+      ]
+    },
+    {
+      "id": "cmd_2642.wav",
+      "label": "吃什么有利于祛斑",
+      "raw_vad_text": "吃什么有利于祛斑",
+      "raw_full_text": "房价吃什么有利于祛斑",
+      "tse_text": "吃什么有利于祛斑",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2853385999999887,
+      "input_rms": 0.10399863628715747,
+      "output_rms": 0.2263340209041266,
+      "raw_similarity": 0.4770866009100183,
+      "tse_similarity": 0.47702789169716187,
+      "similarity_gain": -5.8709212856444815e-05,
+      "raw_segment_similarities": [
+        0.3677522759289906,
+        0.4876096233856212,
+        0.4665635784344154
+      ],
+      "tse_segment_similarities": [
+        0.40180280219333186,
+        0.4620080865626387,
+        0.4920476968316851
+      ]
+    },
+    {
+      "id": "cmd_2649.wav",
+      "label": "防直吹",
+      "raw_vad_text": "王之崔",
+      "raw_full_text": "防直催",
+      "tse_text": "后面的损失",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14564800000000844,
+      "input_rms": 0.0015595928903272395,
+      "output_rms": 0.001274800924461636,
+      "raw_similarity": 0.5265026688575745,
+      "tse_similarity": 0.3447073207087523,
+      "similarity_gain": -0.18179534814882214,
+      "raw_segment_similarities": [
+        0.5321108102798462,
+        0.5139925786252366,
+        0.5208945274353027
+      ],
+      "tse_segment_similarities": [
+        0.3526240201368344,
+        0.33679062128067017,
+        0.3325822353363037
+      ]
+    },
+    {
+      "id": "cmd_2656.wav",
+      "label": "备孕不推荐吃什么",
+      "raw_vad_text": "命运不推荐是什么",
+      "raw_full_text": "备孕妇推荐是什么",
+      "tse_text": "对内推荐是什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1760565000000014,
+      "input_rms": 0.025504792072105036,
+      "output_rms": 0.023229064584052286,
+      "raw_similarity": 0.34142782769324204,
+      "tse_similarity": 0.2309204712510109,
+      "similarity_gain": -0.11050735644223114,
+      "raw_segment_similarities": [
+        0.3464759588241577,
+        0.33637969656232636,
+        0.2929888963699341
+      ],
+      "tse_segment_similarities": [
+        0.19292798298168082,
+        0.24530301988124847,
+        0.21653792262077332
+      ]
+    },
+    {
+      "id": "cmd_2663.wav",
+      "label": "产妇哪些食物需要忌口",
+      "raw_vad_text": "有哪些食物需要借鉴",
+      "raw_full_text": "还有哪些食物需要借鉴",
+      "tse_text": "排爬哪些食物需要借鉴",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18411189999999067,
+      "input_rms": 0.001981685342131317,
+      "output_rms": 0.0027157795747813256,
+      "raw_similarity": 0.5594290530341299,
+      "tse_similarity": 0.5878350671937767,
+      "similarity_gain": 0.02840601415964672,
+      "raw_segment_similarities": [
+        0.5171627114512153,
+        0.5263778285013335,
+        0.5924802775669263
+      ],
+      "tse_segment_similarities": [
+        0.5040795507478446,
+        0.5619712210876477,
+        0.6136989132999057
+      ]
+    },
+    {
+      "id": "cmd_2670.wav",
+      "label": "风速调到百分之十",
+      "raw_vad_text": "风速调到百分之十",
+      "raw_full_text": "风速调到百分之十",
+      "tse_text": "但他是个秃头矮风瓜",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19909609999999134,
+      "input_rms": 0.008387720893796972,
+      "output_rms": 0.011468070701506364,
+      "raw_similarity": 0.3892715126276016,
+      "tse_similarity": 0.18510093017470372,
+      "similarity_gain": -0.2041705824528979,
+      "raw_segment_similarities": [
+        0.35147499152868933,
+        0.3771786689758301,
+        0.40136435627937317
+      ],
+      "tse_segment_similarities": [
+        0.16571987663029888,
+        0.20448198371910856,
+        0.12172559648752213
+      ]
+    },
+    {
+      "id": "cmd_2677.wav",
+      "label": "备孕要少吃什么",
+      "raw_vad_text": "都不定样想吃什么",
+      "raw_full_text": "肺需要少吃什么",
+      "tse_text": "你叫来什么什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19631160000000136,
+      "input_rms": 0.061525308876290735,
+      "output_rms": 0.08488641408828215,
+      "raw_similarity": 0.3515177920995407,
+      "tse_similarity": 0.22667044401168823,
+      "similarity_gain": -0.12484734808785247,
+      "raw_segment_similarities": [
+        0.35124140977859497,
+        0.3517941744204864,
+        0.30931851267814636
+      ],
+      "tse_segment_similarities": [
+        0.19371019303798676,
+        0.2113989293575287,
+        0.24194195866584778
+      ]
+    },
+    {
+      "id": "cmd_2683.wav",
+      "label": "降低温度",
+      "raw_vad_text": "降低温度",
+      "raw_full_text": "降低温度",
+      "tse_text": "马自达洗衣粉",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1352361000000002,
+      "input_rms": 0.008135647588475781,
+      "output_rms": 0.005261998536387536,
+      "raw_similarity": 0.3446746337178438,
+      "tse_similarity": 0.3314983696821085,
+      "similarity_gain": -0.013176264035735297,
+      "raw_segment_similarities": [
+        0.3117141909428949,
+        0.31948821660806037,
+        0.36986105082762716
+      ],
+      "tse_segment_similarities": [
+        0.32238428726102636,
+        0.34061245210319063,
+        0.2918514187247407
+      ]
+    },
+    {
+      "id": "cmd_2690.wav",
+      "label": "儿童有什么饮食禁忌",
+      "raw_vad_text": "儿童有什么饮食禁忌",
+      "raw_full_text": "儿童有什么饮食禁忌",
+      "tse_text": "儿童有什么饮食禁忌",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2070245999999969,
+      "input_rms": 0.0052832816132117235,
+      "output_rms": 0.0067405952391826176,
+      "raw_similarity": 0.24813070267249646,
+      "tse_similarity": 0.19729392230510712,
+      "similarity_gain": -0.05083678036738934,
+      "raw_segment_similarities": [
+        0.20632490515708923,
+        0.07339929789304733,
+        0.2899365001879037
+      ],
+      "tse_segment_similarities": [
+        0.14659669995307922,
+        0.09941564500331879,
+        0.247991144657135
+      ]
+    },
+    {
+      "id": "cmd_2697.wav",
+      "label": "风大一点",
+      "raw_vad_text": "具备指标点点想想",
+      "raw_full_text": "具备指标一点你想先",
+      "tse_text": "风大一点",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19524069999999938,
+      "input_rms": 0.08168259106214497,
+      "output_rms": 0.12448016496550623,
+      "raw_similarity": 0.3529750187603775,
+      "tse_similarity": 0.09314881660490283,
+      "similarity_gain": -0.2598262021554747,
+      "raw_segment_similarities": [
+        0.6912562251091003,
+        0.014693812411654735,
+        -0.002988554537296295
+      ],
+      "tse_segment_similarities": [
+        0.1942729502916336,
+        -0.007975317081827943,
+        -0.05911909768695221
+      ]
+    },
+    {
+      "id": "cmd_2704.wav",
+      "label": "打开节能模式",
+      "raw_vad_text": "打开节能模式",
+      "raw_full_text": "打开节能模式",
+      "tse_text": "打开节能模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2483464999999967,
+      "input_rms": 0.06958255094901612,
+      "output_rms": 0.07488242921020813,
+      "raw_similarity": 0.4019756884018049,
+      "tse_similarity": 0.4381615631676652,
+      "similarity_gain": 0.03618587476586027,
+      "raw_segment_similarities": [
+        0.4018198251724243,
+        0.2484828531742096,
+        0.4021315516311855
+      ],
+      "tse_segment_similarities": [
+        0.4879897825711836,
+        0.35725318534691247,
+        0.3883333437641468
+      ]
+    },
+    {
+      "id": "cmd_2711.wav",
+      "label": "更年期建议吃什么",
+      "raw_vad_text": "更年期建议",
+      "raw_full_text": "更年期建议吃什么",
+      "tse_text": "更年期建议吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20253939999999204,
+      "input_rms": 0.006640334835970259,
+      "output_rms": 0.010014137665792571,
+      "raw_similarity": 0.373974435410445,
+      "tse_similarity": 0.42437615990638733,
+      "similarity_gain": 0.050401724495942324,
+      "raw_segment_similarities": [
+        0.37930795550346375,
+        0.36864091531742627,
+        0.3448869585990906
+      ],
+      "tse_segment_similarities": [
+        0.4109407961368561,
+        0.4378115236759186,
+        0.38641226291656494
+      ]
+    },
+    {
+      "id": "cmd_2718.wav",
+      "label": "播放激情手风琴曲选集",
+      "raw_vad_text": "包含车企的新能源",
+      "raw_full_text": "播放一级五车企的新能源",
+      "tse_text": "播放自行和飞行时起的很真的",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2587402999999995,
+      "input_rms": 0.0319035518717143,
+      "output_rms": 0.033238341449582355,
+      "raw_similarity": 0.24809350943308991,
+      "tse_similarity": 0.33153027296066284,
+      "similarity_gain": 0.08343676352757293,
+      "raw_segment_similarities": [
+        0.2042730450630188,
+        0.29191397380316103,
+        0.08877965807914734
+      ],
+      "tse_segment_similarities": [
+        0.377991646528244,
+        0.28506889939308167,
+        0.06764127717264158
+      ]
+    },
+    {
+      "id": "cmd_2725.wav",
+      "label": "唱一首刘德华的歌",
+      "raw_vad_text": "放一首刘德华的歌",
+      "raw_full_text": "唱一首刘德华的歌",
+      "tse_text": "唱一首刘德华的歌",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21973930000000053,
+      "input_rms": 0.03724709167746075,
+      "output_rms": 0.06475209127149226,
+      "raw_similarity": 0.22489124536514282,
+      "tse_similarity": 0.23471873998641968,
+      "similarity_gain": 0.009827494621276855,
+      "raw_segment_similarities": [
+        0.26398134231567383,
+        0.1674320548772812,
+        0.18580114841461182
+      ],
+      "tse_segment_similarities": [
+        0.2458706647157669,
+        0.22356681525707245,
+        0.16774089634418488
+      ]
+    },
+    {
+      "id": "cmd_2731.wav",
+      "label": "开到二十六度",
+      "raw_vad_text": "开到二十六度",
+      "raw_full_text": "开到二十六度",
+      "tse_text": "考到二十五从来没有",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14848279999999647,
+      "input_rms": 0.004006191261141997,
+      "output_rms": 0.00403322241946711,
+      "raw_similarity": 0.3260137931116696,
+      "tse_similarity": 0.24699821323156357,
+      "similarity_gain": -0.07901557988010605,
+      "raw_segment_similarities": [
+        0.3833124866075806,
+        0.2687150996157586,
+        0.17738831043243408
+      ],
+      "tse_segment_similarities": [
+        0.2737365663051605,
+        0.2202598601579666,
+        0.17640879311613997
+      ]
+    },
+    {
+      "id": "cmd_2738.wav",
+      "label": "把温度调到二十九度",
+      "raw_vad_text": "把温度调到二十九",
+      "raw_full_text": "把温度调到二十九度",
+      "tse_text": "把温度调到二十九度一",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.26114970000000426,
+      "input_rms": 0.004007938497691675,
+      "output_rms": 0.003504522030473406,
+      "raw_similarity": 0.48481059074401855,
+      "tse_similarity": 0.5448307991027832,
+      "similarity_gain": 0.06002020835876465,
+      "raw_segment_similarities": [
+        0.5133602619171143,
+        0.45626091957092285,
+        0.41913461685180664
+      ],
+      "tse_segment_similarities": [
+        0.5713695287704468,
+        0.5182920694351196,
+        0.4978155493736267
+      ]
+    },
+    {
+      "id": "cmd_2745.wav",
+      "label": "开机空调",
+      "raw_vad_text": "开机空调",
+      "raw_full_text": "开机空调",
+      "tse_text": "开机空调",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20819430000000239,
+      "input_rms": 0.07149414715569356,
+      "output_rms": 0.03616612581896814,
+      "raw_similarity": 0.4250468611717224,
+      "tse_similarity": 0.43134818971157074,
+      "similarity_gain": 0.006301328539848328,
+      "raw_segment_similarities": [
+        0.44692373275756836,
+        0.40316998958587646,
+        0.2535867691040039
+      ],
+      "tse_segment_similarities": [
+        0.4723369777202606,
+        0.39035940170288086,
+        0.30090393429421985
+      ]
+    },
+    {
+      "id": "cmd_2752.wav",
+      "label": "关一下空调",
+      "raw_vad_text": "关一下空调",
+      "raw_full_text": "关一下空调",
+      "tse_text": "关一下空调",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2911967999999945,
+      "input_rms": 0.009487113805861145,
+      "output_rms": 0.01982221610481295,
+      "raw_similarity": 0.257302381318786,
+      "tse_similarity": 0.24317090958356857,
+      "similarity_gain": -0.014131471735217449,
+      "raw_segment_similarities": [
+        0.2572054862976074,
+        0.2573992763399646,
+        0.1619204580783844
+      ],
+      "tse_segment_similarities": [
+        0.22437183558940887,
+        0.26196998357772827,
+        0.19583161175251007
+      ]
+    },
+    {
+      "id": "cmd_2759.wav",
+      "label": "风速调到百分之二十",
+      "raw_vad_text": "调到百分之二十",
+      "raw_full_text": "风速调到百分之二十",
+      "tse_text": "风速调到百分之二十",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20711250000000803,
+      "input_rms": 0.07356279773813033,
+      "output_rms": 0.14295873398779332,
+      "raw_similarity": 0.42463114857673645,
+      "tse_similarity": 0.3815726339817047,
+      "similarity_gain": -0.04305851459503174,
+      "raw_segment_similarities": [
+        0.42017629742622375,
+        0.38235774636268616,
+        0.42908599972724915
+      ],
+      "tse_segment_similarities": [
+        0.38139647245407104,
+        0.3152036258699671,
+        0.3817487955093384
+      ]
+    },
+    {
+      "id": "cmd_2766.wav",
+      "label": "播放苦命人",
+      "raw_vad_text": "播放苦面膜",
+      "raw_full_text": "播放苦命希亡",
+      "tse_text": "播放苦面膜",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16196119999999326,
+      "input_rms": 0.06354512400815374,
+      "output_rms": 0.13972587039612447,
+      "raw_similarity": 0.5575289130210876,
+      "tse_similarity": 0.39104026556015015,
+      "similarity_gain": -0.1664886474609375,
+      "raw_segment_similarities": [
+        0.43060237169265747,
+        0.5131209492683411,
+        0.6019368767738342
+      ],
+      "tse_segment_similarities": [
+        0.31643158197402954,
+        0.3602954149246216,
+        0.4217851161956787
+      ]
+    },
+    {
+      "id": "cmd_2772.wav",
+      "label": "脚气适合吃什么",
+      "raw_vad_text": "一个表示是合是来不断提醒",
+      "raw_full_text": "一个表示是合是来不断提醒",
+      "tse_text": "记者反应很好",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20241820000001098,
+      "input_rms": 0.00941924154997064,
+      "output_rms": 0.00693624560625268,
+      "raw_similarity": 0.42596881091594696,
+      "tse_similarity": 0.4332435429096222,
+      "similarity_gain": 0.007274731993675232,
+      "raw_segment_similarities": [
+        0.4973932206630707,
+        0.30804765224456787,
+        0.35454440116882324
+      ],
+      "tse_segment_similarities": [
+        0.5652164220809937,
+        0.30127066373825073,
+        0.2656583348309001
+      ]
+    },
+    {
+      "id": "cmd_2779.wav",
+      "label": "讲古风音乐频道",
+      "raw_vad_text": "讲古风音乐频道",
+      "raw_full_text": "讲古风音乐频道",
+      "tse_text": "不要点点亮",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18894370000001004,
+      "input_rms": 0.0038493021058879284,
+      "output_rms": 0.002339224416552624,
+      "raw_similarity": 0.037060374740384504,
+      "tse_similarity": 0.06043728801234293,
+      "similarity_gain": 0.023376913271958427,
+      "raw_segment_similarities": [
+        0.038661102274722,
+        0.03444932439319174,
+        0.03545964720604701
+      ],
+      "tse_segment_similarities": [
+        0.032176287899988165,
+        0.021859283370886173,
+        0.0886982881246977
+      ]
+    },
+    {
+      "id": "cmd_2786.wav",
+      "label": "开启防直吹",
+      "raw_vad_text": "排七放之锤",
+      "raw_full_text": "开启纺直吹",
+      "tse_text": "女孩子分的睡衣",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20024340000000507,
+      "input_rms": 0.018882006262021182,
+      "output_rms": 0.006009311343901593,
+      "raw_similarity": 0.33032554388046265,
+      "tse_similarity": 0.10404708886478303,
+      "similarity_gain": -0.2262784550156796,
+      "raw_segment_similarities": [
+        0.3560417890548706,
+        0.3046092987060547,
+        0.22381462000695587
+      ],
+      "tse_segment_similarities": [
+        0.11498285830020905,
+        0.09311131942935702,
+        0.07497642189264297
+      ]
+    },
+    {
+      "id": "cmd_2793.wav",
+      "label": "吃什么有利于皮肤粗糙",
+      "raw_vad_text": "吃什么有利于皮肤粗糙",
+      "raw_full_text": "吃什么有利于皮肤粗糙",
+      "tse_text": "过来别逛匆偷了",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.33885130000000174,
+      "input_rms": 0.0022474974946412552,
+      "output_rms": 0.0017111294876517352,
+      "raw_similarity": 0.18970056995749474,
+      "tse_similarity": 0.3371624595837029,
+      "similarity_gain": 0.14746188962620815,
+      "raw_segment_similarities": [
+        0.1219281479716301,
+        0.0988899453812805,
+        0.2574729919433594
+      ],
+      "tse_segment_similarities": [
+        0.27941668033599854,
+        0.28375693753279,
+        0.39056798163461576
+      ]
+    },
+    {
+      "id": "cmd_2800.wav",
+      "label": "古哥古点烧脑集我想听",
+      "raw_vad_text": "古典烧脑级活",
+      "raw_full_text": "谷歌古典烧脑集我想听",
+      "tse_text": "谷歌古典烧脑集我想听",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.27206110000000194,
+      "input_rms": 0.003047943279279427,
+      "output_rms": 0.004305478341668238,
+      "raw_similarity": 0.4281783763382868,
+      "tse_similarity": 0.4193570714805765,
+      "similarity_gain": -0.008821304857710321,
+      "raw_segment_similarities": [
+        0.4710609580351047,
+        0.3852957946414689,
+        0.2871655568081794
+      ],
+      "tse_segment_similarities": [
+        0.45250424459601907,
+        0.3862098983651339,
+        0.2777015897871949
+      ]
+    },
+    {
+      "id": "cmd_2807.wav",
+      "label": "开下空调",
+      "raw_vad_text": "开下空调",
+      "raw_full_text": "开下空调",
+      "tse_text": "大家看到吗",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14742250000000467,
+      "input_rms": 0.016020253462655624,
+      "output_rms": 0.006348032285390408,
+      "raw_similarity": 0.35495033860206604,
+      "tse_similarity": 0.23808995634317398,
+      "similarity_gain": -0.11686038225889206,
+      "raw_segment_similarities": [
+        0.3365015588105654,
+        0.3588446378707886,
+        0.3510560393333435
+      ],
+      "tse_segment_similarities": [
+        0.21949146687984467,
+        0.21089841192355227,
+        0.2566884458065033
+      ]
+    },
+    {
+      "id": "cmd_2814.wav",
+      "label": "关闭屏幕",
+      "raw_vad_text": "",
+      "raw_full_text": "关注什么",
+      "tse_text": "关记什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14405329999999594,
+      "input_rms": 0.00827329135801172,
+      "output_rms": 0.007254126123146443,
+      "raw_similarity": 0.3005684828660941,
+      "tse_similarity": 0.2655163640091636,
+      "similarity_gain": -0.03505211885693049,
+      "raw_segment_similarities": [
+        0.23260038987400472,
+        0.1406296361243286,
+        0.3685365758581835
+      ],
+      "tse_segment_similarities": [
+        0.2350920131857403,
+        0.18409487212269737,
+        0.29594071483258694
+      ]
+    },
+    {
+      "id": "cmd_2820.wav",
+      "label": "启动送风模式",
+      "raw_vad_text": "云启动训货模式",
+      "raw_full_text": "云启动送货模式帮助",
+      "tse_text": "民体的生活模式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17962719999999877,
+      "input_rms": 0.017269862167334248,
+      "output_rms": 0.014286734951844906,
+      "raw_similarity": 0.2810978889465332,
+      "tse_similarity": 0.2839670580657933,
+      "similarity_gain": 0.0028691691192601065,
+      "raw_segment_similarities": [
+        0.2565438747406006,
+        0.24522536993026733,
+        0.3056519031524658
+      ],
+      "tse_segment_similarities": [
+        0.17054271697998047,
+        0.22782540321350098,
+        0.34010871291808564
+      ]
+    },
+    {
+      "id": "cmd_2827.wav",
+      "label": "脚气适合吃什么",
+      "raw_vad_text": "脚气适合是什么",
+      "raw_full_text": "脚气适合是使用的",
+      "tse_text": "再有个护肤被禁用的",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1574327000000011,
+      "input_rms": 0.06510747027730611,
+      "output_rms": 0.09465251565626992,
+      "raw_similarity": 0.42103803157806396,
+      "tse_similarity": 0.29938743489945685,
+      "similarity_gain": -0.12165059667860711,
+      "raw_segment_similarities": [
+        0.37629371881484985,
+        0.4657823443412781,
+        0.37275487184524536
+      ],
+      "tse_segment_similarities": [
+        0.325988252519861,
+        0.2449476271867752,
+        0.27278661727905273
+      ]
+    },
+    {
+      "id": "cmd_2834.wav",
+      "label": "播放少儿版红楼梦",
+      "raw_vad_text": "播放少儿版红楼梦",
+      "raw_full_text": "娃娃的播放少儿版光荣版",
+      "tse_text": "娃娃的歌光盘节可以说",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16336019999999962,
+      "input_rms": 0.042070711826796885,
+      "output_rms": 0.09668237027903132,
+      "raw_similarity": 0.33655472928190516,
+      "tse_similarity": 0.32200363278388977,
+      "similarity_gain": -0.014551096498015392,
+      "raw_segment_similarities": [
+        0.2779680954198894,
+        0.18093016743659973,
+        0.3951413631439209
+      ],
+      "tse_segment_similarities": [
+        0.3386375308036804,
+        0.24443306028842926,
+        0.3053697347640991
+      ]
+    },
+    {
+      "id": "cmd_2841.wav",
+      "label": "更年期不适合吃什么",
+      "raw_vad_text": "更年期不适合吃什么",
+      "raw_full_text": "更年期不适合吃什么",
+      "tse_text": "更年期不适合吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2188555999999977,
+      "input_rms": 0.003318986270028343,
+      "output_rms": 0.0018380570380027396,
+      "raw_similarity": 0.25823141634464264,
+      "tse_similarity": 0.24827992916107178,
+      "similarity_gain": -0.009951487183570862,
+      "raw_segment_similarities": [
+        0.22477182745933533,
+        0.17088022828102112,
+        0.29169100522994995
+      ],
+      "tse_segment_similarities": [
+        0.2966541647911072,
+        0.08516108244657516,
+        0.19990569353103638
+      ]
+    },
+    {
+      "id": "cmd_2848.wav",
+      "label": "开启睡眠模式",
+      "raw_vad_text": "因属睡眠模式",
+      "raw_full_text": "开启睡眠模式",
+      "tse_text": "一是这样的一个方式",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.15716430000000514,
+      "input_rms": 0.03929891867131836,
+      "output_rms": 0.026386279480384155,
+      "raw_similarity": 0.2124652244129911,
+      "tse_similarity": 0.08571498372733369,
+      "similarity_gain": -0.1267502406856574,
+      "raw_segment_similarities": [
+        0.21599559283230263,
+        0.18781132625408925,
+        0.20893485599367953
+      ],
+      "tse_segment_similarities": [
+        0.08950478905496435,
+        0.08192517839970302,
+        0.03983167423794712
+      ]
+    },
+    {
+      "id": "cmd_2855.wav",
+      "label": "开到十八度",
+      "raw_vad_text": "为你而胎而猜到十八度",
+      "raw_full_text": "过你而胎到十八度欧舒丹",
+      "tse_text": "为你而死",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17154770000000497,
+      "input_rms": 0.09995885856281575,
+      "output_rms": 0.12330002327325187,
+      "raw_similarity": 0.4014827848364583,
+      "tse_similarity": 0.4501506358474872,
+      "similarity_gain": 0.04866785101102894,
+      "raw_segment_similarities": [
+        0.41044076743368907,
+        0.3925248022392274,
+        0.23483960240123286
+      ],
+      "tse_segment_similarities": [
+        0.5558827254702285,
+        0.3444185462247459,
+        0.2820783593748034
+      ]
+    },
+    {
+      "id": "cmd_2862.wav",
+      "label": "备孕适合吃什么",
+      "raw_vad_text": "备孕适合吃什么",
+      "raw_full_text": "介绍备孕适合吃什么",
+      "tse_text": "备孕适合吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.22445059999999728,
+      "input_rms": 0.003343846416137102,
+      "output_rms": 0.005968736104669879,
+      "raw_similarity": 0.386820450425148,
+      "tse_similarity": 0.39570006387078993,
+      "similarity_gain": 0.00887961344564192,
+      "raw_segment_similarities": [
+        0.3760535717010498,
+        0.3975873291492462,
+        0.22159801254260614
+      ],
+      "tse_segment_similarities": [
+        0.38379520177841187,
+        0.4058520495891571,
+        0.3855480781524228
+      ]
+    },
+    {
+      "id": "cmd_2868.wav",
+      "label": "开到二十四度",
+      "raw_vad_text": "把二幺一四的签照",
+      "raw_full_text": "把二幺一四的签照",
+      "tse_text": "六百二幺四四的签照",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13751849999999877,
+      "input_rms": 0.07066759210516528,
+      "output_rms": 0.12549288997675037,
+      "raw_similarity": 0.32496645441757155,
+      "tse_similarity": 0.29672084192610504,
+      "similarity_gain": -0.02824561249146651,
+      "raw_segment_similarities": [
+        0.35289740562438965,
+        0.28609220898701004,
+        0.2970355032107534
+      ],
+      "tse_segment_similarities": [
+        0.313392240607276,
+        0.2800494432449341,
+        0.2687274217605591
+      ]
+    },
+    {
+      "id": "cmd_2875.wav",
+      "label": "腹泻适合吃什么",
+      "raw_vad_text": "腹泻适合吃什么",
+      "raw_full_text": "腹泻适合吃什么",
+      "tse_text": "从杨小雨的和",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19932989999999506,
+      "input_rms": 0.03331125758927058,
+      "output_rms": 0.030859576803672375,
+      "raw_similarity": 0.30500741630836825,
+      "tse_similarity": 0.21037091192003787,
+      "similarity_gain": -0.09463650438833038,
+      "raw_segment_similarities": [
+        0.3492670863429955,
+        0.1969370065293912,
+        0.2607477462737409
+      ],
+      "tse_segment_similarities": [
+        0.07598661792118735,
+        0.13268473045138898,
+        0.28805709338868674
+      ]
+    },
+    {
+      "id": "cmd_2882.wav",
+      "label": "空调除湿",
+      "raw_vad_text": "空调除湿",
+      "raw_full_text": "空调出事",
+      "tse_text": "你们在出什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.21493889999999283,
+      "input_rms": 0.007843596040715165,
+      "output_rms": 0.003961782938294012,
+      "raw_similarity": 0.2547598633026995,
+      "tse_similarity": 0.3379872289355591,
+      "similarity_gain": 0.0832273656328596,
+      "raw_segment_similarities": [
+        0.2471339401166359,
+        0.25146223613394714,
+        0.25805749047145193
+      ],
+      "tse_segment_similarities": [
+        0.2876104585892235,
+        0.31421221068050875,
+        0.3617622471906094
+      ]
+    },
+    {
+      "id": "cmd_2889.wav",
+      "label": "开到十九度",
+      "raw_vad_text": "陈老师就点",
+      "raw_full_text": "陈老师人物有",
+      "tse_text": "同乡人物有",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18926860000000545,
+      "input_rms": 0.05652738012920805,
+      "output_rms": 0.07436989152289236,
+      "raw_similarity": 0.43742742569564474,
+      "tse_similarity": 0.3324333280324936,
+      "similarity_gain": -0.10499409766315115,
+      "raw_segment_similarities": [
+        0.4052197820210197,
+        0.4696350693702698,
+        0.38751745223999023
+      ],
+      "tse_segment_similarities": [
+        0.3184504508972168,
+        0.3464162051677704,
+        0.297879159450531
+      ]
+    },
+    {
+      "id": "cmd_2896.wav",
+      "label": "开启eco",
+      "raw_vad_text": "开启一次哦",
+      "raw_full_text": "开启一次哦",
+      "tse_text": "开起一休",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13368210000000147,
+      "input_rms": 0.008545505613346853,
+      "output_rms": 0.007531866240534532,
+      "raw_similarity": 0.37916776148546094,
+      "tse_similarity": 0.44651514128422753,
+      "similarity_gain": 0.0673473797987666,
+      "raw_segment_similarities": [
+        0.38897940516471863,
+        0.3560306429862976,
+        0.36935611780620325
+      ],
+      "tse_segment_similarities": [
+        0.4451920059437755,
+        0.4301214814186096,
+        0.44783827662467957
+      ]
+    },
+    {
+      "id": "cmd_2903.wav",
+      "label": "播放少儿版红楼梦",
+      "raw_vad_text": "播放少儿版红楼梦",
+      "raw_full_text": "播六播放少儿版特民队",
+      "tse_text": "播放少儿版红楼梦",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.222164499999991,
+      "input_rms": 0.03966233922418836,
+      "output_rms": 0.062459707318646515,
+      "raw_similarity": 0.485840962185141,
+      "tse_similarity": 0.48924958812403313,
+      "similarity_gain": 0.003408625938892129,
+      "raw_segment_similarities": [
+        0.5284558849606446,
+        0.4144294261932373,
+        0.44322603940963745
+      ],
+      "tse_segment_similarities": [
+        0.4427632987499237,
+        0.38988548517227173,
+        0.5357358774981426
+      ]
+    },
+    {
+      "id": "cmd_2909.wav",
+      "label": "开机空调",
+      "raw_vad_text": "开机空调",
+      "raw_full_text": "开机空调",
+      "tse_text": "开机空调",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.14250969999999086,
+      "input_rms": 0.03181674137304505,
+      "output_rms": 0.07186425067163653,
+      "raw_similarity": 0.5185081958770752,
+      "tse_similarity": 0.5315605718827588,
+      "similarity_gain": 0.013052376005683652,
+      "raw_segment_similarities": [
+        0.5185081958770752,
+        0.5185081958770752,
+        0.5185081958770752
+      ],
+      "tse_segment_similarities": [
+        0.5315605718827588,
+        0.5315605718827588,
+        0.5315605718827588
+      ]
+    },
+    {
+      "id": "cmd_2916.wav",
+      "label": "风速调最大",
+      "raw_vad_text": "风速调最大",
+      "raw_full_text": "十二点风速调最大",
+      "tse_text": "点风速调最大",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.13789610000000607,
+      "input_rms": 0.005919619965566735,
+      "output_rms": 0.012642118000251765,
+      "raw_similarity": 0.4708095473533599,
+      "tse_similarity": 0.5724483473568169,
+      "similarity_gain": 0.10163880000345704,
+      "raw_segment_similarities": [
+        0.38156758327097556,
+        0.45963594076847675,
+        0.48198315393824304
+      ],
+      "tse_segment_similarities": [
+        0.5290973501859516,
+        0.5659364799223232,
+        0.5789602147913108
+      ]
+    },
+    {
+      "id": "cmd_2923.wav",
+      "label": "开启送风模式",
+      "raw_vad_text": "发起诉讼模式",
+      "raw_full_text": "大写一个模式",
+      "tse_text": "大展年就是",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17660440000000222,
+      "input_rms": 0.047705846925490486,
+      "output_rms": 0.06667530028253467,
+      "raw_similarity": 0.27356527745723724,
+      "tse_similarity": 0.22327928245067596,
+      "similarity_gain": -0.05028599500656128,
+      "raw_segment_similarities": [
+        0.28105223178863525,
+        0.26607832312583923,
+        0.250020295381546
+      ],
+      "tse_segment_similarities": [
+        0.22752583026885986,
+        0.21903273463249207,
+        0.208131343126297
+      ]
+    },
+    {
+      "id": "cmd_2930.wav",
+      "label": "开到十九度",
+      "raw_vad_text": "包括他都自己中",
+      "raw_full_text": "包括他的自己中",
+      "tse_text": "火车西装",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.1850461000000081,
+      "input_rms": 0.01848986325173447,
+      "output_rms": 0.040249890234862855,
+      "raw_similarity": 0.5022555589675903,
+      "tse_similarity": 0.5795699954032898,
+      "similarity_gain": 0.07731443643569946,
+      "raw_segment_similarities": [
+        0.5240991115570068,
+        0.47668781876564026,
+        0.48041200637817383
+      ],
+      "tse_segment_similarities": [
+        0.6021320819854736,
+        0.557007908821106,
+        0.5299297571182251
+      ]
+    },
+    {
+      "id": "cmd_2937.wav",
+      "label": "高血压适宜吃什么",
+      "raw_vad_text": "高血压适宜吃什么",
+      "raw_full_text": "高血压适宜吃什么",
+      "tse_text": "高血压适宜吃什么",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2074524000000082,
+      "input_rms": 0.03324034653643846,
+      "output_rms": 0.03739099400171438,
+      "raw_similarity": 0.24692097302884353,
+      "tse_similarity": 0.3154049962759018,
+      "similarity_gain": 0.06848402324705827,
+      "raw_segment_similarities": [
+        0.24497178196907043,
+        0.24887016408861662,
+        0.2306877225637436
+      ],
+      "tse_segment_similarities": [
+        0.25856512784957886,
+        0.3300051689147949,
+        0.30080482363700867
+      ]
+    },
+    {
+      "id": "cmd_2944.wav",
+      "label": "便秘适合吃哪些食物",
+      "raw_vad_text": "便秘适合吃哪些食物",
+      "raw_full_text": "便秘适合吃哪些食物",
+      "tse_text": "便秘适合吃哪些食物",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2271046000000041,
+      "input_rms": 0.014269779085779786,
+      "output_rms": 0.02985587676424904,
+      "raw_similarity": 0.489820122112043,
+      "tse_similarity": 0.5122835636101435,
+      "similarity_gain": 0.022463441498100478,
+      "raw_segment_similarities": [
+        0.5124770708368462,
+        0.4671631733872398,
+        0.39057761430740356
+      ],
+      "tse_segment_similarities": [
+        0.5246928930282593,
+        0.4998742341920277,
+        0.47492626159943707
+      ]
+    },
+    {
+      "id": "cmd_2951.wav",
+      "label": "风速九十",
+      "raw_vad_text": "新装出现大面",
+      "raw_full_text": "新装出现大面",
+      "tse_text": "他属实不大",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20125140000000385,
+      "input_rms": 0.07146410486018227,
+      "output_rms": 0.08129215500095237,
+      "raw_similarity": 0.09129796549677849,
+      "tse_similarity": 0.19151316583156586,
+      "similarity_gain": 0.10021520033478737,
+      "raw_segment_similarities": [
+        0.09140081703662872,
+        0.09119511395692825,
+        0.08476181328296661
+      ],
+      "tse_segment_similarities": [
+        0.20423191785812378,
+        0.15387994050979614,
+        0.17879441380500793
+      ]
+    },
+    {
+      "id": "cmd_2957.wav",
+      "label": "把温度调到十九度",
+      "raw_vad_text": "然问题才会说出去",
+      "raw_full_text": "问一下想说一",
+      "tse_text": "上海也是",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.18224190000000817,
+      "input_rms": 0.019047927542731276,
+      "output_rms": 0.02889037346391509,
+      "raw_similarity": 0.29299583360551346,
+      "tse_similarity": 0.336890384554863,
+      "similarity_gain": 0.04389455094934952,
+      "raw_segment_similarities": [
+        0.2581554055213928,
+        0.31099215149879456,
+        0.27499951571223236
+      ],
+      "tse_segment_similarities": [
+        0.22207795083522797,
+        0.33718082308769226,
+        0.3365999460220337
+      ]
+    },
+    {
+      "id": "cmd_2964.wav",
+      "label": "古哥古点烧脑集我想听",
+      "raw_vad_text": "歌古典烧脑集我想听",
+      "raw_full_text": "谷歌古典骚扰集我想听",
+      "tse_text": "谷歌古典骚扰集我想听",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.2593216999999868,
+      "input_rms": 0.02295825280415215,
+      "output_rms": 0.052287847119380663,
+      "raw_similarity": 0.23024447168803158,
+      "tse_similarity": 0.2261781468987465,
+      "similarity_gain": -0.004066324789285092,
+      "raw_segment_similarities": [
+        0.2186319809336651,
+        0.24185696244239807,
+        0.14774953709539992
+      ],
+      "tse_segment_similarities": [
+        0.20267055928707123,
+        0.24968573451042175,
+        0.17469553649425507
+      ]
+    },
+    {
+      "id": "cmd_2971.wav",
+      "label": "播放十大样板戏精选集",
+      "raw_vad_text": "播放十大样板戏",
+      "raw_full_text": "播放十大样板戏中选集",
+      "tse_text": "共网易监督组",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.19828699999999344,
+      "input_rms": 0.05291125207938623,
+      "output_rms": 0.038604698646421375,
+      "raw_similarity": 0.33621420968953036,
+      "tse_similarity": 0.2656404674053192,
+      "similarity_gain": -0.07057374228421115,
+      "raw_segment_similarities": [
+        0.22618889808654785,
+        0.33646108725435064,
+        0.3359673321247101
+      ],
+      "tse_segment_similarities": [
+        0.2214315665621499,
+        0.2738136351108551,
+        0.2574672996997833
+      ]
+    },
+    {
+      "id": "cmd_2978.wav",
+      "label": "播放文静翻唱歌曲集",
+      "raw_vad_text": "播放文静翻唱歌曲",
+      "raw_full_text": "播放文静翻唱歌曲集忆",
+      "tse_text": "播放文静来一首音乐刘瑞琪的",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.24769859999999255,
+      "input_rms": 0.0020763695641982365,
+      "output_rms": 0.002086465944195377,
+      "raw_similarity": 0.3385798387873077,
+      "tse_similarity": 0.2661881009452403,
+      "similarity_gain": -0.07239173784206737,
+      "raw_segment_similarities": [
+        0.34982251225844097,
+        0.32733716531617435,
+        0.16062093738442287
+      ],
+      "tse_segment_similarities": [
+        0.34481444029894115,
+        0.18756176159153948,
+        -0.058686952810701895
+      ]
+    },
+    {
+      "id": "cmd_2985.wav",
+      "label": "把温度调到十八度",
+      "raw_vad_text": "把温度调到十八度",
+      "raw_full_text": "把温度调到十八度",
+      "tse_text": "把温度调到十八度",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.20187810000000184,
+      "input_rms": 0.009072416456796071,
+      "output_rms": 0.013335872330515497,
+      "raw_similarity": 0.34498127968576475,
+      "tse_similarity": 0.3780675679445267,
+      "similarity_gain": 0.03308628825876192,
+      "raw_segment_similarities": [
+        0.39048897567325686,
+        0.24391476773707674,
+        0.2994735836982727
+      ],
+      "tse_segment_similarities": [
+        0.44419562816619873,
+        0.28739169239997864,
+        0.3119395077228546
+      ]
+    },
+    {
+      "id": "cmd_2992.wav",
+      "label": "健身不建议吃什么食物",
+      "raw_vad_text": "健身不建议吃什么食物",
+      "raw_full_text": "健身不建议吃什么食物",
+      "tse_text": "健身不建议吃什么食物",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.17347300000000132,
+      "input_rms": 0.018507000567740323,
+      "output_rms": 0.04253067963729046,
+      "raw_similarity": 0.286829912642936,
+      "tse_similarity": 0.3036905527114868,
+      "similarity_gain": 0.016860640068550814,
+      "raw_segment_similarities": [
+        0.29934333558936926,
+        0.2743164896965027,
+        0.2572656273841858
+      ],
+      "tse_segment_similarities": [
+        0.32620638608932495,
+        0.2811747193336487,
+        0.26727980375289917
+      ]
+    },
+    {
+      "id": "cmd_2999.wav",
+      "label": "风量调小",
+      "raw_vad_text": "不要小谢",
+      "raw_full_text": "塑料小件",
+      "tse_text": "轮胎咋掉",
+      "negative_enrollment_source": "low_energy_wake_frames",
+      "tse_elapsed_sec": 0.16721350000000257,
+      "input_rms": 0.006689251748241564,
+      "output_rms": 0.004210430427974821,
+      "raw_similarity": 0.18475456535816193,
+      "tse_similarity": 0.1721682224124706,
+      "similarity_gain": -0.012586342945691331,
+      "raw_segment_similarities": [
+        0.15667155385017395,
+        0.20945818722248077,
+        0.16005094349384308
+      ],
+      "tse_segment_similarities": [
+        0.18283632397651672,
+        0.15642456710338593,
+        0.1615001208484245
+      ]
+    }
+  ]
+}

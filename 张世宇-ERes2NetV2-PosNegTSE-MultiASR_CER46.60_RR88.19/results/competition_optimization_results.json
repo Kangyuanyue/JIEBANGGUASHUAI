@@ -1,0 +1,150 @@
+{
+  "evaluation_policy": {
+    "datasetA_model_training": false,
+    "datasetA_use": "development evaluation and operating-point comparison only",
+    "tse_training": "CN-Celeb2 speaker-disjoint synthetic mixtures"
+  },
+  "previous_robust_pipeline": {
+    "n_total": 1838,
+    "n_positive": 1364,
+    "n_rejection": 474,
+    "final_cer": 53.06,
+    "rejection_rate": 90.93,
+    "total_duration_sec": 730.0413,
+    "avg_sec_per_sample": 0.3972
+  },
+  "asr_only_cer": {
+    "paraformer_energy_vad": 39.57106812447435,
+    "paraformer_full_audio": 40.76955424726661,
+    "sensevoice_energy_vad": 40.32800672834315,
+    "label_free_three_path_consensus": 38.341042893187556
+  },
+  "full_datasetA_versions": {
+    "v0_external_calibrated_eres2netv2": {
+      "threshold": 0.316535085439682,
+      "n_total": 1838,
+      "n_positive": 1364,
+      "n_rejection": 474,
+      "cer": 51.082842724978974,
+      "rejection_rate": 91.13924050632912,
+      "positive_accept_rate": 72.28739002932551,
+      "proxy_score_40_40": 56.02255911254006,
+      "false_accepts": 42
+    },
+    "release_external_calibrated_fusion": {
+      "threshold": 0.2642105449799689,
+      "n_total": 1838,
+      "n_positive": 1364,
+      "n_rejection": 474,
+      "cer": 46.11017661900757,
+      "rejection_rate": 87.55274261603375,
+      "positive_accept_rate": 81.158357771261,
+      "proxy_score_40_40": 56.577026398810474,
+      "false_accepts": 59
+    },
+    "v1_cer_oriented": {
+      "threshold": 0.22,
+      "n_total": 1838,
+      "n_positive": 1364,
+      "n_rejection": 474,
+      "cer": 42.78805719091674,
+      "rejection_rate": 73.83966244725738,
+      "positive_accept_rate": 88.12316715542522,
+      "proxy_score_40_40": 52.42064210253626,
+      "false_accepts": 124
+    },
+    "v2_balanced_eres2netv2": {
+      "threshold": 0.2879392278498303,
+      "n_total": 1838,
+      "n_positive": 1364,
+      "n_rejection": 474,
+      "cer": 47.40328006728343,
+      "rejection_rate": 88.39662447257383,
+      "positive_accept_rate": 77.85923753665689,
+      "proxy_score_40_40": 56.397337762116166,
+      "false_accepts": 55
+    },
+    "v3_high_rr_eres_campplus": {
+      "threshold": 0.28653230974959004,
+      "n_total": 1838,
+      "n_positive": 1364,
+      "n_rejection": 474,
+      "cer": 47.94995794785534,
+      "rejection_rate": 90.71729957805907,
+      "positive_accept_rate": 76.90615835777126,
+      "proxy_score_40_40": 57.106936652081494,
+      "false_accepts": 44
+    }
+  },
+  "v4_selective_tse_subset": {
+    "n_positive_subset": 200,
+    "baseline_consensus_cer": 35.24075366364271,
+    "selective_tse_cer": 33.70551290997906,
+    "all_tse_cer": 48.15073272854152,
+    "tse_selected": 93,
+    "selected_improved": 21,
+    "selected_degraded": 9
+  },
+  "v4_selective_tse_full": {
+    "n_total": 1838,
+    "n_positive": 1364,
+    "n_rejection": 474,
+    "final_cer": 46.6,
+    "rejection_rate": 88.19,
+    "total_duration_sec": 866.3874,
+    "avg_sec_per_sample": 0.4714
+  },
+  "tse_training": {
+    "stage2_best_step": 800,
+    "stage2_best_validation_si_snri_db": 5.212861714884639,
+    "stage2_unseen": {
+      "mean_si_snri_db": 6.279197122910196,
+      "median_si_snri_db": 8.42835492873801,
+      "improved_ratio": 0.875,
+      "identity_accuracy": 0.875,
+      "mean_target_similarity_gain": 0.24786692043148822
+    },
+    "stage3_unseen": {
+      "mean_si_snri_db": 6.233773591959899,
+      "median_si_snri_db": 7.744040566008197,
+      "improved_ratio": 0.875,
+      "identity_accuracy": 0.90625,
+      "mean_target_similarity_gain": 0.2512365058529925
+    },
+    "robust_validation": {
+      "baseline_si_snri_db": 0.6995130693539977,
+      "best_si_snri_db": 1.162700286693871,
+      "best_step": 1000,
+      "noise_files": 930,
+      "rir_files": 60000
+    }
+  },
+  "external_speaker_calibration": {
+    "eres2netv2": {
+      "eer": 5.527777777777778,
+      "eer_threshold": 0.2939809262752533,
+      "min_dcf": 0.0022390572390572393,
+      "min_dcf_threshold": 0.47195108234882355,
+      "best_competition_threshold": 0.316535085439682,
+      "best_competition_score": 76.30976430976432,
+      "n_trials": 1194,
+      "n_positive": 594,
+      "n_negative": 600,
+      "positive_mean": 0.5871529348376122,
+      "negative_mean": 0.1350219990670219
+    },
+    "eres2netv2_campplus_fusion": {
+      "eer": 4.5227272727272725,
+      "eer_threshold": 0.2642105449799689,
+      "min_dcf": 0.0017171717171717172,
+      "min_dcf_threshold": 0.4058225351572037,
+      "best_competition_threshold": 0.2642105449799689,
+      "best_competition_score": 76.38181818181819,
+      "n_trials": 1194,
+      "n_positive": 594,
+      "n_negative": 600,
+      "positive_mean": 0.5625340032660965,
+      "negative_mean": 0.10696695995271881
+    }
+  }
+}

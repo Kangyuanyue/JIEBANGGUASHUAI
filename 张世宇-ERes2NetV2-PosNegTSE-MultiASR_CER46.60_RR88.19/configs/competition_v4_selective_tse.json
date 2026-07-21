@@ -1,0 +1,60 @@
+{
+  "calibration_source": "DatasetA development gate/routing evaluation; TSE weights trained only on CN-Celeb2",
+  "target_sr": 16000,
+  "force_asr": false,
+  "use_separation": true,
+  "preprocess": {"enable_vad": false, "vad_threshold_ratio": 0.1},
+  "gate": {
+    "threshold": 0.2879392278498303,
+    "speaker_reject_low": 0.15,
+    "speaker_accept_high": 0.38,
+    "segment_sec": 1.5,
+    "num_segments": 3,
+    "aggregate": "topk_mean",
+    "top_k": 2,
+    "min_duration_sec": 0.5,
+    "embedding_backends": ["eres2netv2"],
+    "backend_weights": {"eres2netv2": 1.0},
+    "eres2netv2_model_id": "iic/speech_eres2netv2_sv_zh-cn_16k-common",
+    "modelscope_local_dir": "pretrained",
+    "dynamic_threshold": false
+  },
+  "asr": {
+    "backend": "funasr",
+    "model_name": "paraformer-zh",
+    "model_dir": "pretrained/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+    "device": "auto",
+    "strip_punctuation": true
+  },
+  "asr_ensemble": {
+    "enabled": true,
+    "vad_threshold_ratio": 0.1,
+    "secondary_model_name": "sensevoice-small",
+    "secondary_model_dir": "pretrained/SenseVoiceSmall",
+    "secondary_device": "auto",
+    "weird_weight": 0.35,
+    "command_weight": 0.1
+  },
+  "separation": {
+    "checkpoint": "pretrained/tse_posneg_cnceleb_stage2.pt",
+    "device": "auto",
+    "min_similarity_gain": -0.05,
+    "min_output_similarity": 0.15,
+    "max_text_distance_ratio": 0.25,
+    "require_command_prior_not_worse": true,
+    "transcribe_both_paths": true
+  },
+  "decision": {
+    "speaker_accept_high": 0.6,
+    "speaker_reject_low": 0.15,
+    "min_target_ratio": 0.0,
+    "max_target_ratio_for_reject": 0.0,
+    "overlap_trigger_threshold": 0.35,
+    "low_snr_threshold_db": -2.0,
+    "target_low_snr_ratio": 0.12,
+    "min_asr_confidence": 0.0,
+    "min_command_prior_for_accept": 0.0,
+    "command_prior_strict_below_similarity": 0.0,
+    "fusion_accept_threshold": -10.0
+  }
+}
