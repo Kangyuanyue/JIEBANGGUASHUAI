@@ -1,0 +1,16 @@
+{
+  "speaker_model": "iic/speech_eres2netv2_sv_zh-cn_16k-common",
+  "device": "cuda:0",
+  "max_cer_increase": 0.278088,
+  "base_CER": 0.32043734230445753,
+  "base_RR": 0.0,
+  "best_threshold": 0.4067728519439697,
+  "final_CER": 0.590201850294365,
+  "final_RR": 0.9683544303797469,
+  "pos_score_mean": 0.41318443417549133,
+  "neg_score_mean": 0.15145258605480194,
+  "pos_score_min": -0.07657795399427414,
+  "pos_score_max": 0.7718698382377625,
+  "neg_score_min": -0.1383449137210846,
+  "neg_score_max": 0.52817302942276
+}

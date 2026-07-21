@@ -1,0 +1,31 @@
+{
+  "model": "FunAudioLLM/Fun-ASR-Nano-2512",
+  "device": "cuda:0",
+  "data_root": "F:\\Code\\Fun-ASR\\datasetA",
+  "cer_formula": "CER = (S + I + D) / N",
+  "pos": {
+    "split": "pos",
+    "input_count": 1364,
+    "valid_count": 1364,
+    "missing_count": 0,
+    "inference_failed_count": 0,
+    "prediction_file": "F:\\Code\\Fun-ASR\\outputs\\base_funasr_dataA\\pos_prediction.jsonl",
+    "total_ref_chars": 9512,
+    "total_char_errors": 3048,
+    "total_substitutions": 2164,
+    "total_insertions": 588,
+    "total_deletions": 296,
+    "CER": 0.32043734230445753
+  },
+  "neg": {
+    "split": "neg",
+    "input_count": 474,
+    "valid_count": 474,
+    "missing_count": 0,
+    "inference_failed_count": 0,
+    "prediction_file": "F:\\Code\\Fun-ASR\\outputs\\base_funasr_dataA\\neg_prediction.jsonl",
+    "correct_reject_count": 0,
+    "incorrect_reject_count": 474,
+    "RR": 0.0
+  }
+}
