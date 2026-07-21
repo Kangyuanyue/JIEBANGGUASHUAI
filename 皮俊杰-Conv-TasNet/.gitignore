@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 项目输出
+outputs/
+*.pt
+*.pth
+
+# 数据
+data/augmented_audio/
+data/augmented_audio_v2/
+dataset/
+
+# 临时文件
+_tmp_*
+*.tmp
+*.wav
+
+# 环境
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大文件
+*.pdf
+*.zip
+*.tar.gz

@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+funasr>=1.0.0
+modelscope
+soundfile>=0.12.0
+numpy>=1.24.0
+noisereduce>=3.0.0
+scikit-learn>=1.0.0
+scipy>=1.10.0
+librosa>=0.9.0
