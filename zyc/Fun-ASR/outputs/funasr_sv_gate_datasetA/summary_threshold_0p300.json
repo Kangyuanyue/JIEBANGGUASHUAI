@@ -1,0 +1,28 @@
+{
+  "threshold": 0.3,
+  "pos": {
+    "valid_count": 1364,
+    "accept_count": 1055,
+    "accept_rate": 0.7734604105571847,
+    "gate_reject_count": 309,
+    "pipeline_failed_count": 0,
+    "CER": 0.4314550042052145,
+    "total_ref_chars": 9512,
+    "total_char_errors": 4104,
+    "total_substitutions": 1529,
+    "total_insertions": 419,
+    "total_deletions": 2156,
+    "prediction_file": "F:\\Code\\Fun-ASR\\outputs\\funasr_sv_gate_datasetA\\pos_prediction_threshold_0p300.jsonl"
+  },
+  "neg": {
+    "valid_count": 474,
+    "accept_count": 62,
+    "accept_rate": 0.1308016877637131,
+    "gate_reject_count": 412,
+    "gate_reject_rate": 0.869198312236287,
+    "correct_reject_count": 412,
+    "pipeline_failed_count": 0,
+    "RR": 0.869198312236287,
+    "prediction_file": "F:\\Code\\Fun-ASR\\outputs\\funasr_sv_gate_datasetA\\neg_prediction_threshold_0p300.jsonl"
+  }
+}

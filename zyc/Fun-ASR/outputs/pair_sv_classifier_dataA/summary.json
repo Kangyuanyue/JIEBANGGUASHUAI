@@ -1,0 +1,34 @@
+{
+  "speaker_model": "iic/speech_eres2netv2_sv_zh-cn_16k-common",
+  "feature_dim": 386,
+  "max_cer_increase": 0.04,
+  "selected_model": "rbf_svm",
+  "selected_threshold": 0.5438961982727051,
+  "OOF_CER": 0.3593355761143818,
+  "OOF_RR": 0.7046413502109705,
+  "all_models": [
+    {
+      "model": "logistic_regression",
+      "base_CER": 0.32043734230445753,
+      "base_RR": 0.0,
+      "threshold": 0.014922592788934708,
+      "CER": 0.3595458368376787,
+      "RR": 0.4388185654008439,
+      "CER_change": 0.03910849453322118,
+      "threshold_file": "F:\\Code\\Fun-ASR\\outputs\\pair_sv_classifier_dataA\\threshold_sweep_logistic_regression.csv"
+    },
+    {
+      "model": "rbf_svm",
+      "base_CER": 0.32043734230445753,
+      "base_RR": 0.0,
+      "threshold": 0.5438961982727051,
+      "CER": 0.3593355761143818,
+      "RR": 0.7046413502109705,
+      "CER_change": 0.0388982338099243,
+      "threshold_file": "F:\\Code\\Fun-ASR\\outputs\\pair_sv_classifier_dataA\\threshold_sweep_rbf_svm.csv"
+    }
+  ],
+  "saved_classifier": "F:\\Code\\Fun-ASR\\outputs\\pair_sv_classifier_dataA\\pair_sv_classifier.joblib",
+  "pos_oof_output": "F:\\Code\\Fun-ASR\\outputs\\pair_sv_classifier_dataA\\pos_prediction_pair_classifier_oof.jsonl",
+  "neg_oof_output": "F:\\Code\\Fun-ASR\\outputs\\pair_sv_classifier_dataA\\neg_prediction_pair_classifier_oof.jsonl"
+}
