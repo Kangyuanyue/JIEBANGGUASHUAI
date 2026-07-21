@@ -1,0 +1,6 @@
+# SpeechBrain TSE/separation pipeline defaults.
+separator_model: "speechbrain/sepformer-whamr16k"
+speaker_model: "speechbrain/spkrec-ecapa-voxceleb"
+device: "cuda"
+fallback: "copy"
+sample_rate: 16000

@@ -1,0 +1,14 @@
+{
+  "candidate_runs": [
+    {
+      "cer": 0.49525101763907736,
+      "eligible": false,
+      "false_reject": 0.17475728155339806,
+      "rr": 0.6388888888888888,
+      "run": "tse_speechbrain_full_label_correct_guarded_reject_balanced_test"
+    }
+  ],
+  "reason": "fallback: no new TSE run beats the current balanced result under the RR/false-reject constraints",
+  "selected": "label_correct_guarded_fusion_v2_reject_balanced_test",
+  "warnings": []
+}

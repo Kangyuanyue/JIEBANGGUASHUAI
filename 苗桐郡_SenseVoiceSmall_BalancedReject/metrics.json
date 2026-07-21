@@ -1,0 +1,187 @@
+﻿{
+    "error_examples":  [
+                           {
+                               "chars":  11,
+                               "edits":  11,
+                               "label":  "灯光亮度调到百分之三十",
+                               "prediction":  "灯光亮度调到百分之三十",
+                               "rejected":  true,
+                               "uid":  "pos_00001_cmd_1"
+                           },
+                           {
+                               "chars":  5,
+                               "edits":  2,
+                               "label":  "打开洗衣服",
+                               "prediction":  "要洗衣服",
+                               "rejected":  false,
+                               "uid":  "pos_00013_cmd_13"
+                           },
+                           {
+                               "chars":  5,
+                               "edits":  1,
+                               "label":  "灯光有点暗",
+                               "prediction":  "灯光有点亮",
+                               "rejected":  false,
+                               "uid":  "pos_00043_cmd_43"
+                           },
+                           {
+                               "chars":  8,
+                               "edits":  8,
+                               "label":  "你好科慕你好科慕",
+                               "prediction":  "你好co吗我要红羊毛我要洗衬衫你好锋衣",
+                               "rejected":  true,
+                               "uid":  "pos_00051_cmd_51"
+                           },
+                           {
+                               "chars":  4,
+                               "edits":  1,
+                               "label":  "我要吃饭",
+                               "prediction":  "我要吃饭咯",
+                               "rejected":  false,
+                               "uid":  "pos_00054_cmd_54"
+                           },
+                           {
+                               "chars":  22,
+                               "edits":  22,
+                               "label":  "打开客厅空调温度调整到二十三最低风速打开窗帘",
+                               "prediction":  "打开客厅空调温度调整到二十三最低风速打开窗帘",
+                               "rejected":  true,
+                               "uid":  "pos_00061_cmd_61"
+                           },
+                           {
+                               "chars":  6,
+                               "edits":  5,
+                               "label":  "取消勃朗烤箱",
+                               "prediction":  "取消博览考项目",
+                               "rejected":  false,
+                               "uid":  "pos_00064_cmd_64"
+                           },
+                           {
+                               "chars":  4,
+                               "edits":  1,
+                               "label":  "我回家啦",
+                               "prediction":  "我回家了",
+                               "rejected":  false,
+                               "uid":  "pos_00065_cmd_65"
+                           },
+                           {
+                               "chars":  8,
+                               "edits":  1,
+                               "label":  "约下午四点洗衣服",
+                               "prediction":  "下午四点洗衣服",
+                               "rejected":  false,
+                               "uid":  "pos_00093_cmd_93"
+                           },
+                           {
+                               "chars":  5,
+                               "edits":  1,
+                               "label":  "打开洗衣机",
+                               "prediction":  "打开洗衣机门",
+                               "rejected":  false,
+                               "uid":  "pos_00096_cmd_96"
+                           },
+                           {
+                               "chars":  17,
+                               "edits":  17,
+                               "label":  "烟机自动开启灯光精准的聚焦在非餐区",
+                               "prediction":  "烟机自动开启灯光精准聚焦在被上区",
+                               "rejected":  true,
+                               "uid":  "pos_00118_cmd_118"
+                           },
+                           {
+                               "chars":  6,
+                               "edits":  1,
+                               "label":  "关闭新建空调",
+                               "prediction":  "关闭新向空调",
+                               "rejected":  false,
+                               "uid":  "pos_00141_cmd_141"
+                           },
+                           {
+                               "chars":  4,
+                               "edits":  1,
+                               "label":  "窗帘下架",
+                               "prediction":  "仓帘下架",
+                               "rejected":  false,
+                               "uid":  "pos_00142_cmd_142"
+                           },
+                           {
+                               "chars":  10,
+                               "edits":  2,
+                               "label":  "灯光亮度调百分之八十",
+                               "prediction":  "灯光亮度调百分之一百",
+                               "rejected":  false,
+                               "uid":  "pos_00145_cmd_145"
+                           },
+                           {
+                               "chars":  6,
+                               "edits":  2,
+                               "label":  "打开观影模式",
+                               "prediction":  "打开暴闭模式",
+                               "rejected":  false,
+                               "uid":  "pos_00146_cmd_146"
+                           },
+                           {
+                               "chars":  12,
+                               "edits":  12,
+                               "label":  "窗帘叶片角度调整到六十度",
+                               "prediction":  "窗帘叶片角度调整到六十度",
+                               "rejected":  true,
+                               "uid":  "pos_00161_cmd_161"
+                           },
+                           {
+                               "chars":  6,
+                               "edits":  3,
+                               "label":  "恢复正常场景",
+                               "prediction":  "恢复日常模式",
+                               "rejected":  false,
+                               "uid":  "pos_00186_cmd_186"
+                           },
+                           {
+                               "chars":  6,
+                               "edits":  4,
+                               "label":  "厨房灯光烟机",
+                               "prediction":  "灯光天睛",
+                               "rejected":  false,
+                               "uid":  "pos_00189_cmd_189"
+                           },
+                           {
+                               "chars":  10,
+                               "edits":  1,
+                               "label":  "预约下午洗四点洗衣服",
+                               "prediction":  "预约下午四点洗衣服",
+                               "rejected":  false,
+                               "uid":  "pos_00206_cmd_206"
+                           },
+                           {
+                               "chars":  14,
+                               "edits":  14,
+                               "label":  "我的羊绒大衣要用什么清洗模式",
+                               "prediction":  "我的羊绒大衣要用什么清洗模式",
+                               "rejected":  true,
+                               "uid":  "pos_00224_cmd_224"
+                           }
+                       ],
+    "inputs":  {
+                   "manifest":  "data/splits/test.jsonl",
+                   "pred":  "runs/label_correct_guarded_fusion_v2_test/pred.jsonl",
+                   "reject_config":  "configs/reject_label_correct_guarded_fusion_v2_balanced.yaml"
+               },
+    "negative":  {
+                     "count":  72,
+                     "false_accept_rate":  0.2638888888888889,
+                     "rejected":  53,
+                     "rr":  0.7361111111111112
+                 },
+    "overall":  {
+                    "missing_predictions":  0,
+                    "prediction_count":  278
+                },
+    "positive":  {
+                     "cer":  0.373134328358209,
+                     "chars":  1474,
+                     "count":  206,
+                     "edits":  550,
+                     "false_reject_count":  20,
+                     "false_reject_rate":  0.0970873786407767
+                 }
+}

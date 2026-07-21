@@ -1,0 +1,6 @@
+# Selected on dev only for train-label command correction.
+max_edit_distance: 5
+max_length_delta: 1
+min_edit_distance: 1
+min_edit_similarity: 0.3
+min_margin: 0.1

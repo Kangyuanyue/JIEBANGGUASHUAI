@@ -1,0 +1,9 @@
+# Selected after adding train predictions: train CER improves, dev CER is unchanged, test is checked once.
+length_cap: 0
+margin: 0.03
+tie_breaker: "vad"
+weight_domain_score: 0.0
+weight_edit_similarity: 1.0
+weight_length: 0.03
+weight_ngram_similarity: 2.0
+weight_over_length: 0.0
