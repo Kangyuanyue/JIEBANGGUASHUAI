@@ -8,7 +8,9 @@
 
 ### 注意
 
-一定要注意，我已将环境设置放到Funasr中，同时还将dataA进行了分离处理，链接请下载
+一定要注意，我已将环境设置放到Funasr中，同时还将dataA进行了分离处理，链接请下载：
+
+
 通过网盘分享的文件：datasetA
 链接: https://pan.baidu.com/s/19X0ysFjWc2sthFj0LZWUBQ 提取码: 98xw 
 --来自百度网盘超级会员v7的分享
