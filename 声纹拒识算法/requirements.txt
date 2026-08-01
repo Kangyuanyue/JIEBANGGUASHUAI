@@ -1,0 +1,5 @@
+funasr>=1.0
+torch>=2.0
+numpy
+soundfile
+modelscope

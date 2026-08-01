@@ -1,0 +1,75 @@
+{
+  "_comment": "ERes2NetV2 声纹验证在 datasetA 全量数据上的评估结果",
+  "model": "iic/speech_eres2netv2_sv_zh-cn_16k-common",
+  "embed_dim": 192,
+  "params_M": 17.8,
+  "pos_stats": {
+    "count": 1364,
+    "mean": 0.4132,
+    "median": 0.4255,
+    "std": 0.1562,
+    "min": -0.0768,
+    "max": 0.7721,
+    "_desc": "正样本(同说话人=真实用户): 分数越高越好"
+  },
+  "neg_stats": {
+    "count": 474,
+    "mean": 0.1515,
+    "median": 0.1423,
+    "std": 0.1261,
+    "min": -0.1382,
+    "max": 0.5282,
+    "_desc": "负样本(不同说话人=冒认者): 分数越低越好"
+  },
+  "eer_analysis": {
+    "eer": 0.173,
+    "eer_pct": "17.30%",
+    "eer_threshold": 0.27,
+    "AUC": 0.8958,
+    "_desc": "EER = FAR == FRR 时的平衡错误率"
+  },
+  "threshold_scan": [
+    {
+      "threshold": 0.1,
+      "FAR": 0.6371,
+      "FRR": 0.0374,
+      "RR": 0.3629
+    },
+    {
+      "threshold": 0.15,
+      "FAR": 0.4726,
+      "FRR": 0.0601,
+      "RR": 0.5274
+    },
+    {
+      "threshold": 0.2,
+      "FAR": 0.3228,
+      "FRR": 0.0982,
+      "RR": 0.6772
+    },
+    {
+      "threshold": 0.27,
+      "FAR": 0.1624,
+      "FRR": 0.1804,
+      "RR": 0.8376
+    },
+    {
+      "threshold": 0.3,
+      "FAR": 0.1308,
+      "FRR": 0.2273,
+      "RR": 0.8692
+    },
+    {
+      "threshold": 0.4,
+      "FAR": 0.038,
+      "FRR": 0.445,
+      "RR": 0.962
+    },
+    {
+      "threshold": 0.5,
+      "FAR": 0.0084,
+      "FRR": 0.6767,
+      "RR": 0.9916
+    }
+  ]
+}

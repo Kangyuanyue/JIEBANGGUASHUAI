@@ -1,0 +1,41 @@
+dataset_v1: pos=880, neg=220
+
+--- CAM++ ---
+POS Mean=0.4770  Std=0.1548
+NEG Mean=0.3865  Std=0.1525
+EER=39.03%  AUC=0.6630
+Threshold=0.4400
+pos通过率@EER=61.0%
+RR(拒识句准)@EER=60.9%
+Time=65.3s
+
+th=0.05  pos_pass=99.4%  RR=0.0%  FAR=100.0%
+th=0.10  pos_pass=98.5%  RR=2.3%  FAR=97.7%
+th=0.15  pos_pass=97.4%  RR=9.1%  FAR=90.9%
+th=0.20  pos_pass=94.9%  RR=12.3%  FAR=87.7%
+th=0.25  pos_pass=92.0%  RR=21.8%  FAR=78.2%
+th=0.30  pos_pass=86.6%  RR=29.1%  FAR=70.9%
+th=0.35  pos_pass=79.4%  RR=38.6%  FAR=61.4%
+th=0.40  pos_pass=69.7%  RR=50.5%  FAR=49.5%
+th=0.45  pos_pass=59.0%  RR=63.6%  FAR=36.4%
+th=0.50  pos_pass=47.0%  RR=75.9%  FAR=24.1%
+
+--- ERes2NetV2 ---
+POS Mean=0.5248  Std=0.1366
+NEG Mean=0.4250  Std=0.1477
+EER=36.88%  AUC=0.6898
+Threshold=0.4907
+pos通过率@EER=63.1%
+RR(拒识句准)@EER=63.2%
+Time=36.9s
+
+th=0.05  pos_pass=99.9%  RR=0.5%  FAR=99.5%
+th=0.10  pos_pass=99.8%  RR=1.8%  FAR=98.2%
+th=0.15  pos_pass=99.4%  RR=4.5%  FAR=95.5%
+th=0.20  pos_pass=98.9%  RR=9.1%  FAR=90.9%
+th=0.25  pos_pass=97.4%  RR=12.7%  FAR=87.3%
+th=0.30  pos_pass=93.1%  RR=22.7%  FAR=77.3%
+th=0.35  pos_pass=88.2%  RR=30.5%  FAR=69.5%
+th=0.40  pos_pass=80.9%  RR=37.7%  FAR=62.3%
+th=0.45  pos_pass=72.0%  RR=50.5%  FAR=49.5%
+th=0.50  pos_pass=61.0%  RR=66.8%  FAR=33.2%
