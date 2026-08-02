@@ -1,0 +1,68 @@
+version: 3
+seed: 20260731
+
+reproduction_scope:
+  purpose: reproduce_v3_signal_conditions
+  bit_exact_archive_rebuild: false
+  reason: original random pairing code and normalized source corpus are not included in the archives
+
+audio:
+  sample_rate: 16000
+  channels: 1
+  output_format: wav
+  subtype: PCM_16
+  target_rms_dbfs: -23.0
+  peak_ceiling_dbfs: -1.0
+  alignment_mode: simultaneous
+  duration_policy: longest_track
+  pre_roll_seconds: 0.0
+  trailing_padding_seconds: 0.0
+  min_output_seconds: 0.0
+  max_output_seconds: 60.0
+
+data_policy:
+  preserve_sources: true
+  allow_datasetA_as_source: false
+  require_manifest_text_match: true
+
+speaker_rules:
+  positive:
+    wake_and_target_command_same_speaker: true
+    interferer_must_be_other_speaker: true
+    minimum_distinct_speakers: 2
+    label_source: target_command
+  negative:
+    wake_speaker_absent_from_command_mixture: true
+    command_mixture_non_wake_speakers: 2
+    minimum_distinct_speakers: 3
+    label: ""
+
+v3_conditions:
+  speech_streams_per_output: 2
+  non_speech_noise_streams_per_output: 1
+  requested_overlap_ratio: 1.0
+  actual_overlap_ratio: 1.0
+  wake_tir_db:
+    main_range: [-10.0, 10.0]
+    main_probability: 0.8
+    extreme_range: [-20.0, -10.0]
+    extreme_probability: 0.2
+  command_tir_db:
+    range: [-10.0, 10.0]
+  base_noise_snr_db:
+    range: [-5.0, 5.0]
+  variants:
+    noise_minus10dB:
+      noise_reduction_db: 10.0
+      effective_snr_db: [5.0, 15.0]
+    noise_minus20dB:
+      noise_reduction_db: 20.0
+      effective_snr_db: [15.0, 25.0]
+
+observed_archive_contract:
+  positive_samples: 880
+  negative_samples: 220
+  outputs_per_sample: 2
+  wav_files_per_variant: 2200
+  duration_policy: trimmed_longest_speech_stream
+  limiter: shared_peak_ceiling_after_mixing

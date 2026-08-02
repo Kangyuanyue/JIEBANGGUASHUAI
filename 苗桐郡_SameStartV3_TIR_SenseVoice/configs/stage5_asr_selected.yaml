@@ -1,0 +1,26 @@
+version: 1
+model: iic/SenseVoiceSmall
+device: cuda:0
+language: zh
+use_itn: false
+vad: false
+disable_update: true
+
+selection_basis:
+  datasetA_test_cer_no_itn: 0.3012211668928087
+  datasetA_test_cer_itn: 0.3541383989145183
+  v3_minus10_cer_no_vad: 0.7091917591125199
+  v3_minus10_cer_vad: 0.7148969889064977
+  v3_minus20_cer_no_vad: 0.71743264659271
+  v3_minus20_cer_vad: 0.724405705229794
+
+data_policy:
+  datasetA_role: evaluation_only
+  v3_role: auxiliary_robustness_evaluation
+  allow_evaluation_data_for_training: false
+
+tse_candidate:
+  separator: speechbrain/sepformer-whamr16k
+  speaker_encoder: speechbrain/spkrec-ecapa-voxceleb
+  status: rejected_after_pilot
+  reason: pilot_cer_degraded_on_both_v3_variants

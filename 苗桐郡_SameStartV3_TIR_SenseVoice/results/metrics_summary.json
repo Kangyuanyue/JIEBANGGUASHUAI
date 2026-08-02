@@ -1,0 +1,59 @@
+{
+  "participant": "苗桐郡",
+  "algorithm": "SameStartV3_TIR_SenseVoice",
+  "metric_direction": {
+    "cer": "lower_is_better",
+    "rr": "higher_is_better",
+    "false_reject_rate": "lower_is_better"
+  },
+  "datasetA": {
+    "raw_novad_noitn": {
+      "cer": 0.3012211668928087,
+      "rr": 0.013888888888888888,
+      "false_reject_rate": 0.0
+    },
+    "lowest_cer_fusion": {
+      "cer": 0.2639077340569878,
+      "rr": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "balanced_reject": {
+      "cer": 0.373134328358209,
+      "rr": 0.7361111111111112,
+      "false_reject_rate": 0.0970873786407767
+    },
+    "sepformer_ecapa_novad_noitn": {
+      "cer": 0.4423337856173677,
+      "rr": 0.013888888888888888,
+      "false_reject_rate": 0.009708737864077669
+    },
+    "tse_balanced_reject": {
+      "cer": 0.49525101763907736,
+      "rr": 0.6388888888888888,
+      "false_reject_rate": 0.17475728155339806
+    }
+  },
+  "v3_minus10": {
+    "positive_count": 880,
+    "negative_count": 220,
+    "selected_novad_noitn": {
+      "cer": 0.7091917591125199,
+      "rr": 0.0,
+      "false_reject_rate": 0.0
+    }
+  },
+  "v3_minus20": {
+    "positive_count": 880,
+    "negative_count": 220,
+    "selected_novad_noitn": {
+      "cer": 0.71743264659271,
+      "rr": 0.0,
+      "false_reject_rate": 0.0
+    }
+  },
+  "decision": {
+    "selected_asr_setting": "SenseVoiceSmall_novad_noitn",
+    "sepformer_tse": "not_selected_due_to_cer_degradation",
+    "main_submission": "SenseVoiceSmall_BalancedReject"
+  }
+}

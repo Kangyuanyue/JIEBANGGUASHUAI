@@ -1,0 +1,43 @@
+{
+  "minus10_by_tir": {
+    "tir_below_minus5": {
+      "count": 176,
+      "cer": 1.0740117746005047
+    },
+    "tir_minus5_to_0": {
+      "count": 264,
+      "cer": 0.8218685831622177
+    },
+    "tir_0_to_5": {
+      "count": 176,
+      "cer": 0.6376701966717095
+    },
+    "tir_5_or_above": {
+      "count": 264,
+      "cer": 0.4073473797947056
+    }
+  },
+  "minus20_by_tir": {
+    "tir_below_minus5": {
+      "count": 176,
+      "cer": 1.0597140454163163
+    },
+    "tir_minus5_to_0": {
+      "count": 264,
+      "cer": 0.8064681724845996
+    },
+    "tir_0_to_5": {
+      "count": 176,
+      "cer": 0.651285930408472
+    },
+    "tir_5_or_above": {
+      "count": 264,
+      "cer": 0.451107509454349
+    }
+  },
+  "paired_positive_outcome": {
+    "minus20_better": 120,
+    "same": 634,
+    "minus20_worse": 126
+  }
+}
