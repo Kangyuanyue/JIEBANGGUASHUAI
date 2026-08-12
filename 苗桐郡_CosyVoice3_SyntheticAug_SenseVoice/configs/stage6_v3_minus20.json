@@ -1,0 +1,10 @@
+{
+  "dataset_name": "v3_same_start_noise_minus20dB",
+  "expected_count": 1100,
+  "sample_rate": 16000,
+  "device": "cuda:0",
+  "separator_model": "speechbrain/sepformer-whamr16k",
+  "speaker_model": "speechbrain/spkrec-ecapa-voxceleb",
+  "base_model": "iic/SenseVoiceSmall",
+  "checkpoint": "runs/sensevoice_synthetic_augmented/checkpoint"
+}

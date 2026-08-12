@@ -1,0 +1,8 @@
+known_labels_path: data/train_manifest.jsonl
+max_chars: 10
+max_duration_seconds: 0.0
+min_chars: 1
+min_domain_score: 0.0
+min_label_edit_similarity: 0.15
+min_label_similarity: 0.0
+reject_empty: true

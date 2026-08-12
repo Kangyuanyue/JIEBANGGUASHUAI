@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "generated_per_template": 8,
+  "speeds": [0.9, 1.0, 1.1],
+  "templates": [
+    {"id": "temp_set", "intent": "temperature", "format": "把{room}空调温度调到{temperature}度", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "temperature": ["十六", "十八", "二十", "二十二", "二十四", "二十六", "二十八", "三十"]}},
+    {"id": "temp_up", "intent": "temperature", "format": "{room}空调调高{delta}度", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "delta": ["一", "两"]}},
+    {"id": "temp_down", "intent": "temperature", "format": "{room}空调调低{delta}度", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "delta": ["一", "两"]}},
+    {"id": "fan_level", "intent": "fan_speed", "format": "{room}空调风速调到{level}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "level": ["最小", "中等", "最大", "自动"]}},
+    {"id": "fan_percent", "intent": "fan_speed", "format": "{room}空调风速设为百分之{percent}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "percent": ["二十", "四十", "六十", "八十"]}},
+    {"id": "fan_direction", "intent": "fan_direction", "format": "让{room}空调朝{direction}送风", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "direction": ["上", "下", "左", "右"]}},
+    {"id": "mode_on", "intent": "mode", "format": "{room}空调开启{mode}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "mode": ["节能模式", "睡眠模式", "送风模式", "除湿模式"]}},
+    {"id": "mode_off", "intent": "mode", "format": "{room}空调关闭{mode}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "mode": ["节能模式", "睡眠模式", "送风模式", "除湿模式"]}},
+    {"id": "aircon_power", "intent": "power", "format": "{action}{room}空调", "slots": {"action": ["开启", "关闭"], "room": ["客厅", "卧室", "书房", "餐厅"]}},
+    {"id": "display_power", "intent": "display", "format": "{action}{room}空调显示屏", "slots": {"action": ["打开", "关闭"], "room": ["客厅", "卧室", "书房", "餐厅"]}},
+    {"id": "aircon_timer", "intent": "timer", "format": "{room}空调在{duration}后{action}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "duration": ["半小时", "一小时", "两小时", "三小时"], "action": ["开机", "关机"]}},
+    {"id": "humidity_set", "intent": "humidity", "format": "将{room}湿度设为百分之{humidity}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "humidity": ["四十", "五十", "六十", "七十"]}},
+    {"id": "purifier_power", "intent": "purifier", "format": "{action}{room}空气净化器", "slots": {"action": ["开启", "关闭"], "room": ["客厅", "卧室", "书房", "餐厅"]}},
+    {"id": "purifier_mode", "intent": "purifier", "format": "{room}空气净化器切换到{mode}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "mode": ["静音模式", "自动模式", "强力模式", "睡眠模式"]}},
+    {"id": "light_power", "intent": "lighting", "format": "{action}{room}主灯", "slots": {"action": ["打开", "关闭"], "room": ["客厅", "卧室", "书房", "餐厅"]}},
+    {"id": "curtain_power", "intent": "curtain", "format": "{action}{room}窗帘", "slots": {"action": ["打开", "关上"], "room": ["客厅", "卧室", "书房", "餐厅"]}},
+    {"id": "music_play", "intent": "media", "format": "在{room}播放{genre}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "genre": ["古典音乐", "轻音乐", "粤语歌曲", "儿童故事"]}},
+    {"id": "appliance_work", "intent": "appliance", "format": "让{appliance}{action}", "slots": {"appliance": ["洗衣机", "扫地机器人", "加湿器", "除湿机"], "action": ["开始工作", "停止工作"]}},
+    {"id": "environment_query", "intent": "query", "format": "查询{room}的{item}", "slots": {"room": ["客厅", "卧室", "书房", "餐厅"], "item": ["当前温度", "当前湿度"]}},
+    {"id": "maintenance_query", "intent": "maintenance", "format": "告诉我{device}的{topic}", "slots": {"device": ["空调", "空气净化器", "加湿器", "扫地机器人"], "topic": ["清洁方法", "滤网更换方法"]}}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tts_input": {
+    "uid": "generated_example_001__public_speaker",
+    "text": "把客厅空调温度调到二十二度",
+    "prompt_text": "参考音频对应的准确文本",
+    "prompt_audio_path": "data/prompts/public_speaker.wav",
+    "output_audio_path": "data/synthetic/generated_example_001.wav",
+    "speaker": "public_speaker",
+    "speed": 1.0,
+    "allowed_for_training": true,
+    "contains_official_test_data": false
+  },
+  "asr_training": {
+    "uid": "train_example_001",
+    "audio_path": "data/training/train_example_001.wav",
+    "text": "把客厅空调温度调到二十二度",
+    "split": "train",
+    "allowed_for_training": true,
+    "contains_official_test_data": false
+  },
+  "evaluation_only": {
+    "uid": "evaluation_example_001",
+    "audio_cmd": "data/evaluation/example.wav",
+    "audio_kws": "data/evaluation/reference.wav",
+    "label": "仅用于演示字段，不得替换为测试标签后提交仓库",
+    "is_positive": true,
+    "evaluation_only": true,
+    "allowed_for_training": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "sample_rate": 16000,
+  "pos_count": "all_quality_passed",
+  "neg_count": 240,
+  "tir_db": [
+    -10,
+    -5,
+    0,
+    5
+  ],
+  "snr_db": [
+    15,
+    20,
+    25
+  ],
+  "same_start": true,
+  "target_rms_dbfs": -22.0,
+  "peak_limit": 0.95,
+  "noise_directory": "data/non_speech_noise",
+  "training_policy": {
+    "asr_allowed": [
+      "clean",
+      "noise_only_augmented"
+    ],
+    "asr_forbidden": [
+      "target_interference_noise_mixture",
+      "negative_mixture"
+    ],
+    "tse_allowed": [
+      "mixture",
+      "target_clean",
+      "reference"
+    ]
+  }
+}

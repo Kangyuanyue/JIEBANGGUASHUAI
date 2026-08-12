@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "base_model": "iic/SenseVoiceSmall",
+  "device": "cuda:0",
+  "sample_rate": 16000,
+  "curriculum_samples_per_source": 56,
+  "curriculum_snr_db": [
+    20,
+    10,
+    0
+  ],
+  "target_rms_dbfs": -22.0,
+  "peak_limit": 0.95,
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "learning_rate": 1e-05,
+  "epochs": 1,
+  "fp16": true,
+  "freeze_prefixes": [
+    "encoder"
+  ],
+  "unfreeze_prefixes": [
+    "encoder.encoders.46",
+    "encoder.encoders.47",
+    "encoder.encoders.48",
+    "encoder.after_norm"
+  ],
+  "shuffle_training": false
+}

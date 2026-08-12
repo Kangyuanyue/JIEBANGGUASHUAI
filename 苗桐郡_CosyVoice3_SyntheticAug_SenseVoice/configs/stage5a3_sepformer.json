@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "sample_rate": 16000,
+  "device": "cuda:0",
+  "separator_model": "speechbrain/sepformer-whamr16k",
+  "speaker_model": "speechbrain/spkrec-ecapa-voxceleb",
+  "asr_base_model": "iic/SenseVoiceSmall",
+  "asr_checkpoint": "runs/sensevoice_synthetic_augmented/checkpoint"
+}

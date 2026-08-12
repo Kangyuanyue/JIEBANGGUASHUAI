@@ -1,0 +1,146 @@
+{
+  "metric_direction": {
+    "cer": "lower_is_better",
+    "rr": "higher_is_better",
+    "false_reject_rate": "lower_is_better"
+  },
+  "datasetA_test": {
+    "count": 278,
+    "direct_no_reject": {
+      "positive": {
+        "count": 206,
+        "cer": 0.2937584803256445,
+        "errors": 433,
+        "characters": 1474,
+        "false_reject_rate": 0.0,
+        "false_reject_count": 0
+      },
+      "negative": {
+        "count": 72,
+        "rr": 0.013888888888888888,
+        "rejected": 1
+      }
+    },
+    "direct_balanced_reject": {
+      "positive": {
+        "count": 206,
+        "cer": 0.39755766621438265,
+        "errors": 586,
+        "characters": 1474,
+        "false_reject_rate": 0.10679611650485436,
+        "false_reject_count": 22
+      },
+      "negative": {
+        "count": 72,
+        "rr": 0.7083333333333334,
+        "rejected": 51
+      }
+    },
+    "ecapa_balanced_reject": {
+      "positive": {
+        "count": 206,
+        "cer": 0.5047489823609227,
+        "errors": 744,
+        "characters": 1474,
+        "false_reject_rate": 0.18446601941747573,
+        "false_reject_count": 38
+      },
+      "negative": {
+        "count": 72,
+        "rr": 0.6111111111111112,
+        "rejected": 44
+      }
+    },
+    "adaptive_selector_balanced_reject": {
+      "positive": {
+        "count": 206,
+        "cer": 0.4592944369063772,
+        "errors": 677,
+        "characters": 1474,
+        "false_reject_rate": 0.14563106796116504,
+        "false_reject_count": 30
+      },
+      "negative": {
+        "count": 72,
+        "rr": 0.625,
+        "rejected": 45
+      }
+    },
+    "historical_original_direct_cer": 0.3012211668928087,
+    "retained_balanced_submission": {
+      "cer": 0.373134328358209,
+      "rr": 0.7361111111111112,
+      "fr": 0.0970873786407767
+    }
+  },
+  "v3_same_start_noise_minus20dB": {
+    "count": 1100,
+    "direct_no_reject": {
+      "positive": {
+        "count": 880,
+        "cer": 0.7080824088748019,
+        "errors": 4468,
+        "characters": 6310,
+        "false_reject_rate": 0.0,
+        "false_reject_count": 0
+      },
+      "negative": {
+        "count": 220,
+        "rr": 0.0,
+        "rejected": 0
+      }
+    },
+    "direct_balanced_reject": {
+      "positive": {
+        "count": 880,
+        "cer": 0.7746434231378764,
+        "errors": 4888,
+        "characters": 6310,
+        "false_reject_rate": 0.22272727272727272,
+        "false_reject_count": 196
+      },
+      "negative": {
+        "count": 220,
+        "rr": 0.2727272727272727,
+        "rejected": 60
+      }
+    },
+    "ecapa_balanced_reject": {
+      "positive": {
+        "count": 880,
+        "cer": 0.8980982567353407,
+        "errors": 5667,
+        "characters": 6310,
+        "false_reject_rate": 0.12045454545454545,
+        "false_reject_count": 106
+      },
+      "negative": {
+        "count": 220,
+        "rr": 0.13636363636363635,
+        "rejected": 30
+      }
+    },
+    "adaptive_selector_balanced_reject": {
+      "positive": {
+        "count": 880,
+        "cer": 0.8565768621236133,
+        "errors": 5405,
+        "characters": 6310,
+        "false_reject_rate": 0.10227272727272728,
+        "false_reject_count": 90
+      },
+      "negative": {
+        "count": 220,
+        "rr": 0.12272727272727273,
+        "rejected": 27
+      }
+    },
+    "historical_original_direct_cer": 0.71743264659271
+  },
+  "decision": {
+    "grade": "red",
+    "new_complete_pipeline_adopted": false,
+    "selected_submission": "existing_balanced_reject",
+    "test_data_used_for_training_or_tuning": false
+  }
+}

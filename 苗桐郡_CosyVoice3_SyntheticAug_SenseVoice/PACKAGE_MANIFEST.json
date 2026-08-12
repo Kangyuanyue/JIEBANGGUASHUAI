@@ -1,0 +1,295 @@
+{
+  "package": "苗桐郡_CosyVoice3_SyntheticAug_SenseVoice",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 90,
+      "sha256": "2094e3e22e7610f8ec1c785a84ad9593f9d74368961b384db83ce3fed64d2511"
+    },
+    {
+      "path": "configs/environment_reference.json",
+      "bytes": 492,
+      "sha256": "ea59920e863673bf9471cf8252586075b3d4632157fe20a7457c7a2de0081568"
+    },
+    {
+      "path": "configs/reject_balanced.yaml",
+      "bytes": 205,
+      "sha256": "5648ec54cfeb8351b609837ae229c7adf6c46a12aca6779eb5b00fb5b4dcbdb6"
+    },
+    {
+      "path": "configs/stage3_quality.json",
+      "bytes": 294,
+      "sha256": "23fdea5a58b1e7d88387593c5bdd166679a0fb2bcf3204539edccaf10154b168"
+    },
+    {
+      "path": "configs/stage3_text_generation.json",
+      "bytes": 4256,
+      "sha256": "986bc99d5cd2c8428e662e4bc31e1c492feedb2dbaa84539c0daa6de99c701ce"
+    },
+    {
+      "path": "configs/stage4_mixtures.json",
+      "bytes": 625,
+      "sha256": "8733de949475c6e19e29863344f5a16e1bbc5c997c6bfadcd08aefb139fb40e0"
+    },
+    {
+      "path": "configs/stage5a1_curriculum.json",
+      "bytes": 585,
+      "sha256": "a62537547228bf2f7871760e26496ebcd952567c77153608d184949f07539137"
+    },
+    {
+      "path": "configs/stage5a3_sepformer.json",
+      "bytes": 296,
+      "sha256": "1b05ca2038f92c7db368a76c562849894d2120ee95561cf1fdd3e7a2ef7f4de5"
+    },
+    {
+      "path": "configs/stage5a5_selector.json",
+      "bytes": 343,
+      "sha256": "94f59e55fb34699501a3ea7094ff2ce40629169a4c6a36bf188f86bdd5a5ad53"
+    },
+    {
+      "path": "configs/stage6_datasetA.json",
+      "bytes": 335,
+      "sha256": "995c1143aa277db3ecc542bc93066e189a9e0ba72e0cf2c473fab938664fb483"
+    },
+    {
+      "path": "configs/stage6_v3_minus20.json",
+      "bytes": 352,
+      "sha256": "c25a353d68dc78b9acc90f7a81039730228e0afa3fda190de96881940d6aef73"
+    },
+    {
+      "path": "examples/manifest_examples.json",
+      "bytes": 1073,
+      "sha256": "36ebeaaaac7a81db2645dc19c8f422520b679ca1aa30a6334986ba6685584556"
+    },
+    {
+      "path": "programs/build_asr_eval_manifest.py",
+      "bytes": 1428,
+      "sha256": "3246dd032d20006be04bb3980724e1645845cb41d0b5ff729dbecd9eb0eea186"
+    },
+    {
+      "path": "programs/build_stage7_effect_visual.py",
+      "bytes": 6181,
+      "sha256": "033c592471b84696fc385df08fe2b4613df383fc5f900c1b07529ea3561677e6"
+    },
+    {
+      "path": "programs/build_tts_mixtures.py",
+      "bytes": 17599,
+      "sha256": "d1ad33c02dad7b175ccabd47fa354330aa0008507c3ced13d9d1e5b5f24c9094"
+    },
+    {
+      "path": "programs/evaluate_stage5a.py",
+      "bytes": 7333,
+      "sha256": "d3fe164decde759e687657c147503100f065266254d95c17c03bae578185b341"
+    },
+    {
+      "path": "programs/evaluate_stage6_locked.py",
+      "bytes": 9050,
+      "sha256": "58203deb5c07acac7ac1a38e7f143a2697d5425795f01ba49e98e92dfb1dc598"
+    },
+    {
+      "path": "programs/finalize_stage3_corpus.py",
+      "bytes": 6616,
+      "sha256": "dc2df621b51e401262ae265910f4a4341c6ca81abbdc0a48b859f72961b8c218"
+    },
+    {
+      "path": "programs/prepare_stage2_pilot.py",
+      "bytes": 3640,
+      "sha256": "62b5cc1b36622747be17cdff898e66102890e0f4877dd8128524a3e16fb5dd04"
+    },
+    {
+      "path": "programs/prepare_stage3_corpus.py",
+      "bytes": 10385,
+      "sha256": "c91f5b13f10a27d0317a21d6c635c01de025ec12e5269b5bc1f592252537d050"
+    },
+    {
+      "path": "programs/prepare_stage5a1_curriculum.py",
+      "bytes": 9218,
+      "sha256": "0093aa481a3faa4def267c306de00fdb0db0cb4b4049cb54308f7caf4dd72fbf"
+    },
+    {
+      "path": "programs/prepare_stage5a_data.py",
+      "bytes": 7448,
+      "sha256": "cc706b2436604094130cca15e1b1ed6927de578bfb72568e69d8f011052c31c5"
+    },
+    {
+      "path": "programs/prepare_stage6_manifest.py",
+      "bytes": 2120,
+      "sha256": "eca169965156d18821a796bdcb18b7b70d78691c427153da35e62f1f9d49c7ff"
+    },
+    {
+      "path": "programs/prepare_tts_texts.py",
+      "bytes": 5820,
+      "sha256": "3398dcb0cdd3ca2868a4ff073a5962ec083c083a23c7b5d085cd676be443e837"
+    },
+    {
+      "path": "programs/run_local_tts.py",
+      "bytes": 7588,
+      "sha256": "cb9b60a72fc81997a929c8d0d06e3dd8e614f0aefffa14cf6f65c88c7420c041"
+    },
+    {
+      "path": "programs/run_manifest_asr.py",
+      "bytes": 5064,
+      "sha256": "c9d0cb08c177dae2b392c3b734bbc82ae63fcbd5169ffe310ffd5559b944e9f4"
+    },
+    {
+      "path": "programs/run_stage5a3_sepformer.py",
+      "bytes": 11911,
+      "sha256": "7c803e8751adc1f5af15da8fac666d92d5a541b836323df3bb39e0a86e910f2a"
+    },
+    {
+      "path": "programs/run_stage5a4_asr.py",
+      "bytes": 2435,
+      "sha256": "61f917ab17d3d274318278ab78620aea7e7ad5435f21c81a2d25bf035b4b7442"
+    },
+    {
+      "path": "programs/run_stage5a7_selector.py",
+      "bytes": 4860,
+      "sha256": "8949ea27f0ed454f4a09da163d1b94900870029a0aba38d2f5a0b127af624f50"
+    },
+    {
+      "path": "programs/run_stage6_asr.py",
+      "bytes": 5964,
+      "sha256": "de7180ecd379cecd3a383805b70b544201b8adbc7b626ccaa5863173b84cf0bc"
+    },
+    {
+      "path": "programs/run_stage6_separation.py",
+      "bytes": 7507,
+      "sha256": "f442b4a6b4b9d75ebe3051a2c5a161edb2520da1964a4761fa9eea18fce27459"
+    },
+    {
+      "path": "programs/train_stage5a5_selector.py",
+      "bytes": 19212,
+      "sha256": "912453914c0e046da0222bb927577bd6d4a592ae657adedda25b4bb382bbe04d"
+    },
+    {
+      "path": "programs/train_stage5a_sensevoice.py",
+      "bytes": 10250,
+      "sha256": "a992a0f34b85ecc032107a9c246ce061952fb45cf0aa54725be29405ad883f80"
+    },
+    {
+      "path": "programs/validate_training_boundaries.py",
+      "bytes": 4887,
+      "sha256": "c6928f4e132183ae4cc8046a0d3a220ca73a81f6b1eea7f2cd740db9806e51e1"
+    },
+    {
+      "path": "programs/validate_tts_corpus.py",
+      "bytes": 6208,
+      "sha256": "14980389bd114c2b4ebdf2bfad6d2a0e3a992009a9d6b21c2f3f141f0b0c46e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3532,
+      "sha256": "5ad1edab69e1b1bf82e690d80e943b7deb26bccd5935b6ab201b744fce759631"
+    },
+    {
+      "path": "requirements-asr.txt",
+      "bytes": 120,
+      "sha256": "74f6e29bef3c9a0bd6640d82a22b5c113f0688b3ba20ad05a6e1224331da7692"
+    },
+    {
+      "path": "requirements-tts.txt",
+      "bytes": 118,
+      "sha256": "19d8c23791dfacf863df0bfc84813b5b2510b6443bb7497e653bc8b920db1e1a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "03dde7b53a0b207d833b4cbfa7086747e6c281e76b345d30bcca5f8e767d834c"
+    },
+    {
+      "path": "results/ablation_metrics.json",
+      "bytes": 944,
+      "sha256": "60e2b95bf660aad1dbb68162af9d2a02b761141e6227084739cf5efdd98e513e"
+    },
+    {
+      "path": "results/stage6_metrics.json",
+      "bytes": 3708,
+      "sha256": "33ac9b0fe7dcbd08fbd901e2099405f9ac4eb2cd11068206a555be41b29aa350"
+    },
+    {
+      "path": "samples/generated_temp_set_01__hi_mia_0001.wav",
+      "bytes": 120364,
+      "sha256": "990e976bc685df2be3c8d2096a9de6f7af4f0572001a228472a68b8351332722"
+    },
+    {
+      "path": "samples/generated_temp_set_01__hi_mia_0005.wav",
+      "bytes": 87084,
+      "sha256": "2befc5fff07014bc907693c86de54865037848f2bc8e68538a0983c45a8b0d8b"
+    },
+    {
+      "path": "samples/generated_temp_set_02__hi_mia_0001.wav",
+      "bytes": 106284,
+      "sha256": "931f678cd9cb0cd37d3fe9e1342c6e3da8ea04fed9eefd383f80283a8ee95d15"
+    },
+    {
+      "path": "samples/generated_temp_set_02__hi_mia_0005.wav",
+      "bytes": 120364,
+      "sha256": "06deef80a5d2734109231cc4d28fb321293c01f49016e58c234c5bdab65105b1"
+    },
+    {
+      "path": "samples/LICENSE.md",
+      "bytes": 650,
+      "sha256": "40fdad89f72c218596a96e2a22a4eba56d409539eea0a424edd63fbc0fe498d1"
+    },
+    {
+      "path": "samples/README.json",
+      "bytes": 1565,
+      "sha256": "e4ef131abb9e521abb53205b431978abab7ac7655282e7f25985b7a388536caf"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1178,
+      "sha256": "6c7b24307f8a3f3e00053212464c980e36e127c878555bbf1e83a9f7e6fb69fb"
+    },
+    {
+      "path": "visuals/method_effect_overview.png",
+      "bytes": 253974,
+      "sha256": "0cc717f33aaadb2629187398c2593cd3589414abeb53038e5614aab4a943248c"
+    },
+    {
+      "path": "visuals/stage6_checkpoint_gain.png",
+      "bytes": 49441,
+      "sha256": "677a673afdb9c7f4242e7c1257d397bb80a32036181317275c60fb971802ab34"
+    },
+    {
+      "path": "visuals/stage6_datasetA_metrics.png",
+      "bytes": 61947,
+      "sha256": "7161fbc147a84c226d67a139eb15eefa4c194902811bd05d8265a2401949913e"
+    },
+    {
+      "path": "visuals/stage6_v3_metrics.png",
+      "bytes": 56543,
+      "sha256": "5cde5622daeb2a299163c43dc4835747a8824b1e03d4787f34fb1a358d960fb6"
+    },
+    {
+      "path": "复现指南.md",
+      "bytes": 4862,
+      "sha256": "ebd7320298a6a1224e7fd38e26f1665ef98fc541dcb56d89a71a722f1d1ad39e"
+    },
+    {
+      "path": "数据使用声明.md",
+      "bytes": 834,
+      "sha256": "fe49e6aaaa49ee5e99427f124ccbfd35db263d9a6bac0edaf748b2a2da0c05b6"
+    },
+    {
+      "path": "方法效果可视化.md",
+      "bytes": 1223,
+      "sha256": "f9a3c4df544dcb9db055f3e1f1e0a0b2ee4fbdf8f0782d7f39d39b3107f51096"
+    },
+    {
+      "path": "检测结果.md",
+      "bytes": 1178,
+      "sha256": "dc12b643e9d29493a1f0b24c5bf51615911f9856f831c828e0e2c432d5b2100a"
+    },
+    {
+      "path": "消融实验.md",
+      "bytes": 1195,
+      "sha256": "84d868b178e9cb48f0100f6eaa128d5892c0f772220f3085d4a6b0fb175d5c5a"
+    },
+    {
+      "path": "算法架构.md",
+      "bytes": 1487,
+      "sha256": "352192256f015a71f41a2015b487e3c11e2494f1018d0554dcb482d263685970"
+    }
+  ]
+}

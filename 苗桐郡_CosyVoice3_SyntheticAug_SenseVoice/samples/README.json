@@ -1,0 +1,46 @@
+[
+  {
+    "uid": "generated_temp_set_01__hi_mia_0001",
+    "text": "把卧室空调温度调到十八度",
+    "speaker_reference": "hi_mia_0001",
+    "source": "OpenSLR 120 HI-MIA-CW public speaker reference",
+    "source_url": "https://www.openslr.org/120/",
+    "audio": "generated_temp_set_01__hi_mia_0001.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "cer": 0.0
+  },
+  {
+    "uid": "generated_temp_set_01__hi_mia_0005",
+    "text": "把卧室空调温度调到十八度",
+    "speaker_reference": "hi_mia_0005",
+    "source": "OpenSLR 120 HI-MIA-CW public speaker reference",
+    "source_url": "https://www.openslr.org/120/",
+    "audio": "generated_temp_set_01__hi_mia_0005.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "cer": 0.0
+  },
+  {
+    "uid": "generated_temp_set_02__hi_mia_0001",
+    "text": "把书房空调温度调到三十度",
+    "speaker_reference": "hi_mia_0001",
+    "source": "OpenSLR 120 HI-MIA-CW public speaker reference",
+    "source_url": "https://www.openslr.org/120/",
+    "audio": "generated_temp_set_02__hi_mia_0001.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "cer": 0.0
+  },
+  {
+    "uid": "generated_temp_set_02__hi_mia_0005",
+    "text": "把书房空调温度调到三十度",
+    "speaker_reference": "hi_mia_0005",
+    "source": "OpenSLR 120 HI-MIA-CW public speaker reference",
+    "source_url": "https://www.openslr.org/120/",
+    "audio": "generated_temp_set_02__hi_mia_0005.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "cer": 0.0
+  }
+]

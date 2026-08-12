@@ -1,0 +1,29 @@
+{
+  "stage5a1_internal_hard_dev": {
+    "cer": 0.0374331550802139,
+    "improvement_vs_baseline": 0.0035650623885918054,
+    "real_holdout_degradation": 0.0
+  },
+  "stage5a3_sepformer_feasibility_24": {
+    "mixture_cer": 1.0317460317460319,
+    "ecapa_selected_cer": 0.4021164021164021,
+    "selection_accuracy": 0.9583333333333334,
+    "mean_si_sdri": 4.714506784298767
+  },
+  "stage5a4_full_dev_108": {
+    "mixture_cer": 0.9715302491103203,
+    "ecapa_selected_cer": 0.44958481613285883,
+    "guarded_fusion_cer": 0.4709371293001186,
+    "fusion_adopted": false
+  },
+  "stage5a5_internal_test_108": {
+    "ecapa_selected_cer": 0.48017148981779206,
+    "adaptive_selector_cer": 0.4490889603429796,
+    "selector_adopted": true
+  },
+  "stage5a7_fresh_extreme_test_108": {
+    "ecapa_selected_cer": 0.4362272240085745,
+    "adaptive_selector_cer": 0.40943193997856375,
+    "official_test_data_violations": 0
+  }
+}

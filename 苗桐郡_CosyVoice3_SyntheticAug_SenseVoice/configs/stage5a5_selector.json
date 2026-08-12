@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "training_lexicon_manifest": "data/manifests/stage3_training_pass.jsonl",
+  "training_lexicon_split": "train",
+  "candidate_names": ["mixture", "source0", "source1"],
+  "mixture_penalties": [0.0, 0.05, 0.1, 0.2, 0.3],
+  "alternate_source_penalties": [0.0, 0.02, 0.05, 0.1, 0.2],
+  "minimum_internal_test_improvement": 0.01
+}
